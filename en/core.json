@@ -27,6 +27,6 @@
     "error": {
         "generic": "Oh oh!Il s'avère qu'une erreur est subvenue, veuillez réessayer dans quelques minutes.",
         "known": "Oh non, il s'avère qu'une erreur est subvenue en essayant de charger cette image.\n```javascript\n{0}: {1}\n```\nNe vous inquiétez pas! Ces erreurs arrivent très rarement et sont connues de l'équipe de développement.\nLa meilleure chose que vous pouvez faire est de revenir dans quelques minutes et ces erreurs ne devraient plus arriver.",
-        "friendly": "Une erreur est subvenue en tentant de lancer la commande:\n{0}\nVous ne devriez pas recevoir une erreur comme celle-ci <:TFRNickConfused:655543877142577179>\nNous avons été informés et cette erreur devrait être fixée rapidement.\[Envisagez à rejoindre le serveur de support pour les annonces et mises à jour]({2} \"owo\") {:furry.fingergun:}"
+        "friendly": "Une erreur est subvenue en tentant de lancer la commande:\n{0}\nVous ne devriez pas recevoir une erreur comme celle-ci <:TFRNickConfused:655543877142577179>\nNous avons été informés et cette erreur devrait être fixée rapidement.\n[Envisagez à rejoindre le serveur de support pour les annonces et mises à jour]({2} \"owo\") {:furry.fingergun:}"
     }
 }
