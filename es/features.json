@@ -1,0 +1,19 @@
+{
+    "lottery": {
+        "disabled": "La lotería está actualmente deshabilitada.",
+        "banned": "Actualmente está prohibido participar en loterías..",
+        "active": "Actualmente se está llevando a cabo una lotería.",
+        "insufficient": {
+            "single": "No tienes suficiente dinero para comprar un boleto.",
+            "multiple": "No puedes pagar tantas entradas."
+        },
+        "maximum": {
+            "normal": "1.000 boletos es el máximo.\nConviértase en un usuario premium donando en Patreon por un límite de 100.000 boletos: <{0}>",
+            "premium": "100.000 entradas es el máximo para usuarios premium."
+        },
+        "won": {
+            "normal": "¡{0} acaba de ganar **{1}** puntos con entradas de **{2}**!",
+            "voted": "¡{0} ha votado y acaba de ganar **{1}** (**{3}x**) puntos con **{2}** boletos!"
+        }
+    }
+}
