@@ -438,5 +438,11 @@
         "total": "All permissions ({0})",
         "user": "Your permissions ({0})",
         "info": "Name: Hexadecimal"
+    },
+    "coinflip": {
+        "title": [
+            "⭐ It's tails!",
+            "🌙 It's heads!"
+        ]
     }
 }
