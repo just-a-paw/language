@@ -444,5 +444,8 @@
             "⭐ It's tails!",
             "🌙 It's heads!"
         ]
+    },
+    "dice": {
+        "title": "🎲 You rolled a {0}!"
     }
 }
