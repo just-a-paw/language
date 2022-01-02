@@ -1,18 +1,44 @@
 {
     "en": {
-        "locale": "nl",
-        "full": "Dutch",
-        "flag": ":flag_nl:",
+        "locale": "en",
+        "full": "English",
+        "flag": ":flag_gb:",
         "public": true,
         "variant": {
             "en": "English",
-            "es": "Inglés",
-  	    "nl": "Nederlands"
+            "es": "Inglés"
         },
         "alternatives": [
-            "nederlands",
-            "nl"
+            "english",
+            "eng"
         ],
         "contributors": []
-    }
+    },
+    "es": {
+        "locale": "es",
+        "full": "Español",
+        "flag": ":flag_es:",
+        "public": true,
+        "variant": {
+            "en": "Spanish",
+            "es": "Español"
+        },
+        "alternatives": [
+            "spanish"
+        ],
+        "contributors": []
+    },"nl": {
+        "locale": "nl",
+        "full": "Nederlands",
+        "flag": ":flag_nl:",
+        "public": true,
+        "variant": {
+            "en": "Dutch",
+            "es": "Holandés"
+        },
+        "alternatives": [
+            "dutch"
+        ],
+        "contributors": []
+    },
 }

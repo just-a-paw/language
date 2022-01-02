@@ -1,133 +1,133 @@
 {
     "globals": {
         "music": {
-            "noplayer": "There is no player active within this server.",
-            "novc": "You must be in a voice channel to use this command!",
-            "active": "I am currently playing music in a different voice channel.",
-            "emptyqueue": "The queue is empty."
+            "noplayer": "Er is geen muziekspeler actief in dit kanaal.",
+            "novc": "Je moet in een voice-channel zitten om dit command te gebruiken!",
+            "active": "Ik ben nu muziek aan het spelen in een ander kanaal.",
+            "emptyqueue": "Er staat geen muziek in de wachtrij."
         },
         "reddit": {
-            "image": "Can't see the image? [Click me]({0}).",
-            "video": "[Click me to watch the video]({0})",
-            "error": "Oh noes, it appears an error occurred whilst fetching this image.\n```javascript\n{0}: {1}\n```\nDon't worry about this! These errors occur very rarely and are aware by the dev team.\nThe best thing you can is come back in a few minutes and these errors won't occur."
+            "image": "Kun je de foto niet zien? [Klik hier]({0}).",
+            "video": "[Klik hier om de video te bekijken]({0})",
+            "error": "Oeps, er is iets misgegaan tijdens het ophalen van de foto.\n```javascript\n{0}: {1}\n```\nMaak je geen zorgen! Deze errors gebeuren zelden en het development-team is op de hoogte van deze bug.\nProbeer het over een paar minuten opnieuw."
         },
         "points": {
-            "notenough": "Uh oh! It appears you do not have enough points to do that."
+            "notenough": "Oh nee! Het lijkt erop dat je niet genoeg punten hebt om dit te doen."
         }
     },
     "8ball": {
-        "question": "Question",
-        "answer": "Answer",
+        "question": "Vraag",
+        "answer": "Antwoord",
         "list": [
-            "Yes",
-            "No",
-            "Maybe",
-            "Ask again",
-            "Sometimes",
+            "Ja",
+            "Nee",
+            "Misschien",
+            "Vraag het opnieuw",
+            "Soms",
             "Okay",
-            "HELL NO",
+            "Absoluut niet",
             "FUCK YEAH",
-            "no no no",
-            "That's pretty gay...but sure",
+            "nee nee nee",
+            "Dat is super gay, maar ja.",
             "Ultra gay",
-            "I have no fucking clue",
-            "Isn't it obvious?",
-            "Depends on the weather",
-            "As true as the moon being made out of cheese",
-            "Almost certainly"
+            "Hoe moet ik dat weten?",
+            "Dat lijkt me logisch...",
+            "Licht aan het weer",
+            "Zo waar als de maan van kaas is.",
+            "Bijna zeker weten"
         ]
     },
 
     "avatar": {
-        "description": "Get a user's avatar url.",
+        "description": "Krijg de profielfoto van een gebruiker.",
         "examples": ["avatar @Griefs#9476"],
         "args": {
             "user": {
-                "prompt": "Who would you like to get the avatar of?",
+                "prompt": "Van wie wil je de profielfoto hebben?",
                 "label": "{lang:words.user}"
             }
         },
         "title": {
-            "valid": "Here's {0}'s avatar. [[URL]]({1})",
-            "invalid": "{0} doesn't have an avatar."
+            "valid": "Hier is de profielfoto van {0}. [[URL]]({1})",
+            "invalid": "{0} heeft geen profielfoto ingesteld."
         }
     },
     "birb": {
-        "title": "🦜 Here's your birb pic!"
+        "title": "🦜 Hier is je birb foto !"
     },
     "cat": {
-        "title": "🐱 Here's your cat pic!"
+        "title": "🐱 Hier is je kattenfoto!"
     },
     "corona": {
-        "none": "Country not found or doesn't have any cases.",
-        "nostats": "COVID-19 statistics are currently unavailable.",
-        "nocountry": "Unable to get data for that country.",
-        "title": "Cases in {0}",
-        "info": "Here are the COVID-19 cases in {0}.\nLast updated {1} ago",
+        "none": "Dit land is niet gevonden, of heeft geen geregistreerde coronagevallen.",
+        "nostats": "COVID-19 statistieken zijn momenteel niet bereikbaar.",
+        "nocountry": "De data voor dit land kon niet opgehaald worden.",
+        "title": "Coronagevallen in {0}",
+        "info": "Hier zijn de COVID-19 gevallen in {0}.\nLaatst geupdated {1} geleden",
         "titles": {
-            "cases": "Cases",
-            "deaths": "Deaths",
-            "infected": "Infected",
-            "cured": "Cured",
-            "tests": "Tests",
-            "donations": "Donations"
+            "cases": "Gevallen",
+            "deaths": "Doden",
+            "infected": "Geinfecteerd",
+            "cured": "Genezen",
+            "tests": "Getest",
+            "donations": "Gedoneerd"
         },
-        "donations": "**Total donations**: £{0}\n**Total donors**: {1} people\nPlease consider donating to the NHS on JustGiving to support people in need during this trying time [here]({2} \"COVID-19 Urgent Appeal\")",
-        "format": "**Total**: {0}\n**Today**: {1}"
+        "donations": "**Totale donaties**: £{0}\n**Total doneerders**: {1} personen\nOverweeg alstjeblieft om the doneren aan NHS op JustGiving om mensen in deze moeilijke tijden te steunen [here]({2} \"COVID-19 Urgent Appeal\")",
+        "format": "**Totaal**: {0}\n**Vandaag**: {1}"
     },
     "e926": {},
     "e6": {
-        "searching": "Searching {:loading:}",
-        "none": "No results found for the given tags.",
+        "searching": "Zoeken {:loading:}",
+        "none": "Geen resultaten gevonden voor de gegeven tags.",
         "download": "Download",
-        "video": "**[This post is a video. To view it, click here]({0})**",
-        "source": "Source",
+        "video": "**[Deze post is een video. Om deze post te bekijken, klik hier]({0})**",
+        "source": "Bron",
         "postid": "Post ID: {0}",
-        "error": "{0} resolved with an error.",
+        "error": "{0} er is een fout opgetreden.",
         "full": {
-            "sources": "Sources: {0}",
+            "sources": "Bronnen: {0}",
             "score": "Score: {0}"
         },
         "tags": {
             "title": "Tags",
-            "artist": "Artists: ",
+            "artist": "Artiesten: ",
             "copyright": "Copyright: ",
-            "character": "Characters: ",
-            "general": "Other: ",
-            "additional": "and {0} more"
+            "character": "Karacters: ",
+            "general": "Anders: ",
+            "additional": "en {0} anderen"
         }
     },
     "fox": {
-        "title": "🦊 Here's your fox pic!"
+        "title": "🦊 Hier is je foto van een vos!"
     },
     "fursuit": {
-        "title": "🐾 Here's your fursuit pic!"
+        "title": "🐾 Hier is je foto van een fursuit!"
     },
     "lenny": {},
     "owoify": {},
     "proxy": {},
     "shibe": {
-        "title": "🐶 Here's your shibe pic!"
+        "title": "🐶 Hier is een foto van een shibe!"
     },
     "vote-out": {},
     "daily": {
-        "success": "{:check:} You have claimed your daily points of **{0}** points!\nCome back tomorrow at **0:00 UTC** for an extra **10,000** points! (Max 50,000 points, combos reset after missing a day)",
-        "failed": "Uh oh! It appears you already have claimed your daily points. Come back again in {0}.\n"
+        "success": "{:check:} Je hebt je dagelijkse **{0}** punten geclaimed!\nKom morgen terug om **0:00 UTC** voor nog **10,000** punten! (Max 50,000 points, combos resetten nadat je een dag gemist hebt)",
+        "failed": "Uh oh! Je hebt vandaag je dagelijkse punten al geclaimed. Kom terug in {0}.\n"
     },
     "donate": {
-        "success": "{:check:} You donated **{0}** points to {1}.",
-        "self": "You cannot donate to yourself, you furball.",
-        "bot": "You cannot donate to bots, you goof."
+        "success": "{:check:} Je hebt **{0}** punten aan {1} gedoneerd.",
+        "self": "Je kan niet aan jezelf doneren, haarbal.",
+        "bot": "Je kan niet aan bots doneren gekkie."
     },
     "leaderboard": {
-        "title": "Placement",
-        "info": "You are **#{0}** on the leaderboard with **{1}** points!",
-        "topfirst": "{0}{1}. {2}\n> **{3}** points",
-        "top": "{1}. {2} with **{3}** points!",
-        "more": "**{0}** other users are currently on the leaderboard.",
-        "to": "{0} to {1}",
-        "server": "Top 10 users in the server",
-        "world": "Top 10 world-wide"
+        "title": "Plaatsing",
+        "info": "Je bent **#{0}** op het leaderboard met **{1}** punten!",
+        "topfirst": "{0}{1}. {2}\n> **{3}** punten",
+        "top": "{1}. {2} met **{3}** punten!",
+        "more": "**{0}** Gebruikers staan momenteel op het leaderboard.",
+        "to": "{0} tot {1}",
+        "server": "Top 10 gebruikers in de server",
+        "world": "Top 10 wereldwijd"
     },
     "lottery": {
         "info": "{:check:} I have added you to the lottery for {0} points.\n[Make sure to join the Discord server to find out who won in the lottery channel.](https://discord.gg/Kc7gDBb)",
