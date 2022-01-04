@@ -1,9 +1,8 @@
 {
     "blocked": {
-        "guildOnly": "El comando `{0}` debe usarse en un servidor. {:furry.really:}",
-        "premiumOnly": "El comando `{0}` solo puede ser utilizado por usuarios premium. Puede obtener la prima en https://paw.bot/donate",
-        "supportServerOnly": "El comando `{0}` solo se puede usar en el servidor de soporte. {:furry.really:}",
-        "hasOne": "Usted no tiene los roles necesarios para utilizar el `{0}` comando.",
+        "guild": "El comando `{0}` debe usarse en un servidor. {:furry.really:}",
+        "premium": "El comando `{0}` solo puede ser utilizado por usuarios premium. Puede obtener la prima en https://paw.bot/donate",
+        "role": "Usted no tiene los roles necesarios para utilizar el `{0}` comando.",
         "nsfw": "El comando `{0}` solo se puede usar en canales NSFW. {:furry.really:}\nhttps://support.discord.com/hc/article_attachments/360007795191/2_.jpg",
         "permission": "No tienes permiso para usar el comando `{0}`. {:furry.really:}",
         "clientPermissions": {
@@ -20,7 +19,7 @@
             "nsfw": "No puede volver a utilizar el comando `{0}` para otro {1}.\n**Si desea acortar este tiempo para las próximas 12 horas, votar por el bot de aquí libremente: {2}.\nSi desea acortar este tiempo de forma permanente, done aquí: {3}.**",
             "premium": "`{0}` tiene **{2}** cada {3} tiempo de reutilización. Por favor, espere {1} más largo.\nConviértete en [Patrocinador](https://www.patreon.com/JustAPaw \"Conviértete en Patrón\") para un tiempo de reutilización permanente **{4}**/{5}.",
             "vote": "`{0}` tiene **{2}** cada {3} tiempo de reutilización. Por favor, espere {1} más largo.\n[Vote](https://top.gg/bot/663823539672973353/vote \"Vota por Paw Bot\") por un tiempo de reutilización temporal **{4}**/{5}.",
-            "premium&vote": "`{0}` tiene **{2}** cada {3} tiempo de reutilización. Por favor, espere {1} más largo.\n[Vote](https://top.gg/bot/663823539672973353/vote \"Vota por Paw Bot\") por un tiempo de reutilización temporal **{4}**/{5} o\nConviértete en [Patrocinador](https://www.patreon.com/JustAPaw \"Conviértete en Patrón\") para un tiempo de reutilización permanente **{6}**/{7}."
+            "premium_vote": "`{0}` tiene **{2}** cada {3} tiempo de reutilización. Por favor, espere {1} más largo.\n[Vote](https://top.gg/bot/663823539672973353/vote \"Vota por Paw Bot\") por un tiempo de reutilización temporal **{4}**/{5} o\nConviértete en [Patrocinador](https://www.patreon.com/JustAPaw \"Conviértete en Patrón\") para un tiempo de reutilización permanente **{6}**/{7}."
         }
     },
 

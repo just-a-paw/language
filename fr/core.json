@@ -1,9 +1,8 @@
 {
     "blocked": {
-        "guildOnly": "La `{0}` commande doit être utilisée dans un serveur. {:furry.really:}",
-        "premiumOnly": "La `{0}` commande ne peut être utilisée seulement par des utilisateurs premium.  Vous pouvez obtenir le premium sur https://paw.bot/donate",
-        "supportServerOnly": "La `{0}` commande ne peut être utilisée que dans le serveur de support. {:furry.really:}",
-        "hasOne": "Vous n'avez pas les rôles requis pour utiliser la commande `{0}`.",
+        "guild": "La `{0}` commande doit être utilisée dans un serveur. {:furry.really:}",
+        "premium": "La `{0}` commande ne peut être utilisée seulement par des utilisateurs premium.  Vous pouvez obtenir le premium sur https://paw.bot/donate",
+        "role": "Vous n'avez pas les rôles requis pour utiliser la commande `{0}`.",
         "nsfw": "La commande `{0}` ne peut être utilisée que dans les salons NSFW. {:furry.really:}\nhttps://support.discord.com/hc/article_attachments/360007795191/2_.jpg",
         "permission": "Vous n'avez pas la permission d'utiliser la commande `{0}`. {:furry.really:}", 
         "clientPermissions": {
@@ -20,7 +19,7 @@
             "nsfw": "Vous ne pouvez pas utiliser la commande `{0}` pendant {1}.\n**Si vous souhaiteriez raccourcir ce temps pendant les prochaines 12 heures, votez pour le bot gratuitement ici: {2}.\nSi vous souhaiteriez réduire ce temps de façon permanente, faites un don ici: {3}.**",
             "premium": "`{0}` a **{2}** chaque {3} d'intervale! Veuillez patienter {1}.\nDevenez un [Patreon](https://www.patreon.com/JustAPaw \n\"Become a Patron\" pour une intervalle de temps permanente de **{4}**/{5}.",
             "vote": "`{0}` a **{2}** chaque {3} d'intervale! Veuillez patienter {1}.\n[Vote](https://top.gg/bot/663823539672973353/vote \"Vote for Paw Bot\") pour une intervalle de temps temporaire de **{4}**/{5}.",
-            "premium&vote": "`{0}` a **{2}** chaque {3} d'intervale! Veuillez patienter {1} de plus.\n[Vote](https://top.gg/bot/663823539672973353/vote \"Vote for Paw Bot\") pour une intervalle de temps temporaire de **{4}**/{5} ou\nDevenez un [Patreon]:(https://www.patreon.com/JustAPaw \"Become a Patron\") pour une intervalle de temps permanente de **{6}**/{7}."
+            "premium_vote": "`{0}` a **{2}** chaque {3} d'intervale! Veuillez patienter {1} de plus.\n[Vote](https://top.gg/bot/663823539672973353/vote \"Vote for Paw Bot\") pour une intervalle de temps temporaire de **{4}**/{5} ou\nDevenez un [Patreon]:(https://www.patreon.com/JustAPaw \"Become a Patron\") pour une intervalle de temps permanente de **{6}**/{7}."
         }
     },
 

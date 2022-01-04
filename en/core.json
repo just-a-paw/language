@@ -1,9 +1,8 @@
 {
     "blocked": {
-        "guildOnly": "The `{0}` command must be used in a server. {:furry.really:}",
-        "premiumOnly": "The `{0}` command can only be used by premium users. You can get premium at https://paw.bot/donate",
-        "supportServerOnly": "The `{0}` command can only be used in the support server. {:furry.really:}",
-        "hasOne": "You do not have the required roles to use the `{0}` command.",
+        "guild": "The `{0}` command must be used in a server. {:furry.really:}",
+        "premium": "The `{0}` command can only be used by premium users. You can get premium at https://paw.bot/donate",
+        "role": "You do not have the required roles to use the `{0}` command.",
         "nsfw": "The `{0}` command can only be used in NSFW channels. {:furry.really:}\nhttps://support.discord.com/hc/article_attachments/360007795191/2_.jpg",
         "permission": "You do not have permission to use the `{0}` command. {:furry.really:}",
         "clientPermissions": {
@@ -20,7 +19,7 @@
             "nsfw": "You may not use the `{0}` command again for another {1}.\n**If you'd like to shorten this time for the next 12 hours, vote for the bot for free here: {2}.\nIf you'd like to shorten this time permanently, donate here: {3}.**",
             "premium": "`{0}` has a **{2}** every {3} cooldown! Please wait {1} longer.\nBecome a [Patron](https://www.patreon.com/JustAPaw \"Become a Patron\") for a permanent **{4}**/{5} cooldown.",
             "vote": "`{0}` has a **{2}** every {3} cooldown! Please wait {1} longer.\n[Vote](https://top.gg/bot/663823539672973353/vote \"Vote for Paw Bot\") for a temporary **{4}**/{5} cooldown.",
-            "premium&vote": "`{0}` has a **{2}** every {3} cooldown! Please wait {1} longer.\n[Vote](https://top.gg/bot/663823539672973353/vote \"Vote for Paw Bot\") for a temporary **{4}**/{5} cooldown or\nBecome a [Patron](https://www.patreon.com/JustAPaw \"Become a Patron\") for a permanent **{6}**/{7} cooldown."
+            "premium_vote": "`{0}` has a **{2}** every {3} cooldown! Please wait {1} longer.\n[Vote](https://top.gg/bot/663823539672973353/vote \"Vote for Paw Bot\") for a temporary **{4}**/{5} cooldown or\nBecome a [Patron](https://www.patreon.com/JustAPaw \"Become a Patron\") for a permanent **{6}**/{7} cooldown."
         }
     },
 
