@@ -39,17 +39,17 @@
     },
 
     "avatar": {
-        "description": "Få en URL till en användares avatar.",
+        "description": "Få en URL till en användares profilbild.",
         "examples": ["avatar @Griefs#9476"],
         "args": {
             "user": {
-                "prompt": "Vems avatar skulle du vilja få?",
+                "prompt": "Vems profilbild skulle du vilja få?",
                 "label": "{lang:words.user}"
             }
         },
         "title": {
-            "valid": "Här är avataren för {0}. [[URL]]({0}).",
-            "invalid": "{0} har inte en avatar."
+            "valid": "Här är profilbilden för {0}. [[URL]]({0}).",
+            "invalid": "{0} har ingen profilbild."
         }
     },
     "birb": {
@@ -59,9 +59,9 @@
         "title": "🐱 Här är din kattbild!"
     },
     "corona": {
-        "none": "Landet kunde inte hittas eller så har den inte några fall.",
-        "nostats": "COVID-19-statistik är otilgängligt för tillfället.",
-        "nocountry": "Kunde inte få någon data för det landet.",
+        "none": "Landet kunde inte hittas eller så finns inga fall där.",
+        "nostats": "COVID-19-statistik är otilgänglig för tillfället.",
+        "nocountry": "Kunde inte hitta någon data för det landet.",
         "title": "Fall i {0}",
         "info": "Här är fall av COVID-19 i {0}.\nSist uppdaterad för {0} sen.",
         "titles": {
@@ -101,7 +101,7 @@
         "title": "🦊 Här är din rävbild!"
     },
     "fursuit": {
-        "title": "🐾 Här är din pälskostymsbild!"
+        "title": "🐾 Här är din pälsdräktsbild!"
     },
     "lenny": {},
     "owoify": {},
@@ -111,13 +111,13 @@
     },
     "vote-out": {},
     "daily": {
-        "success": "{:check:} Du har lagit beslag på din dagliga poängkvot á **{0}** poäng!\nKom tillbaka imorgon vid **0:00 UTC** för **10.000** extra poäng! (Max 50.000 poäng, kombosar återställs efter en missad dag)",
-        "failed": "Hoppsan! Det verkar som du redan har beslagit dina dagliga poäng. Återkom efter {0}.\n"
+        "success": "{:check:} Du har tagit emot din dagliga poängkvot á **{0}** poäng!\nKom tillbaka imorgon vid **0:00 UTC** för **10.000** extra poäng! (Max 50.000 poäng, kombosar återställs efter en missad dag)",
+        "failed": "Hoppsan! Det verkar som du redan har tagit emot dina dagliga poäng. Återkom efter {0}.\n"
     },
     "donate": {
         "success": "{:check:} Du donerade **{0}** poäng till {1}.",
         "self": "Du kan inte donera till dig själv, pälsboll.",
-        "bot": "Du kan inte donera till robotar, dumbom."
+        "bot": "Du kan inte donera till bottar, dumbom."
     },
     "leaderboard": {
         "title": "Placering",
@@ -152,7 +152,7 @@
         }
     },
     "vote": {
-        "info": "Du kan rösta på roboten [här]({0})",
+        "info": "Du kan rösta på botten [här]({0})",
         "perks": "2x-poängsbonus\nKortare NSFW-väntetider\nRäcker upp till 12 timmar",
         "voted": "Du har redan röstat. Du kan rösta igen [här]({0}) om 12 timmar.",
         "titles": {
@@ -211,7 +211,7 @@
         "current": "Spelar nu upp [{0}]({1})\n{2}"
     },
     "queue": {
-        "description": "Totalt {0} sånger\nTotalt {1} i längd\n{lang:commands.queue.loop.{2}}\n{lang:commands.queue.looptrack.{3}}",
+        "description": "Totalt {0} låtar\nTotalt {1} i längd\n{lang:commands.queue.loop.{2}}\n{lang:commands.queue.looptrack.{3}}",
         "loop": {
             "enabled": "✅ Låtupprepning påslagen",
             "disabled": "❌ Låtupprepning avslagen"
@@ -255,7 +255,7 @@
         "title": [
             "Jag slår vad om att den här killen har en söt rumpa.",
             "Här är elitporren du efterfrågade:",
-            "Den här killen ser mer mumsigare ut en mig själv.",
+            "Den här killen ser mer mumsigare ut än mig själv.",
             "***JAG*** är större än sådär, och jag är bara en tass.",
             "Söt fluffare, va?"
         ]
@@ -338,11 +338,11 @@
         "title": "{0} - {1} kompatibla! <:TFRBlepSmirk:655517665900625932>"
     },
     "language": {
-        "info": "Det nuvarande robotspråket är **{0}**.",
+        "info": "Det nuvarande botspråket är **{0}**.",
         "invalid": "`{0}` är inte ett giltigt språk.\nAnvänd {1}help \"settings language\" för hela listan av tillgängliga språk.",
         "success": {
-            "normal": "Satte framgångsrikt robotspråket till **{0}**.",
-            "default": "Satte framgångsrikt robotspråket till `default` (**{0}**)."
+            "normal": "Satte framgångsrikt botspråket till **{0}**.",
+            "default": "Satte framgångsrikt botspråket till `default` (**{0}**)."
         }
     },
     "levelup-channel": {
@@ -404,7 +404,7 @@
     },
     "about": {
         "title": "Om {0}",
-        "description": "{0} är den snabbast växande furry-, nytto- och moderation-roboten på Discord och hjälper till med över {1} servrar.",
+        "description": "{0} är den snabbast växande furry-, nytto- och moderation-botten på Discord och hjälper till med över {1} servrar.",
         "info": "{0} kan läggas till din server genom att använda \"{1}invite\"",
         "meettheteam": "Möt teamet",
         "specialthanks": "Speciellt tack"
