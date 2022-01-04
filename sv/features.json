@@ -1,0 +1,19 @@
+{
+    "lottery": {
+        "disabled": "Lotteriet är förnuvarande avslaget.",
+        "banned": "Du är för nuvarande avstängd från lotterier.",
+        "active": "Ett lotteri äger rum just nu.",
+        "insufficient": {
+            "single": "Du har inte nog med pengar för att köpa en lott.",
+            "multiple": "Du har inte råd med så många lotter."
+        },
+        "maximum": {
+            "normal": "1.000 lotter är maxantalet.\nBli en premiumanvändare genom att donera på Patreon och få ett maxantal om 100.000 lotter: <{0}>",
+            "premium": "100.000 lotter är maxantalet för premiumanvändare."
+        },
+        "won": {
+            "normal": "{0} vann just **{1}** poäng med **{2}** lotter använda!",
+            "voted": "{0} har röstat och vann just **{1}** (**{3}x**) poäng med **{2}** lotter använda!"
+        }
+    }
+}
