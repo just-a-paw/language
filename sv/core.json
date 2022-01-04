@@ -2,11 +2,11 @@
     "blocked": {
         "guild": "`{0}`-kommandot måste användas i en server.",
         "premium": "`{0}`-kommandot kan bara användas av premiumanvändare. Du kan skaffa premium på https://paw.bot/donate",
-        "role": "Du har inte rollerna som är nödvändiga för att använda `{0}`-kommandot.",
+        "role": "Du har inte dem nödvändiga rollerna för att använda `{0}`-kommandot.",
         "nsfw": "`{0}`-kommandot kan bara användas i NSFW-kanaler. {:furry.really:}\nhttps://support.discord.com/hc/article_attachments/360007795191/2_.jpg",
         "permission": "Du har inte behörighet att använda `{0}`-kommandot. {:furry.really:}",
         "clientPermissions": {
-            "single": "Jag behöver `{1}`-behörighet för att `{0}`-kommandot ska funka.",
+            "single": "Jag behöver `{1}`-behörigheten för att `{0}`-kommandot ska funka.",
             "multiple": "Jag behöver följande behörigheter för att `{0}`-kommandot ska funka: {1}"
         },
         "throttling": {
