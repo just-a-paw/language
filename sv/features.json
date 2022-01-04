@@ -1,6 +1,6 @@
 {
     "lottery": {
-        "disabled": "Lotteriet är förnuvarande avslaget.",
+        "disabled": "Lotteriet är förnuvarande stängt.",
         "banned": "Du är för nuvarande avstängd från lotterier.",
         "active": "Ett lotteri äger rum just nu.",
         "insufficient": {
