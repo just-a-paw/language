@@ -1,9 +1,8 @@
 {
     "blocked": {
-        "guildOnly": "`{0}`-kommandot måste användas i en server.",
-        "premiumOnly": "`{0}`-kommandot kan bara användas av premiumanvändare. Du kan skaffa premium på https://paw.bot/donate",
-        "supportServerOnly": "`{0}`-kommandot kan bara användas i supportservern. {:furry.really:}",
-        "hasOne": "Du har inte rollerna som är nödvändiga för att använda `{0}`-kommandot.",
+        "guild": "`{0}`-kommandot måste användas i en server.",
+        "premium": "`{0}`-kommandot kan bara användas av premiumanvändare. Du kan skaffa premium på https://paw.bot/donate",
+        "role": "Du har inte rollerna som är nödvändiga för att använda `{0}`-kommandot.",
         "nsfw": "`{0}`-kommandot kan bara användas i NSFW-kanaler. {:furry.really:}\nhttps://support.discord.com/hc/article_attachments/360007795191/2_.jpg",
         "permission": "Du har inte behörighet att använda `{0}`-kommandot. {:furry.really:}",
         "clientPermissions": {
@@ -20,7 +19,7 @@
             "nsfw": "Du kan inte använda `{0}`-kommandot igen under {1}.\n**Om du skulle vilja förkorta den här väntetiden under dem 12 timmarna härnäst kan du rösta på roboten gratis här: {2}.\nOm du skulle vilja förkorta den här väntetiden permanent kan du donera här: {3}.",
             "premium": "`{0}` en kvot på **{2}** varje {3}! Var god vänta {1} längre.\nBli en [Patron](https://www.patreon.com/JustAPaw \"Bli en Patron\") för en permanent kvot på **{4}**/{5}.",
             "vote": "`{0}` har en kvot på **{2}** varje **{3}**! Var god vänta {1} längre.\n[Rösta](https://top.gg/bot/663823539672973353/vote \"Rösta på Paw Bot\") för en temporär kvot på **{4}**/{5}.",
-            "premium&vote": "`{0}` har en kvot på **{2}** varje **{3}**! Var god vänta {1} längre.\n[Rösta](https://top.gg/bot/663823539672973353/vote \"Rösta på Paw Bot\") för en temporär kvot på **{4}**/{5} eller\nBli en [Patron](https://www.patreon.com/JustAPaw \"Bli en Patron\") för en permanent kvot på **{6}**/{7}."
+            "premium_vote": "`{0}` har en kvot på **{2}** varje **{3}**! Var god vänta {1} längre.\n[Rösta](https://top.gg/bot/663823539672973353/vote \"Rösta på Paw Bot\") för en temporär kvot på **{4}**/{5} eller\nBli en [Patron](https://www.patreon.com/JustAPaw \"Bli en Patron\") för en permanent kvot på **{6}**/{7}."
         }
     },
 
