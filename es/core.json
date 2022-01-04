@@ -1,32 +1,30 @@
 {
-    "blocked": {
-        "guildOnly": "El comando `{0}` debe usarse en un servidor. {:furry.really:}",
-        "premiumOnly": "El comando `{0}` solo puede ser utilizado por usuarios premium. Puede obtener la prima en https://paw.bot/donate",
-        "supportServerOnly": "El comando `{0}` solo se puede usar en el servidor de soporte. {:furry.really:}",
-        "hasOne": "Usted no tiene los roles necesarios para utilizar el `{0}` comando.",
-        "nsfw": "El comando `{0}` solo se puede usar en canales NSFW. {:furry.really:}\nhttps://support.discord.com/hc/article_attachments/360007795191/2_.jpg",
-        "permission": "No tienes permiso para usar el comando `{0}`. {:furry.really:}",
-        "clientPermissions": {
-            "single": "Necesito el permiso `{1}` para que funcione el comando `{0}`.",
-            "multiple": "Necesito los siguientes permisos para que funcione el comando `{0}`:{1}"
-        },
-        "throttling": {
-            "normal": [
-                "No puede volver a utilizar el comando `{0}` para otro {1}.",
-                "¡Woah ahí! Espere otro {0} antes de volver a utilizar `{1}`.",
-                "Estoy agotado. Espere {1} antes de usar `{0}` nuevamente.",
-                "Aw diablos. Yo conseguiré aunque cansado. Dame {1} antes de usar `{0}` de nuevo."
-            ],
-            "nsfw": "No puede volver a utilizar el comando `{0}` para otro {1}.\n**Si desea acortar este tiempo para las próximas 12 horas, votar por el bot de aquí libremente: {2}.\nSi desea acortar este tiempo de forma permanente, done aquí: {3}.**",
-            "premium": "`{0}` tiene **{2}** cada {3} tiempo de reutilización. Por favor, espere {1} más largo.\nConviértete en [Patrocinador](https://www.patreon.com/JustAPaw \"Conviértete en Patrón\") para un tiempo de reutilización permanente **{4}**/{5}.",
-            "vote": "`{0}` tiene **{2}** cada {3} tiempo de reutilización. Por favor, espere {1} más largo.\n[Vote](https://top.gg/bot/663823539672973353/vote \"Vota por Paw Bot\") por un tiempo de reutilización temporal **{4}**/{5}.",
-            "premium&vote": "`{0}` tiene **{2}** cada {3} tiempo de reutilización. Por favor, espere {1} más largo.\n[Vote](https://top.gg/bot/663823539672973353/vote \"Vota por Paw Bot\") por un tiempo de reutilización temporal **{4}**/{5} o\nConviértete en [Patrocinador](https://www.patreon.com/JustAPaw \"Conviértete en Patrón\") para un tiempo de reutilización permanente **{6}**/{7}."
-        }
+  "blocked": {
+    "guild": "El comando `{0}` debe usarse en un servidor. {:furry.really:}",
+    "premium": "El comando `{0}` solo puede ser utilizado por usuarios premium. Puede obtener la prima en https://paw.bot/donate",
+    "role": "Usted no tiene los roles necesarios para utilizar el `{0}` comando.",
+    "nsfw": "El comando `{0}` solo se puede usar en canales NSFW. {:furry.really:}\nhttps://support.discord.com/hc/article_attachments/360007795191/2_.jpg",
+    "permission": "No tienes permiso para usar el comando `{0}`. {:furry.really:}",
+    "clientPermissions": {
+      "single": "Necesito el permiso `{1}` para que funcione el comando `{0}`.",
+      "multiple": "Necesito los siguientes permisos para que funcione el comando `{0}`:{1}"
     },
-
-    "error": {
-        "generic": "¡UH oh! ¡Parece que ha ocurrido un error! Vuelve a intentarlo en unos minutos.",
-        "known": "Oh no, aparece un error ocurrido mientras recuperaba esta imagen.\n```javascript\n{0}: {1}\n```\n¡No se preocupe por esto! Estos errores ocurren muy raramente y el equipo de desarrollo los conoce.\nLo mejor que puede hacer es volver en unos minutos y no se producirán estos errores.",
-        "friendly": "Se produjo un error al ejecutar el comando:\n{0}\nNunca debería recibir un error como este <:TFRNickConfused:655543877142577179>\nHemos sido informados y este problema debería solucionarse en breve.\n[Considere unirse al servidor de soporte para recibir noticias y actualizaciones]({2} \"owo\") {:furry.fingergun:}"
+    "throttling": {
+      "normal": [
+        "No puede volver a utilizar el comando `{0}` para otro {1}.",
+        "¡Woah ahí! Espere otro {0} antes de volver a utilizar `{1}`.",
+        "Estoy agotado. Espere {1} antes de usar `{0}` nuevamente.",
+        "Aw diablos. Yo conseguiré aunque cansado. Dame {1} antes de usar `{0}` de nuevo."
+      ],
+      "nsfw": "No puede volver a utilizar el comando `{0}` para otro {1}.\n**Si desea acortar este tiempo para las próximas 12 horas, votar por el bot de aquí libremente: {2}.\nSi desea acortar este tiempo de forma permanente, done aquí: {3}.**",
+      "premium": "`{0}` tiene **{2}** cada {3} tiempo de reutilización. Por favor, espere {1} más largo.\nConviértete en [Patrocinador](https://www.patreon.com/JustAPaw \"Conviértete en Patrón\") para un tiempo de reutilización permanente **{4}**/{5}.",
+      "vote": "`{0}` tiene **{2}** cada {3} tiempo de reutilización. Por favor, espere {1} más largo.\n[Vote](https://top.gg/bot/663823539672973353/vote \"Vota por Paw Bot\") por un tiempo de reutilización temporal **{4}**/{5}.",
+      "premium_vote": "`{0}` tiene **{2}** cada {3} tiempo de reutilización. Por favor, espere {1} más largo.\n[Vote](https://top.gg/bot/663823539672973353/vote \"Vota por Paw Bot\") por un tiempo de reutilización temporal **{4}**/{5} o\nConviértete en [Patrocinador](https://www.patreon.com/JustAPaw \"Conviértete en Patrón\") para un tiempo de reutilización permanente **{6}**/{7}."
     }
+  },
+  "error": {
+    "generic": "¡UH oh! ¡Parece que ha ocurrido un error! Vuelve a intentarlo en unos minutos.",
+    "known": "Oh no, aparece un error ocurrido mientras recuperaba esta imagen.\n```javascript\n{0}: {1}\n```\n¡No se preocupe por esto! Estos errores ocurren muy raramente y el equipo de desarrollo los conoce.\nLo mejor que puede hacer es volver en unos minutos y no se producirán estos errores.",
+    "friendly": "Se produjo un error al ejecutar el comando:\n{0}\nNunca debería recibir un error como este <:TFRNickConfused:655543877142577179>\nHemos sido informados y este problema debería solucionarse en breve.\n[Considere unirse al servidor de soporte para recibir noticias y actualizaciones]({2} \"owo\") {:furry.fingergun:}"
+  }
 }

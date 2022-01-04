@@ -1,19 +1,19 @@
 {
-    "lottery": {
-        "disabled": "The lottery is currently disabled.",
-        "banned": "You are currently banned from lotteries.",
-        "active": "A lottery is currently taking place.",
-        "insufficient": {
-            "single": "You don't have enough money to purchase a ticket.",
-            "multiple": "You can't afford that many tickets."
-        },
-        "maximum": {
-            "normal": "1,000 tickets is the maximum.\nBecome a premium user by donating on Patreon for a limit of 100,000 tickets: <{0}>",
-            "premium": "100,000 tickets is the maximum for premium users."
-        },
-        "won": {
-            "normal": "{0} just won **{1}** points using **{2}** tickets!",
-            "voted": "{0} has voted and just won **{1}** (**{3}x**) points using **{2}** tickets!"
-        }
+  "lottery": {
+    "disabled": "The lottery is currently disabled.",
+    "banned": "You are currently banned from lotteries.",
+    "active": "A lottery is currently taking place.",
+    "insufficient": {
+      "single": "You don't have enough money to purchase a ticket.",
+      "multiple": "You can't afford that many tickets."
+    },
+    "maximum": {
+      "normal": "1,000 tickets is the maximum.\nBecome a premium user by donating on Patreon for a limit of 100,000 tickets: <{0}>",
+      "premium": "100,000 tickets is the maximum for premium users."
+    },
+    "won": {
+      "normal": "{0} just won **{1}** points using **{2}** tickets!",
+      "voted": "{0} has voted and just won **{1}** (**{3}x**) points using **{2}** tickets!"
     }
+  }
 }

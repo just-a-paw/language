@@ -1,31 +1,27 @@
 {
-    "en": {
-        "locale": "en",
-        "full": "English",
-        "flag": ":flag_gb:",
-        "public": true,
-        "variant": {
-            "en": "English",
-            "es": "Inglés"
-        },
-        "alternatives": [
-            "english",
-            "eng"
-        ],
-        "contributors": []
+  "en": {
+    "full": "English",
+    "public": true,
+    "variant": {
+      "en": "English",
+      "es": "Inglés"
     },
-    "es": {
-        "locale": "es",
-        "full": "Español",
-        "flag": ":flag_es:",
-        "public": true,
-        "variant": {
-            "en": "Spanish",
-            "es": "Español"
-        },
-        "alternatives": [
-            "spanish"
-        ],
-        "contributors": []
-    }
+    "alternatives": [
+      "english",
+      "eng"
+    ],
+    "contributors": []
+  },
+  "es": {
+    "full": "Español",
+    "public": true,
+    "variant": {
+      "en": "Spanish",
+      "es": "Español"
+    },
+    "alternatives": [
+      "spanish"
+    ],
+    "contributors": []
+  }
 }

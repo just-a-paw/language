@@ -1,32 +1,30 @@
 {
-    "blocked": {
-        "guildOnly": "The `{0}` command must be used in a server. {:furry.really:}",
-        "premiumOnly": "The `{0}` command can only be used by premium users. You can get premium at https://paw.bot/donate",
-        "supportServerOnly": "The `{0}` command can only be used in the support server. {:furry.really:}",
-        "hasOne": "You do not have the required roles to use the `{0}` command.",
-        "nsfw": "The `{0}` command can only be used in NSFW channels. {:furry.really:}\nhttps://support.discord.com/hc/article_attachments/360007795191/2_.jpg",
-        "permission": "You do not have permission to use the `{0}` command. {:furry.really:}",
-        "clientPermissions": {
-            "single": "I need the `{1}` permission for the `{0}` command to work.",
-            "multiple": "I need the following permissions for the `{0}` command to work: {1}"
-        },
-        "throttling": {
-            "normal": [
-                "You may not use the `{0}` command again for another {1}.",
-                "Woah there! Please wait another {0} before using `{1}` again.",
-                "I'm exhausted. Please wait {1} before using `{0}` again.",
-                "Aw heck. I do be getting tired though. Give me {1} before using `{0}` again."
-            ],
-            "nsfw": "You may not use the `{0}` command again for another {1}.\n**If you'd like to shorten this time for the next 12 hours, vote for the bot for free here: {2}.\nIf you'd like to shorten this time permanently, donate here: {3}.**",
-            "premium": "`{0}` has a **{2}** every {3} cooldown! Please wait {1} longer.\nBecome a [Patron](https://www.patreon.com/JustAPaw \"Become a Patron\") for a permanent **{4}**/{5} cooldown.",
-            "vote": "`{0}` has a **{2}** every {3} cooldown! Please wait {1} longer.\n[Vote](https://top.gg/bot/663823539672973353/vote \"Vote for Paw Bot\") for a temporary **{4}**/{5} cooldown.",
-            "premium&vote": "`{0}` has a **{2}** every {3} cooldown! Please wait {1} longer.\n[Vote](https://top.gg/bot/663823539672973353/vote \"Vote for Paw Bot\") for a temporary **{4}**/{5} cooldown or\nBecome a [Patron](https://www.patreon.com/JustAPaw \"Become a Patron\") for a permanent **{6}**/{7} cooldown."
-        }
+  "blocked": {
+    "guild": "The `{0}` command must be used in a server. {:furry.really:}",
+    "premium": "The `{0}` command can only be used by premium users. You can get premium at https://paw.bot/donate",
+    "role": "You do not have the required roles to use the `{0}` command.",
+    "nsfw": "The `{0}` command can only be used in NSFW channels. {:furry.really:}\nhttps://support.discord.com/hc/article_attachments/360007795191/2_.jpg",
+    "permission": "You do not have permission to use the `{0}` command. {:furry.really:}",
+    "clientPermissions": {
+      "single": "I need the `{1}` permission for the `{0}` command to work.",
+      "multiple": "I need the following permissions for the `{0}` command to work: {1}"
     },
-
-    "error": {
-        "generic": "Uh oh! It appears an error has occured! Try again in a few minutes.",
-        "known": "Oh noes, it appears an error occured whilst fetching this image.\n```javascript\n{0}: {1}\n```\nDon't worry about this! These errors occur very rarely and are aware by the dev team.\nThe best thing you can is come back in a few minutes and these errors won't occur.",
-        "friendly": "An error occurred while running the command:\n{0}\nYou shouldn't ever receive an error like this <:TFRNickConfused:655543877142577179>\nWe have been informed and this issue should be fixed shortly.\n[Consider joining the support server for news and updates]({2} \"owo\") {:furry.fingergun:}"
+    "throttling": {
+      "normal": [
+        "You may not use the `{0}` command again for another {1}.",
+        "Woah there! Please wait another {0} before using `{1}` again.",
+        "I'm exhausted. Please wait {1} before using `{0}` again.",
+        "Aw heck. I do be getting tired though. Give me {1} before using `{0}` again."
+      ],
+      "nsfw": "You may not use the `{0}` command again for another {1}.\n**If you'd like to shorten this time for the next 12 hours, vote for the bot for free here: {2}.\nIf you'd like to shorten this time permanently, donate here: {3}.**",
+      "premium": "`{0}` has a **{2}** every {3} cooldown! Please wait {1} longer.\nBecome a [Patron](https://www.patreon.com/JustAPaw \"Become a Patron\") for a permanent **{4}**/{5} cooldown.",
+      "vote": "`{0}` has a **{2}** every {3} cooldown! Please wait {1} longer.\n[Vote](https://top.gg/bot/663823539672973353/vote \"Vote for Paw Bot\") for a temporary **{4}**/{5} cooldown.",
+      "premium_vote": "`{0}` has a **{2}** every {3} cooldown! Please wait {1} longer.\n[Vote](https://top.gg/bot/663823539672973353/vote \"Vote for Paw Bot\") for a temporary **{4}**/{5} cooldown or\nBecome a [Patron](https://www.patreon.com/JustAPaw \"Become a Patron\") for a permanent **{6}**/{7} cooldown."
     }
+  },
+  "error": {
+    "generic": "Uh oh! It appears an error has occured! Try again in a few minutes.",
+    "known": "Oh noes, it appears an error occured whilst fetching this image.\n```javascript\n{0}: {1}\n```\nDon't worry about this! These errors occur very rarely and are aware by the dev team.\nThe best thing you can is come back in a few minutes and these errors won't occur.",
+    "friendly": "An error occurred while running the command:\n{0}\nYou shouldn't ever receive an error like this <:TFRNickConfused:655543877142577179>\nWe have been informed and this issue should be fixed shortly.\n[Consider joining the support server for news and updates]({2} \"owo\") {:furry.fingergun:}"
+  }
 }
