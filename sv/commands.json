@@ -49,7 +49,7 @@
       }
     },
     "title": {
-      "valid": "Här är profilbilden för {0}. [[URL]]({0}).",
+      "valid": "Här är profilbilden för {0}. [[URL]]({1}).",
       "invalid": "{0} har ingen profilbild."
     }
   },
@@ -64,7 +64,7 @@
     "nostats": "COVID-19-statistik är otilgänglig för tillfället.",
     "nocountry": "Kunde inte hitta någon data för det landet.",
     "title": "Fall i {0}",
-    "info": "Här är fall av COVID-19 i {0}.\nSist uppdaterad för {0} sen.",
+    "info": "Här är fall av COVID-19 i {0}.\nSist uppdaterad för {1} sen.",
     "titles": {
       "cases": "Fall",
       "deaths": "Dödsfall",
