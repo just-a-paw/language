@@ -1,0 +1,40 @@
+{
+  "$id": "https://raw.githubusercontent.com/OfficialPawBot/language/main/schema.json",
+  "title": "An object of locale data",
+  "type": "object",
+  "$ref": "#/$defs/match",
+  "additionalProperties": false,
+  "$defs": {
+    "match": {
+      "patternProperties": {
+        "^[a-z0-9-_]+$": {
+          "$ref": "#/$defs/data"
+        }
+      }
+    },
+    "data": {
+      "title": "Locale data entry",
+      "default": "",
+      "anyOf": [
+        {
+          "title": "Localised text",
+          "type": "string"
+        },
+        {
+          "title": "Array of locale data entries",
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/data"
+          },
+          "minItems": 1,
+          "uniqueItems": true
+        },
+        {
+          "type": "object",
+          "minProperties": 1,
+          "$ref": "#/$defs/match"
+        }
+      ]
+    }
+  }
+}

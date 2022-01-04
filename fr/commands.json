@@ -76,7 +76,6 @@
     "donations": "**Dons total**: £{0}\n**Donneurs totals**: {1} people\nVeuillez considérer à faire un don au NHS sur JustGiving afin de soutenir les personnes dans le besoin durant cette période difficile [ici]({2} \"Appel urgent concernant la pandémie COVID-19\")",
     "format": "**Total**: {0}\n**Aujourd'hui**: {1}"
   },
-  "e926": {},
   "e6": {
     "searching": "Recherche {:loading:}",
     "none": "Aucun résultats trouvé pour les tags donnés.",
@@ -104,13 +103,9 @@
   "fursuit": {
     "title": "🐾 Voici votre photo de fursuit!"
   },
-  "lenny": {},
-  "owoify": {},
-  "proxy": {},
   "shibe": {
     "title": "🐶 Voici votre photo de shiba!"
   },
-  "vote-out": {},
   "daily": {
     "success": "{:check:} Vous avez réclamé vos points **{0}** journaliers!\nRevenez demain à **0:00 UTC** pour un extra de **10,000** points! (Maximum 50,000 points, les combos se remettent à jour automatiquement après avoir manqué un jour)",
     "failed": "Oh non! Il s'avère que vous avez déjà réclamé vos points journaliers. Revenez dans {0}.\n"
@@ -161,8 +156,6 @@
       "vote": "Comment voter"
     }
   },
-  "purge": {},
-  "qotd": {},
   "role": {
     "roleabove": "Ce rôle est au-dessus du vôtre et ne peut être ajouté ou retiré.",
     "userabove": "{0} a un rôle au-dessus du vôtre et ne peut être retiré.",
@@ -246,12 +239,6 @@
       "Wow. C'est tellement grand que je peux voir mon reflet dedans."
     ]
   },
-  "e621": {},
-  "hentai": {},
-  "hooman": {},
-  "meme": {},
-  "murrsuit": {},
-  "yaoi": {},
   "yiff": {
     "title": [
       "Je paris que ce gars a un cul mignon.",
@@ -291,7 +278,6 @@
       "{0} s'épuise et décide de dormir sur {1}."
     ]
   },
-  "fuck": {},
   "hold": {
     "title": [
       "{0} tient avec amour {1} dans son étreinte, douce et prudente.",
@@ -393,7 +379,6 @@
       "none": "Rôle QoTD Ping configuré avec succès sur `none`."
     }
   },
-  "toggle-unknown-command-responses": {},
   "welcome-channel": {
     "info": "Le salon d'accueil actuel est **{0}**.",
     "none": "Il n'y a pas de salon d'accueil défini.",
