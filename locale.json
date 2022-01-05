@@ -27,7 +27,6 @@
   "nl": {
     "locale": "nl",
     "full": "Nederlands",
-    "flag": ":flag_nl:",
     "public": true,
     "variant": {
       "en": "Dutch",
