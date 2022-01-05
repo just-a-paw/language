@@ -6,12 +6,12 @@ jobs:
     steps:
       - uses: actions/checkout@v1
       - name: Validate locale.json
-        uses: nhalstead/validate-json-action@0.1.3
+        uses: MrGriefs/validate-json-action@master
         with:
           schema: ./locale.schema.json
           jsons: ./locale.json
       - name: Validate JSON config
-        uses: nhalstead/validate-json-action@0.1.3
+        uses: MrGriefs/validate-json-action@master
         with:
           schema: ./schema.json
           jsons: ./??/*.json
