@@ -76,7 +76,6 @@
     "donations": "**Donaciones totales**: £{0}\n**Donantes totales**: {1} gente\nConsidere hacer una donación al NHS en JustGiving para ayudar a las personas necesitadas durante este momento difícil [aquí]({2} \"COVID-19 Urgent Appeal\")",
     "format": "**Total**: {0}\n**Hoy dia**: {1}"
   },
-  "e926": {},
   "e6": {
     "searching": "Buscando {:loading:}",
     "none": "No se encontraron resultados para las etiquetas dadas.",
@@ -104,13 +103,9 @@
   "fursuit": {
     "title": "🐾 ¡Aquí está tu foto de fursuit!"
   },
-  "lenny": {},
-  "owoify": {},
-  "proxy": {},
   "shibe": {
     "title": "🐶 ¡Aquí tienes la foto de tu perro!"
   },
-  "vote-out": {},
   "daily": {
     "success": "{:check:} ¡Has reclamado tus puntos diarios de **{0}** puntos!\n¡Vuelve mañana a las **0: 00 UTC** para obtener **10.000** puntos adicionales! (Máximo 50.000 puntos, combos restablece después de fallar un día)",
     "failed": "¡UH oh! Parece que ya ha reclamado sus puntos diarios. Vuelve de nuevo en {0}.\n"
@@ -161,8 +156,6 @@
       "vote": "Como votar"
     }
   },
-  "purge": {},
-  "qotd": {},
   "role": {
     "roleabove": "Este papel está por encima de su función y no se puede añadir ni quitar.",
     "userabove": "{0} tiene una función por encima de ti y no se puede editar.",
@@ -246,12 +239,6 @@
       "Woah. Es tan grande que puedo ver mi reflejo en él."
     ]
   },
-  "e621": {},
-  "hentai": {},
-  "hooman": {},
-  "meme": {},
-  "murrsuit": {},
-  "yaoi": {},
   "yiff": {
     "title": [
       "Apuesto a que este chico tiene un lindo trasero",
@@ -291,7 +278,6 @@
       "{0} se agota y decide tomar en su sueño del {1}."
     ]
   },
-  "fuck": {},
   "hold": {
     "title": [
       "{0} sostiene amorosamente {1} en su suave y cuidadoso abrazo.",
@@ -393,7 +379,6 @@
       "none": "Establecer con éxito el papel QOTD Ping para `none`."
     }
   },
-  "toggle-unknown-command-responses": {},
   "welcome-channel": {
     "info": "El canal de bienvenida actual es **{0}**.",
     "none": "No hay ningún canal de bienvenida establecido.",

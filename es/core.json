@@ -5,7 +5,7 @@
     "role": "Usted no tiene los roles necesarios para utilizar el `{0}` comando.",
     "nsfw": "El comando `{0}` solo se puede usar en canales NSFW. {:furry.really:}\nhttps://support.discord.com/hc/article_attachments/360007795191/2_.jpg",
     "permission": "No tienes permiso para usar el comando `{0}`. {:furry.really:}",
-    "clientPermissions": {
+    "client_permissions": {
       "single": "Necesito el permiso `{1}` para que funcione el comando `{0}`.",
       "multiple": "Necesito los siguientes permisos para que funcione el comando `{0}`:{1}"
     },

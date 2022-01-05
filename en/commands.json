@@ -76,7 +76,6 @@
     "donations": "**Total donations**: £{0}\n**Total donors**: {1} people\nPlease consider donating to the NHS on JustGiving to support people in need during this trying time [here]({2} \"COVID-19 Urgent Appeal\")",
     "format": "**Total**: {0}\n**Today**: {1}"
   },
-  "e926": {},
   "e6": {
     "searching": "Searching {:loading:}",
     "none": "No results found for the given tags.",
@@ -104,13 +103,9 @@
   "fursuit": {
     "title": "🐾 Here's your fursuit pic!"
   },
-  "lenny": {},
-  "owoify": {},
-  "proxy": {},
   "shibe": {
     "title": "🐶 Here's your shibe pic!"
   },
-  "vote-out": {},
   "daily": {
     "success": "{:check:} You have claimed your daily points of **{0}** points!\nCome back tomorrow at **0:00 UTC** for an extra **10,000** points! (Max 50,000 points, combos reset after missing a day)",
     "failed": "Uh oh! It appears you already have claimed your daily points. Come back again in {0}.\n"
@@ -161,8 +156,6 @@
       "vote": "How to vote"
     }
   },
-  "purge": {},
-  "qotd": {},
   "role": {
     "roleabove": "This role is above your role and cannot be added nor removed.",
     "userabove": "{0} has a role above you and cannot be edited.",
@@ -246,12 +239,6 @@
       "Woah. It's so big I can see my reflection in it."
     ]
   },
-  "e621": {},
-  "hentai": {},
-  "hooman": {},
-  "meme": {},
-  "murrsuit": {},
-  "yaoi": {},
   "yiff": {
     "title": [
       "I bet this guy has a cute butt.",
@@ -291,7 +278,6 @@
       "{0} gets exhausted and decides to take on their sleep on {1}."
     ]
   },
-  "fuck": {},
   "hold": {
     "title": [
       "{0} lovingly holds {1} into their soft, careful embrace.",
@@ -393,7 +379,6 @@
       "none": "Successfully set the QoTD Ping role to `none`."
     }
   },
-  "toggle-unknown-command-responses": {},
   "welcome-channel": {
     "info": "The current welcome channel is **{0}**.",
     "none": "There is no welcome channel set.",

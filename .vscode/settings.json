@@ -1,0 +1,16 @@
+{
+  "json.schemas": [
+    {
+      "url": "./schema.json",
+      "fileMatch": [
+        "??/*.json"
+      ]
+    },
+    {
+      "url": "./locale.schema.json",
+      "fileMatch": [
+        "locale.json"
+      ]
+    }
+  ]
+}

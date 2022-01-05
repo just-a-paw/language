@@ -1,0 +1,30 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "https://raw.githubusercontent.com/OfficialPawBot/language/main/schema.json",
+  "title": "Locale data entry",
+  "oneOf": [
+    {
+      "type": "object",
+      "patternProperties": {
+        "^[a-z0-9-_]+$": {
+          "default": "",
+          "$ref": "#"
+        }
+      },
+      "additionalProperties": false
+    },
+    {
+      "title": "Array of locale data entries",
+      "type": "array",
+      "items": {
+        "$ref": "#"
+      },
+      "minItems": 1,
+      "uniqueItems": true
+    },
+    {
+      "title": "Localised text",
+      "type": "string"
+    }
+  ]
+}
