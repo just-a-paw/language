@@ -433,5 +433,8 @@
   },
   "dice": {
     "title": "🎲 You rolled a {0}!"
+  },
+  "urban": {
+    "none": "I couldn't find that enty on [urbandictionary.com](https://www.urbandictionary.com)."
   }
 }
