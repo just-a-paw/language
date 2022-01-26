@@ -76,7 +76,6 @@
     "donations": "**Totala donationer**: £{0}\n**Totala donatorer**: {1} personer\nSnälla överväg att donera till NHS på JustGiving för att stödja folk i nöd i dessa prövande tider [här]({2} \"akut vädjan angående COVID-19\")",
     "format": "**Totalt**: {0}\n**Idag**: {1}"
   },
-  "e926": {},
   "e6": {
     "searching": "Söker {:loading:}",
     "none": "Hittade inga resultat med dem angivna etiketterna.",
@@ -104,13 +103,9 @@
   "fursuit": {
     "title": "🐾 Här är din pälsdräktsbild!"
   },
-  "lenny": {},
-  "owoify": {},
-  "proxy": {},
   "shibe": {
     "title": "🐶 Här är din shibabild!"
   },
-  "vote-out": {},
   "daily": {
     "success": "{:check:} Du har tagit emot din dagliga poängkvot á **{0}** poäng!\nKom tillbaka imorgon vid **0:00 UTC** för **10.000** extra poäng! (Max 50.000 poäng, kombosar återställs efter en missad dag)",
     "failed": "Hoppsan! Det verkar som du redan har tagit emot dina dagliga poäng. Återkom efter {0}.\n"
@@ -161,8 +156,6 @@
       "vote": "Hur man röstar"
     }
   },
-  "purge": {},
-  "qotd": {},
   "role": {
     "roleabove": "Den här rollen är ovanför din roll och kan varken läggas till eller tas bort.",
     "userabove": "{0} har en roll ovanför dig och kan inte redigeras.",
@@ -246,12 +239,6 @@
       "Ojsan. Den är så stor att jag kan se min spegelbild i den."
     ]
   },
-  "e621": {},
-  "hentai": {},
-  "hooman": {},
-  "meme": {},
-  "murrsuit": {},
-  "yaoi": {},
   "yiff": {
     "title": [
       "Jag slår vad om att den här killen har en söt rumpa.",
@@ -291,7 +278,6 @@
       "{0} blir uttröttad och bestämmer sig för att ta sig en tupplur på {1}."
     ]
   },
-  "fuck": {},
   "hold": {
     "title": [
       "{0} håller kärleksfullt i {1} i sin mjuka, varsamma famn.",
@@ -393,7 +379,6 @@
       "none": "Satte framgångsrikt QoTD-aviseringsrollen till `none`."
     }
   },
-  "toggle-unknown-command-responses": {},
   "welcome-channel": {
     "info": "Den nuvarande välkommstkanalen är **{0}**.",
     "none": "Ingen välkommstkanal har specificerats.",
