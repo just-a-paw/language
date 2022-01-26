@@ -19,5 +19,4 @@ jobs:
           git config user.email "<translating@paw.bot>"
       - run: |
           git add AGGREGATE.md
-          git commit -m 'chore: update aggregate'
-          git push origin HEAD
+          (git commit -m 'chore: update aggregate' && git push origin HEAD) || echo "nothing to commit"
