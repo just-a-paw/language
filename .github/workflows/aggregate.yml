@@ -15,8 +15,8 @@ jobs:
       - run: npm install
       - run: npm test && npm run aggregate
       - run: |
-          git config user.name "Paw Bot Translating"
-          git config user.email "<translating@paw.bot>"
+          git config user.name "Paw Bot"
+          git config user.email "translating@paw.bot"
       - run: |
           git add AGGREGATE.md
           (git commit -m 'chore: update aggregate' && git push origin HEAD) || echo "nothing to commit"
