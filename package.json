@@ -1,0 +1,29 @@
+{
+  "name": "@pawbot/language",
+  "version": "1.0.0",
+  "description": "Paw Bot Locale",
+  "main": "index.js",
+  "scripts": {
+    "aggregate": "node .scripts/aggregate.js",
+    "test": "node .scripts/test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/OfficialPawBot/language.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "NONE",
+  "bugs": {
+    "url": "https://github.com/OfficialPawBot/language/issues"
+  },
+  "homepage": "https://github.com/OfficialPawBot/language#readme",
+  "devDependencies": {
+    "@types/dot-object": "^2.1.2",
+    "@types/node": "^17.0.12",
+    "cldr-data": "^36.0.0",
+    "dot-object": "^2.1.4",
+    "ignore": "^5.2.0",
+    "require-all": "^3.0.0"
+  }
+}

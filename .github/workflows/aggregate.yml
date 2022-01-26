@@ -1,0 +1,23 @@
+name: Aggregate
+on:
+  push:
+    branches:
+      - 'main'
+      - 'feat/aggregation-and-tests'
+jobs:
+  aggregate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - uses: actions/setup-node@v2
+        with:
+          node-version: '16'
+      - run: npm install
+      - run: npm test && npm run aggregate
+      - run: |
+          git config user.name "Paw Bot Translating"
+          git config user.email "<translating@paw.bot>"
+      - run: |
+          git add AGGREGATE.md
+          git commit -m 'chore: update aggregate'
+          git push origin HEAD
