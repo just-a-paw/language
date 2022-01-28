@@ -23,5 +23,18 @@
       "spanish"
     ],
     "contributors": []
+  },
+  "nl": {
+    "locale": "nl",
+    "full": "Nederlands",
+    "public": true,
+    "variant": {
+      "en": "Dutch",
+      "es": "Holandés"
+    },
+    "alternatives": [
+      "dutch"
+    ],
+    "contributors": []
   }
 }
