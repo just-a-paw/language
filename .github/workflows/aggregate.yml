@@ -3,7 +3,6 @@ on:
   push:
     branches:
       - 'main'
-      - 'feat/aggregation-and-tests'
 jobs:
   aggregate:
     runs-on: ubuntu-latest
