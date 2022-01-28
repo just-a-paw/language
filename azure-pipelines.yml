@@ -1,0 +1,18 @@
+jobs:
+- job: npmRunTest
+  pool:
+    vmImage: ubuntu-latest
+    demands: npm
+
+  timeoutInMinutes: 360
+
+  steps:
+  - task: Npm@1
+    displayName: 'npm install'
+    inputs:
+      verbose: false
+
+  - script: npm run test
+    displayName: 'npm run test'
+trigger:
+- master
