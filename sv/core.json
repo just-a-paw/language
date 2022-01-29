@@ -1,14 +1,14 @@
 {
   "blocked": {
+    "client_permissions": {
+      "multiple": "Jag behöver följande behörigheter för att `{0}`-kommandot ska funka: {1}",
+      "single": "Jag behöver `{1}`-behörigheten för att `{0}`-kommandot ska funka."
+    },
     "guild": "`{0}`-kommandot måste användas i en server.",
-    "premium": "`{0}`-kommandot kan bara användas av premiumanvändare. Du kan skaffa premium på https://paw.bot/donate",
-    "role": "Du har inte dem nödvändiga rollerna för att använda `{0}`-kommandot.",
     "nsfw": "`{0}`-kommandot kan bara användas i NSFW-kanaler. {:furry.really:}\nhttps://support.discord.com/hc/article_attachments/360007795191/2_.jpg",
     "permission": "Du har inte behörighet att använda `{0}`-kommandot. {:furry.really:}",
-    "client_permissions": {
-      "single": "Jag behöver `{1}`-behörigheten för att `{0}`-kommandot ska funka.",
-      "multiple": "Jag behöver följande behörigheter för att `{0}`-kommandot ska funka: {1}"
-    },
+    "premium": "`{0}`-kommandot kan bara användas av premiumanvändare. Du kan skaffa premium på https://paw.bot/donate",
+    "role": "Du har inte dem nödvändiga rollerna för att använda `{0}`-kommandot.",
     "throttling": {
       "normal": [
         "Du kan inte använda `{0}`-kommandot igen under {1}.",
@@ -18,13 +18,13 @@
       ],
       "nsfw": "Du kan inte använda `{0}`-kommandot igen under {1}.\n**Om du skulle vilja förkorta den här väntetiden under dem 12 timmarna härnäst kan du rösta på roboten gratis här: {2}.\nOm du skulle vilja förkorta den här väntetiden permanent kan du donera här: {3}.",
       "premium": "`{0}` har en kvot på **{2}** varje {3}! Var god vänta {1} längre.\nBli en [Patron](https://www.patreon.com/JustAPaw \"Bli en Patron\") för en permanent kvot på **{4}**/{5}.",
-      "vote": "`{0}` har en kvot på **{2}** varje **{3}**! Var god vänta {1} längre.\n[Rösta](https://top.gg/bot/663823539672973353/vote \"Rösta på Paw Bot\") för en temporär kvot på **{4}**/{5}.",
-      "premium_vote": "`{0}` har en kvot på **{2}** varje **{3}**! Var god vänta {1} längre.\n[Rösta](https://top.gg/bot/663823539672973353/vote \"Rösta på Paw Bot\") för en temporär kvot på **{4}**/{5} eller\nBli en [Patron](https://www.patreon.com/JustAPaw \"Bli en Patron\") för en permanent kvot på **{6}**/{7}."
+      "premium_vote": "`{0}` har en kvot på **{2}** varje **{3}**! Var god vänta {1} längre.\n[Rösta](https://top.gg/bot/663823539672973353/vote \"Rösta på Paw Bot\") för en temporär kvot på **{4}**/{5} eller\nBli en [Patron](https://www.patreon.com/JustAPaw \"Bli en Patron\") för en permanent kvot på **{6}**/{7}.",
+      "vote": "`{0}` har en kvot på **{2}** varje **{3}**! Var god vänta {1} längre.\n[Rösta](https://top.gg/bot/663823539672973353/vote \"Rösta på Paw Bot\") för en temporär kvot på **{4}**/{5}."
     }
   },
   "error": {
+    "friendly": "Ett fel uppstod medans det här kommandot utfördes:\n{0}\nDu borde aldrig få ett sådant här fel <:TFRNickConfused:655543877142577179>\nVi har blivit informerade och det här problemet bör bli åtgärdat inom kort.\n[Fundera på att gå med i supportservern för nyheter och uppdateringar]({2} \"owo\") {:furry.fingergun:}",
     "generic": "Hoppsan! Det verkar som ett fel uppstod! Försök igen om några minuter.",
-    "known": "Åh nej, det verkar som ett fel uppstod medans den här bilden hämtades.\n```javascript\n{0}: {1}\n```\nOroa dig inte över detta! Dessa fel händer väldigt sällan och utvecklarna känner till dem.\nDet bästa du kan göra är att återkomma om några minuter så kommer felen inte att återupprepas.",
-    "friendly": "Ett fel uppstod medans det här kommandot utfördes:\n{0}\nDu borde aldrig få ett sådant här fel <:TFRNickConfused:655543877142577179>\nVi har blivit informerade och det här problemet bör bli åtgärdat inom kort.\n[Fundera på att gå med i supportservern för nyheter och uppdateringar]({2} \"owo\") {:furry.fingergun:}"
+    "known": "Åh nej, det verkar som ett fel uppstod medans den här bilden hämtades.\n```javascript\n{0}: {1}\n```\nOroa dig inte över detta! Dessa fel händer väldigt sällan och utvecklarna känner till dem.\nDet bästa du kan göra är att återkomma om några minuter så kommer felen inte att återupprepas."
   }
 }
