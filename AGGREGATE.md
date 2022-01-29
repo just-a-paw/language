@@ -11,12 +11,7 @@ Missing the following entries:
 * `commands.coinflip.title[0]`
 * `commands.coinflip.title[1]`
 * `commands.dice.title`
-* `commands.globals.music.active`
 * `commands.urban.none`
-
-Contains deprecated entries:
-
-* `commands.globals.music.activo`
 
 ## `fr` French (Français)
 
