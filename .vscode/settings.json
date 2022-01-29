@@ -3,13 +3,14 @@
     {
       "url": "./schema.json",
       "fileMatch": [
-        "??/*.json"
+        "??/*.json",
+        "!??/locale.json"
       ]
     },
     {
       "url": "./locale.schema.json",
       "fileMatch": [
-        "locale.json"
+        "??/locale.json"
       ]
     }
   ]

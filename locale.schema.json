@@ -4,52 +4,16 @@
   "title": "Locale",
   "description": "An object of locale config",
   "type": "object",
-  "patternProperties": {
-    "^[a-z]{2}$": {
-      "description": "Locale config data",
-      "type": "object",
-      "properties": {
-        "full": {
-          "description": "The language's word for this language.\nFirst letter must be capital.",
-          "type": "string",
-          "pattern": "^([\\p{Lu}\\p{Lt}][\\p{Ll}\\p{Lm}\\p{Lo}]+)+$"
-        },
-        "public": {
-          "description": "Whether this locale should be publicly available and has been complete.",
-          "type": "boolean",
-          "default": false
-        },
-        "variant": {
-          "description": "Variations of this language's name in others.",
-          "type": "object",
-          "patternProperties": {
-            "^[a-z]{2}$": {
-              "description": "How this language's name is spelt in others.\nFirst letter must be capital.",
-              "type": "string",
-              "pattern": "^([\\p{Lu}\\p{Lt}][\\p{Ll}\\p{Lm}\\p{Lo}]+)+$"
-            }
-          },
-          "additionalProperties": false
-        },
-        "alternatives": {
-          "description": "Anything that may be considered another word for this language's name.",
-          "type": "array",
-          "items": {
-            "type": "string",
-            "pattern": "\\p{Ll}"
-          },
-          "uniqueItems": true
-        },
-        "contributors": {
-          "description": "People who worked on this locale",
-          "type": "array",
-          "items": {
-            "type": "string"
-          },
-          "default": [],
-          "uniqueItems": true
-        }
-      }
+  "properties": {
+    "contributors": {
+      "description": "Translators of this locale",
+      "default": [
+        "Name <https://github.com/UserName>"
+      ],
+      "items": {
+        "pattern": "^.+ <https:\\/\\/github\\.com\\/[\\w-]+>$"
+      },
+      "type": "array"
     }
   },
   "additionalProperties": false

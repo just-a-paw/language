@@ -4,14 +4,14 @@ jobs:
   verify-json-validation:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v1
+      - uses: actions/checkout@v2
       - name: Validate locale.json
         uses: MrGriefs/validate-json-action@master
         with:
           schema: ./locale.schema.json
-          jsons: ./locale.json
+          jsons: ./??/locale.json
       - name: Validate JSON config
         uses: MrGriefs/validate-json-action@master
         with:
           schema: ./schema.json
-          jsons: ./??/*.json
+          jsons: ./??/!(locale).json
