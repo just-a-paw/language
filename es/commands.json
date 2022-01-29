@@ -158,7 +158,7 @@
   },
   "globals": {
     "music": {
-      "activo": "Actualmente estoy reproduciendo música en un canal de voz diferente.",
+      "active": "Actualmente estoy reproduciendo música en un canal de voz diferente.",
       "emptyqueue": "La cola está vacía.",
       "noplayer": "No hay ningún jugador activo en este servidor.",
       "novc": "¡Debes estar en un canal de voz para usar este comando!"
