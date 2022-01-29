@@ -1,22 +1,5 @@
 {
-  "globals": {
-    "music": {
-      "noplayer": "No hay ningún jugador activo en este servidor.",
-      "novc": "¡Debes estar en un canal de voz para usar este comando!",
-      "activo": "Actualmente estoy reproduciendo música en un canal de voz diferente.",
-      "emptyqueue": "La cola está vacía."
-    },
-    "reddit": {
-      "image": "¿No puedes ver la imagen? [Haz clic en mí]({0}).",
-      "video": "[Haz clic en mí para ver el video]({0})",
-      "error": "Oh no, aparece un error ocurrido mientras recuperaba esta imagen.\n```javascript\n{0}: {1}\n```\n¡No se preocupe por esto! Estos errores ocurren muy raramente y el equipo de desarrollo los conoce.\nLo mejor que puede hacer es volver en unos minutos y no se producirán estos errores."
-    },
-    "points": {
-      "notenough": "¡Uh oh! Parece que no tienes suficientes puntos para hacer eso."
-    }
-  },
   "8ball": {
-    "question": "Pregunta",
     "answer": "Responder",
     "list": [
       "Sí",
@@ -35,198 +18,41 @@
       "Depende del clima",
       "Tan cierto como que la luna está hecha de queso",
       "Casi con toda seguridad"
-    ]
+    ],
+    "question": "Pregunta"
+  },
+  "about": {
+    "description": "{0} es el robot furry, utilitario y de moderación de más rápido crecimiento en Discord, y ayuda con más de {1} servidores.",
+    "info": "{0} se puede agregar a su servidor usando \"{1}invite\"",
+    "meettheteam": "Conocer al equipo",
+    "specialthanks": "Gracias especiales",
+    "title": "Sobre {0}"
   },
   "avatar": {
-    "description": "Get a user's avatr url.",
-    "examples": [
-      "avatar @Griefs#9476"
-    ],
     "args": {
       "user": {
-        "prompt": "Who would you like to get the avatar of?",
-        "label": "{lang:words.user}"
+        "label": "{lang:words.user}",
+        "prompt": "Who would you like to get the avatar of?"
       }
     },
+    "description": "Get a user's avatr url.",
+    "examples": ["avatar @Griefs#9476"],
     "title": {
-      "valid": "Aquí está el avatar de {0}. [[URL]]({1})",
-      "invalid": "{0} no tiene avatar."
+      "invalid": "{0} no tiene avatar.",
+      "valid": "Aquí está el avatar de {0}. [[URL]]({1})"
     }
   },
   "birb": {
     "title": "🦜 ¡Aquí está la foto de tu pájaro!"
   },
-  "cat": {
-    "title": "🐱 ¡Aquí está la foto de tu gato!"
-  },
-  "corona": {
-    "none": "País no encontrado o no tiene casos.",
-    "nostats": "Las estadísticas de COVID-19 no están disponibles actualmente.",
-    "nocountry": "No se pueden obtener datos de ese país.",
-    "title": "Casos en {0}",
-    "info": "Estos son los casos de COVID-19 en {0}.\nÚltima actualización hace {1}",
-    "titles": {
-      "cases": "Casos",
-      "deaths": "Fallecidas",
-      "infected": "Infectada",
-      "cured": "Curado",
-      "tests": "Pruebas",
-      "donations": "Donaciones"
-    },
-    "donations": "**Donaciones totales**: £{0}\n**Donantes totales**: {1} gente\nConsidere hacer una donación al NHS en JustGiving para ayudar a las personas necesitadas durante este momento difícil [aquí]({2} \"COVID-19 Urgent Appeal\")",
-    "format": "**Total**: {0}\n**Hoy dia**: {1}"
-  },
-  "e6": {
-    "searching": "Buscando {:loading:}",
-    "none": "No se encontraron resultados para las etiquetas dadas.",
-    "download": "Descargar",
-    "video": "**[Esta publicación es un video. Para verlo, haga click aquí]({0})**",
-    "source": "Fuente",
-    "postid": "ID de Publicación: {0}",
-    "error": "{0} resuelta con un error.",
-    "full": {
-      "sources": "Fuentes: {0}",
-      "score": "Puntuación: {0}"
-    },
-    "tags": {
-      "title": "Etiquetas",
-      "artist": "Artistas: ",
-      "copyright": "Derechos de autor: ",
-      "character": "Caracteres: ",
-      "general": "Más: ",
-      "additional": "y {0} más"
-    }
-  },
-  "fox": {
-    "title": "🦊 ¡Aquí está tu foto de zorro!"
-  },
-  "fursuit": {
-    "title": "🐾 ¡Aquí está tu foto de fursuit!"
-  },
-  "shibe": {
-    "title": "🐶 ¡Aquí tienes la foto de tu perro!"
-  },
-  "daily": {
-    "success": "{:check:} ¡Has reclamado tus puntos diarios de **{0}** puntos!\n¡Vuelve mañana a las **0: 00 UTC** para obtener **10.000** puntos adicionales! (Máximo 50.000 puntos, combos restablece después de fallar un día)",
-    "failed": "¡UH oh! Parece que ya ha reclamado sus puntos diarios. Vuelve de nuevo en {0}.\n"
-  },
-  "donate": {
-    "success": "{:check:} Usted donó **{0}** puntos a {1}.",
-    "self": "No puedes donar a ti misma, furball.",
-    "bot": "No puedes donar a robots, buena."
-  },
-  "leaderboard": {
-    "title": "Colocación",
-    "info": "¡Estás **# {0}** en la clasificación con **{1}** puntos!",
-    "topfirst": "{0}{1}. {2}\n> **{3}** puntos",
-    "top": "{1}. {2} con **{3}** puntos!",
-    "more": "**{0}** otros usuarios se encuentran actualmente en la tabla de clasificación.",
-    "to": "{0} hasta {1}",
-    "server": "Top 10 de usuarios en el servidor",
-    "world": "Los 10 mejores del mundo"
-  },
-  "lottery": {
-    "info": "{:check:} Te he añadido a la lotería para {0} puntos.\n[Asegúrese de unirse al servidor de Discord para averiguar quién ganó en el canal de lotería.](https://discord.gg/Kc7gDBb)",
-    "error": "Uh oh, parece que ocurrió un error.",
-    "entered": "Ya has entrado en la lotería."
-  },
-  "points": {
-    "points": "**{0}** puntos.",
-    "placement": "**# {0}** en la clasificación",
-    "user": "Puntos de {0}",
-    "self": "Tus puntos",
-    "bonus": {
-      "title": "Bonificaciones activas",
-      "none": {
-        "self": "No tienes bonificaciones\nUtilice {0} para obtener una bonificación gratuita.",
-        "user": "Esta usuaria no tiene bonos.\nUtilice {0} para obtener una bonificación gratuita.."
-      },
-      "voted": {
-        "self": "Has votado **(Bono 2x)**",
-        "user": "Este usuario ha votado **(Bono 2x)**"
-      }
-    }
-  },
-  "vote": {
-    "info": "Puedes votar por el bot [aquí]({0})",
-    "perks": "Bono de 2x puntos\nEnfriamientos de NSFW más cortos\nDura hasta 12 horas",
-    "voted": "Ya has votado. Puede volver a votar [aquí]({0}) en 12 horas.",
-    "titles": {
-      "perks": "Beneficios",
-      "vote": "Como votar"
-    }
-  },
-  "role": {
-    "roleabove": "Este papel está por encima de su función y no se puede añadir ni quitar.",
-    "userabove": "{0} tiene una función por encima de ti y no se puede editar.",
-    "cannot_edit": "No puedo editar la función de {0} porque están por encima de mi función.",
-    "added": "{0} se ha agregado a {1}.",
-    "removed": "{0} se ha eliminado de {1}."
-  },
-  "slowmode": {
-    "title": "{:check:} Establecer el modo lento en {0}",
-    "error": "Discord resuelto con un error."
-  },
-  "clear": {
-    "success": "{0} canciones eliminadas."
-  },
-  "join": {
-    "novc": "¡Debe estar en un canal de voz para usar este comando!"
-  },
-  "loop": {
-    "enabled": "Repetir se ha habilitado.",
-    "disabled": "Repita ha sido desactivado."
-  },
-  "looptrack": {
-    "enabled": "Repetición de pista se ha habilitado.",
-    "disabled": "Repetición de pista ha sido desactivado."
-  },
-  "lyrics": {
-    "none": "No se encontraron letras para la canción actual."
-  },
-  "pause": {
-    "paused": "La jugadora esta pausada. \\> Reanudando.",
-    "playing": "Pausado."
-  },
-  "play": {
-    "nosong": "No puedo encontrar esa cancion.",
-    "added": {
-      "multiple": "Añadidas {0} canciones a la cola.",
-      "single": {
-        "queued": "Añadidas {0} canciones a la cola: `Posición {1}`",
-        "playing": "Añadidas {0} canciones a la cola: `Reproducción en curso`"
-      }
-    },
-    "playing": "La jugadora no está pausada.",
-    "paused": "Reanudado."
-  },
-  "playing": {
-    "none": "No hay ninguna canción sonando.",
-    "current": "Jugando actualmente a [{0}]({1})\n{2}"
-  },
-  "queue": {
-    "description": "{0} canciones en total\n{1} duración total\n{lang:commands.queue.loop.{2}}\n{lang:commands.queue.looptrack.{3}}",
-    "loop": {
-      "enabled": "✅ Repetición de canciones habilitado",
-      "disabled": "❌ Repetición de canciones deshabilitado"
-    },
-    "looptrack": {
-      "enabled": "✅ Repetición de cola habilitada",
-      "disabled": "❌ Repetición de cola deshabilitada"
-    },
-    "current": "Reproducción en curso"
-  },
-  "remove": {
-    "none": "No hay canción en esa posición.",
-    "success": "Eliminado {0}."
-  },
-  "shuffle": {
-    "none": "No hay cola para mezclar.",
-    "success": "Barajada!"
-  },
-  "skip": {
-    "none": "No hay ninguna canción sonando.",
-    "success": "Omitida."
+  "boop": {
+    "title": [
+      "{0} golpea suavemente la nariz mojada de {1}.",
+      "{0} da {1} un beso en la nariz.",
+      "{0} salta a {1} y se toca la nariz.",
+      "De repente, {0} le da un golpe al snoot de {1} con la pata.",
+      "{1} recibe un golpe de sorpresa en la nariz de la pata de {0}."
+    ]
   },
   "bulge": {
     "title": [
@@ -239,23 +65,39 @@
       "Woah. Es tan grande que puedo ver mi reflejo en él."
     ]
   },
-  "yiff": {
-    "title": [
-      "Apuesto a que este chico tiene un lindo trasero",
-      "Aquí está el porno de élite que solicitaste:",
-      "Este tipo se ve más sabroso que yo",
-      "Soy más grande que eso, y solo soy una pata",
-      "Lindo floofer, ¿eh?"
-    ]
+  "cat": {
+    "title": "🐱 ¡Aquí está la foto de tu gato!"
   },
-  "boop": {
-    "title": [
-      "{0} golpea suavemente la nariz mojada de {1}.",
-      "{0} da {1} un beso en la nariz.",
-      "{0} salta a {1} y se toca la nariz.",
-      "De repente, {0} le da un golpe al snoot de {1} con la pata.",
-      "{1} recibe un golpe de sorpresa en la nariz de la pata de {0}."
-    ]
+  "clear": {
+    "success": "{0} canciones eliminadas."
+  },
+  "corona": {
+    "donations": "**Donaciones totales**: £{0}\n**Donantes totales**: {1} gente\nConsidere hacer una donación al NHS en JustGiving para ayudar a las personas necesitadas durante este momento difícil [aquí]({2} \"COVID-19 Urgent Appeal\")",
+    "format": "**Total**: {0}\n**Hoy dia**: {1}",
+    "info": "Estos son los casos de COVID-19 en {0}.\nÚltima actualización hace {1}",
+    "nocountry": "No se pueden obtener datos de ese país.",
+    "none": "País no encontrado o no tiene casos.",
+    "nostats": "Las estadísticas de COVID-19 no están disponibles actualmente.",
+    "title": "Casos en {0}",
+    "titles": {
+      "cases": "Casos",
+      "cured": "Curado",
+      "deaths": "Fallecidas",
+      "donations": "Donaciones",
+      "infected": "Infectada",
+      "tests": "Pruebas"
+    }
+  },
+  "create-invite": {
+    "description": "{:check:} Hice correctamente una invitación a {0}.",
+    "disabled": "Discapacitada",
+    "enabled": "Activada",
+    "exp": "Expira después de",
+    "invite": "Enlace de invitación",
+    "max": "Usos máximos",
+    "temp": "Membresía temporal",
+    "title": "Éxito",
+    "unable": "No puedo crear una invitación para este canal."
   },
   "cuddle": {
     "title": [
@@ -267,6 +109,36 @@
       "{0} se acuesta encima de {1} mientras se abrazan en un suave abrazo."
     ]
   },
+  "daily": {
+    "failed": "¡UH oh! Parece que ya ha reclamado sus puntos diarios. Vuelve de nuevo en {0}.\n",
+    "success": "{:check:} ¡Has reclamado tus puntos diarios de **{0}** puntos!\n¡Vuelve mañana a las **0: 00 UTC** para obtener **10.000** puntos adicionales! (Máximo 50.000 puntos, combos restablece después de fallar un día)"
+  },
+  "donate": {
+    "bot": "No puedes donar a robots, buena.",
+    "self": "No puedes donar a ti misma, furball.",
+    "success": "{:check:} Usted donó **{0}** puntos a {1}."
+  },
+  "e6": {
+    "download": "Descargar",
+    "error": "{0} resuelta con un error.",
+    "full": {
+      "score": "Puntuación: {0}",
+      "sources": "Fuentes: {0}"
+    },
+    "none": "No se encontraron resultados para las etiquetas dadas.",
+    "postid": "ID de Publicación: {0}",
+    "searching": "Buscando {:loading:}",
+    "source": "Fuente",
+    "tags": {
+      "additional": "y {0} más",
+      "artist": "Artistas: ",
+      "character": "Caracteres: ",
+      "copyright": "Derechos de autor: ",
+      "general": "Más: ",
+      "title": "Etiquetas"
+    },
+    "video": "**[Esta publicación es un video. Para verlo, haga click aquí]({0})**"
+  },
   "flop": {
     "title": [
       "{0} cae directamente en el regazo de {1} con un fuerte fwooosh.",
@@ -277,6 +149,32 @@
       "{0} cae como una pluma sobre {1}.",
       "{0} se agota y decide tomar en su sueño del {1}."
     ]
+  },
+  "fox": {
+    "title": "🦊 ¡Aquí está tu foto de zorro!"
+  },
+  "fursuit": {
+    "title": "🐾 ¡Aquí está tu foto de fursuit!"
+  },
+  "globals": {
+    "music": {
+      "activo": "Actualmente estoy reproduciendo música en un canal de voz diferente.",
+      "emptyqueue": "La cola está vacía.",
+      "noplayer": "No hay ningún jugador activo en este servidor.",
+      "novc": "¡Debes estar en un canal de voz para usar este comando!"
+    },
+    "points": {
+      "notenough": "¡Uh oh! Parece que no tienes suficientes puntos para hacer eso."
+    },
+    "reddit": {
+      "error": "Oh no, aparece un error ocurrido mientras recuperaba esta imagen.\n```javascript\n{0}: {1}\n```\n¡No se preocupe por esto! Estos errores ocurren muy raramente y el equipo de desarrollo los conoce.\nLo mejor que puede hacer es volver en unos minutos y no se producirán estos errores.",
+      "image": "¿No puedes ver la imagen? [Haz clic en mí]({0}).",
+      "video": "[Haz clic en mí para ver el video]({0})"
+    }
+  },
+  "history": {
+    "none": "No pude encontrar el mensaje que buscabas :(\nEs posible que el mensaje se haya borrado de mi memoria. En ese caso, no podré encontrarlo.",
+    "title": "Historia"
   },
   "hold": {
     "title": [
@@ -300,6 +198,19 @@
       "{0} se ve obligado a darle un largo abrazo de {1}."
     ]
   },
+  "invite": {
+    "bot": "Puedes agregar el bot [aquí]({0})",
+    "patreon": "Si desea apoyar el desarrollo de {0} y obtener beneficios, considere hacer una donación aquí: {1} {:furry.fingergun:}",
+    "support": "Si necesita ayuda, no dude en pedirnos ayuda en nuestro servidor de asistencia: {0}",
+    "title": {
+      "add": "Agrégame",
+      "donate": "Donar",
+      "support": "Apoyo"
+    }
+  },
+  "join": {
+    "novc": "¡Debe estar en un canal de voz para usar este comando!"
+  },
   "kiss": {
     "title": [
       "{1} recibe un beso largo y húmedo de {0}.",
@@ -308,6 +219,44 @@
       "{0} le da {1} un ligero beso en la mejilla. Intenta no sonrojarte, ¿quieres?"
     ]
   },
+  "language": {
+    "info": "El lenguaje de robot actual es **{0}**.",
+    "invalid": "`{0}` no es un idioma válido.\nUtilice `{1}help \"settings language\"` para obtener una lista completa de los idiomas disponibles.",
+    "success": {
+      "default": "Configuré con éxito el idioma del bot en `predeterminado` (**{0}**).",
+      "normal": "Se ha configurado correctamente el idioma del bot en **{0}**."
+    }
+  },
+  "leaderboard": {
+    "info": "¡Estás **# {0}** en la clasificación con **{1}** puntos!",
+    "more": "**{0}** otros usuarios se encuentran actualmente en la tabla de clasificación.",
+    "server": "Top 10 de usuarios en el servidor",
+    "title": "Colocación",
+    "to": "{0} hasta {1}",
+    "top": "{1}. {2} con **{3}** puntos!",
+    "topfirst": "{0}{1}. {2}\n> **{3}** puntos",
+    "world": "Los 10 mejores del mundo"
+  },
+  "levelup-channel": {
+    "info": "El canal de subida de nivel actual es **{0}**.",
+    "invalid": "`{0}` no es un canal válido.",
+    "none": "No hay ningún canal de subida de nivel configurado.",
+    "success": {
+      "none": "Configure correctamente el canal de subida de nivel en `ninguno`.",
+      "normal": "Se configuró correctamente el canal de subida de nivel en **{0}**."
+    }
+  },
+  "levelups": {
+    "info": {
+      "off": "Los anuncios de subida de nivel están **desactivados**.",
+      "on": "Los anuncios de subida de nivel están **activados**."
+    },
+    "success": {
+      "default": "Configurar con éxito los anuncios de subida de nivel a `predeterminado` (**{0}**).",
+      "off": "Estableció con éxito los anuncios de subida de nivel en **desactivado**.",
+      "on": "Configura correctamente los anuncios de subida de nivel en **activado**."
+    }
+  },
   "lick": {
     "title": [
       "{1} recibe una lamida húmeda y viscosa en la cara de {0}. Perro malo.",
@@ -315,114 +264,163 @@
       "{0} manden su baba caliente y húmeda por toda la cara de {1}."
     ]
   },
+  "logs": {
+    "info": "El canal de registros actual es **{0}**.",
+    "invalid": "`{0}` no es un canal válido.",
+    "none": "No hay ningún canal de registros establecido.",
+    "success": {
+      "none": "Estableció correctamente el canal de registros en `ninguno`.",
+      "normal": "Se configuró correctamente el canal de registros en **{0}**."
+    }
+  },
+  "loop": {
+    "disabled": "Repita ha sido desactivado.",
+    "enabled": "Repetir se ha habilitado."
+  },
+  "looptrack": {
+    "disabled": "Repetición de pista ha sido desactivado.",
+    "enabled": "Repetición de pista se ha habilitado."
+  },
+  "lottery": {
+    "entered": "Ya has entrado en la lotería.",
+    "error": "Uh oh, parece que ocurrió un error.",
+    "info": "{:check:} Te he añadido a la lotería para {0} puntos.\n[Asegúrese de unirse al servidor de Discord para averiguar quién ganó en el canal de lotería.](https://discord.gg/Kc7gDBb)"
+  },
+  "lyrics": {
+    "none": "No se encontraron letras para la canción actual."
+  },
+  "pause": {
+    "paused": "La jugadora esta pausada. \\> Reanudando.",
+    "playing": "Pausado."
+  },
+  "permissions": {
+    "info": "Nombre: Hexadecimal",
+    "total": "Todos los permisos ({0})",
+    "user": "Tus permisos ({0})"
+  },
+  "play": {
+    "added": {
+      "multiple": "Añadidas {0} canciones a la cola.",
+      "single": {
+        "playing": "Añadidas {0} canciones a la cola: `Reproducción en curso`",
+        "queued": "Añadidas {0} canciones a la cola: `Posición {1}`"
+      }
+    },
+    "nosong": "No puedo encontrar esa cancion.",
+    "paused": "Reanudado.",
+    "playing": "La jugadora no está pausada."
+  },
+  "playing": {
+    "current": "Jugando actualmente a [{0}]({1})\n{2}",
+    "none": "No hay ninguna canción sonando."
+  },
+  "points": {
+    "bonus": {
+      "none": {
+        "self": "No tienes bonificaciones\nUtilice {0} para obtener una bonificación gratuita.",
+        "user": "Esta usuaria no tiene bonos.\nUtilice {0} para obtener una bonificación gratuita.."
+      },
+      "title": "Bonificaciones activas",
+      "voted": {
+        "self": "Has votado **(Bono 2x)**",
+        "user": "Este usuario ha votado **(Bono 2x)**"
+      }
+    },
+    "placement": "**# {0}** en la clasificación",
+    "points": "**{0}** puntos.",
+    "self": "Tus puntos",
+    "user": "Puntos de {0}"
+  },
   "propose": {
     "title": [
       "Woah. {0} se arrodilla y le propone matrimonio a {1} ... ¡Eso fue rápido! ¿Qué dices {1}?",
       "{0} saca una pequeña caja de su bolsillo y saca un anillo para {1}. Parece barato, yo diría que no. ¿Qué dices {1}?"
     ]
   },
-  "ship": {
-    "title": "{0} - ¡{1} de coincidencia! <:TFRBlepSmirk:655517665900625932>"
-  },
-  "language": {
-    "info": "El lenguaje de robot actual es **{0}**.",
-    "invalid": "`{0}` no es un idioma válido.\nUtilice `{1}help \"settings language\"` para obtener una lista completa de los idiomas disponibles.",
-    "success": {
-      "normal": "Se ha configurado correctamente el idioma del bot en **{0}**.",
-      "default": "Configuré con éxito el idioma del bot en `predeterminado` (**{0}**)."
-    }
-  },
-  "levelup-channel": {
-    "info": "El canal de subida de nivel actual es **{0}**.",
-    "none": "No hay ningún canal de subida de nivel configurado.",
-    "invalid": "`{0}` no es un canal válido.",
-    "success": {
-      "normal": "Se configuró correctamente el canal de subida de nivel en **{0}**.",
-      "none": "Configure correctamente el canal de subida de nivel en `ninguno`."
-    }
-  },
-  "levelups": {
-    "info": {
-      "on": "Los anuncios de subida de nivel están **activados**.",
-      "off": "Los anuncios de subida de nivel están **desactivados**."
-    },
-    "success": {
-      "on": "Configura correctamente los anuncios de subida de nivel en **activado**.",
-      "off": "Estableció con éxito los anuncios de subida de nivel en **desactivado**.",
-      "default": "Configurar con éxito los anuncios de subida de nivel a `predeterminado` (**{0}**)."
-    }
-  },
-  "logs": {
-    "info": "El canal de registros actual es **{0}**.",
-    "none": "No hay ningún canal de registros establecido.",
-    "invalid": "`{0}` no es un canal válido.",
-    "success": {
-      "normal": "Se configuró correctamente el canal de registros en **{0}**.",
-      "none": "Estableció correctamente el canal de registros en `ninguno`."
-    }
-  },
   "qotd-manager-role": {
     "info": "La función actual de QoTD Manager es **{0}**.",
-    "none": "No hay un conjunto papel QOTD Manager.",
     "invalid": "`{0}` no es una función válida QOTD Manager.",
+    "none": "No hay un conjunto papel QOTD Manager.",
     "success": {
-      "normal": "Estableció correctamente la función QoTD Manager en **{0}**.",
-      "none": "Establezca con éxito el rol de QoTD Manager en `none`."
+      "none": "Establezca con éxito el rol de QoTD Manager en `none`.",
+      "normal": "Estableció correctamente la función QoTD Manager en **{0}**."
     }
   },
   "qotd-role": {
     "info": "El actual papel QOTD Ping es **{0}**.",
-    "none": "No hay un conjunto de roles de ping de QoTD.",
     "invalid": "`{0}` no es un papel QOTD Ping válida.",
+    "none": "No hay un conjunto de roles de ping de QoTD.",
     "success": {
-      "normal": "Establecer con éxito el papel QOTD Ping para **{0}**.",
-      "none": "Establecer con éxito el papel QOTD Ping para `none`."
+      "none": "Establecer con éxito el papel QOTD Ping para `none`.",
+      "normal": "Establecer con éxito el papel QOTD Ping para **{0}**."
     }
+  },
+  "queue": {
+    "current": "Reproducción en curso",
+    "description": "{0} canciones en total\n{1} duración total\n{lang:commands.queue.loop.{2}}\n{lang:commands.queue.looptrack.{3}}",
+    "loop": {
+      "disabled": "❌ Repetición de canciones deshabilitado",
+      "enabled": "✅ Repetición de canciones habilitado"
+    },
+    "looptrack": {
+      "disabled": "❌ Repetición de cola deshabilitada",
+      "enabled": "✅ Repetición de cola habilitada"
+    }
+  },
+  "remove": {
+    "none": "No hay canción en esa posición.",
+    "success": "Eliminado {0}."
+  },
+  "role": {
+    "added": "{0} se ha agregado a {1}.",
+    "cannot_edit": "No puedo editar la función de {0} porque están por encima de mi función.",
+    "removed": "{0} se ha eliminado de {1}.",
+    "roleabove": "Este papel está por encima de su función y no se puede añadir ni quitar.",
+    "userabove": "{0} tiene una función por encima de ti y no se puede editar."
+  },
+  "shibe": {
+    "title": "🐶 ¡Aquí tienes la foto de tu perro!"
+  },
+  "ship": {
+    "title": "{0} - ¡{1} de coincidencia! <:TFRBlepSmirk:655517665900625932>"
+  },
+  "shuffle": {
+    "none": "No hay cola para mezclar.",
+    "success": "Barajada!"
+  },
+  "skip": {
+    "none": "No hay ninguna canción sonando.",
+    "success": "Omitida."
+  },
+  "slowmode": {
+    "error": "Discord resuelto con un error.",
+    "title": "{:check:} Establecer el modo lento en {0}"
+  },
+  "vote": {
+    "info": "Puedes votar por el bot [aquí]({0})",
+    "perks": "Bono de 2x puntos\nEnfriamientos de NSFW más cortos\nDura hasta 12 horas",
+    "titles": {
+      "perks": "Beneficios",
+      "vote": "Como votar"
+    },
+    "voted": "Ya has votado. Puede volver a votar [aquí]({0}) en 12 horas."
   },
   "welcome-channel": {
     "info": "El canal de bienvenida actual es **{0}**.",
-    "none": "No hay ningún canal de bienvenida establecido.",
     "invalid": "`{0}` no es un canal válido.",
+    "none": "No hay ningún canal de bienvenida establecido.",
     "success": {
-      "normal": "Se configuró correctamente el canal de bienvenida en **{0}**.",
-      "none": "Establezca correctamente el canal de bienvenida en `ninguno`."
+      "none": "Establezca correctamente el canal de bienvenida en `ninguno`.",
+      "normal": "Se configuró correctamente el canal de bienvenida en **{0}**."
     }
   },
-  "about": {
-    "title": "Sobre {0}",
-    "description": "{0} es el robot furry, utilitario y de moderación de más rápido crecimiento en Discord, y ayuda con más de {1} servidores.",
-    "info": "{0} se puede agregar a su servidor usando \"{1}invite\"",
-    "meettheteam": "Conocer al equipo",
-    "specialthanks": "Gracias especiales"
-  },
-  "create-invite": {
-    "title": "Éxito",
-    "description": "{:check:} Hice correctamente una invitación a {0}.",
-    "invite": "Enlace de invitación",
-    "max": "Usos máximos",
-    "exp": "Expira después de",
-    "temp": "Membresía temporal",
-    "enabled": "Activada",
-    "disabled": "Discapacitada",
-    "unable": "No puedo crear una invitación para este canal."
-  },
-  "history": {
-    "title": "Historia",
-    "none": "No pude encontrar el mensaje que buscabas :(\nEs posible que el mensaje se haya borrado de mi memoria. En ese caso, no podré encontrarlo."
-  },
-  "invite": {
-    "title": {
-      "add": "Agrégame",
-      "support": "Apoyo",
-      "donate": "Donar"
-    },
-    "bot": "Puedes agregar el bot [aquí]({0})",
-    "support": "Si necesita ayuda, no dude en pedirnos ayuda en nuestro servidor de asistencia: {0}",
-    "patreon": "Si desea apoyar el desarrollo de {0} y obtener beneficios, considere hacer una donación aquí: {1} {:furry.fingergun:}"
-  },
-  "permissions": {
-    "total": "Todos los permisos ({0})",
-    "user": "Tus permisos ({0})",
-    "info": "Nombre: Hexadecimal"
+  "yiff": {
+    "title": [
+      "Apuesto a que este chico tiene un lindo trasero",
+      "Aquí está el porno de élite que solicitaste:",
+      "Este tipo se ve más sabroso que yo",
+      "Soy más grande que eso, y solo soy una pata",
+      "Lindo floofer, ¿eh?"
+    ]
   }
 }

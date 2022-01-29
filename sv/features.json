@@ -1,11 +1,11 @@
 {
   "lottery": {
-    "disabled": "Lotteriet är förnuvarande stängt.",
-    "banned": "Du är för nuvarande avstängd från lotterier.",
     "active": "Ett lotteri äger rum just nu.",
+    "banned": "Du är för nuvarande avstängd från lotterier.",
+    "disabled": "Lotteriet är förnuvarande stängt.",
     "insufficient": {
-      "single": "Du har inte nog med pengar för att köpa en lott.",
-      "multiple": "Du har inte råd med så många lotter."
+      "multiple": "Du har inte råd med så många lotter.",
+      "single": "Du har inte nog med pengar för att köpa en lott."
     },
     "maximum": {
       "normal": "1.000 lotter är maxantalet.\nBli en premiumanvändare genom att donera på Patreon och få ett maxantal om 100.000 lotter: <{0}>",

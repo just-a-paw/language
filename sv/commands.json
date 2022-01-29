@@ -1,22 +1,5 @@
 {
-  "globals": {
-    "music": {
-      "noplayer": "Det finns inte någon aktiv uppspelning inom den här servern.",
-      "novc": "Du måste vara i en röstkanal för att använda det här kommandot!",
-      "active": "Jag spelar för tillfället musik i en annan röstkanal.",
-      "emptyqueue": "Kön är tom."
-    },
-    "reddit": {
-      "image": "Kan du inte se bilden? [Klicka mig]({0}).",
-      "video": "[Klicka mig för att se videon]({0})",
-      "error": "Åh nej, det verkar som ett fel uppstod medans den här bilden hämtades.\n```javascript\n{0}: {1}\n```\nOroa dig inte över detta! Dessa fel händer väldigt sällan och utvecklargruppen känner till dem.\nDet bästa du kan göra är att återkomma om några minuter så kommer felen inte att återupprepas."
-    },
-    "points": {
-      "notenough": "Hoppsan! Det verkar som du inte har nog med poäng för att göra det där."
-    }
-  },
   "8ball": {
-    "question": "Fråga",
     "answer": "Svar",
     "list": [
       "Ja",
@@ -35,198 +18,41 @@
       "Beror på vädret",
       "Så sant som att månen är gjord av ost",
       "Nästan garanterat"
-    ]
+    ],
+    "question": "Fråga"
+  },
+  "about": {
+    "description": "{0} är den snabbast växande furry-, nytto- och moderation-botten på Discord och hjälper till med över {1} servrar.",
+    "info": "{0} kan läggas till din server genom att använda \"{1}invite\"",
+    "meettheteam": "Möt teamet",
+    "specialthanks": "Speciellt tack",
+    "title": "Om {0}"
   },
   "avatar": {
-    "description": "Få en URL till en användares profilbild.",
-    "examples": [
-      "avatar @Griefs#9476"
-    ],
     "args": {
       "user": {
-        "prompt": "Vems profilbild skulle du vilja få?",
-        "label": "{lang:words.user}"
+        "label": "{lang:words.user}",
+        "prompt": "Vems profilbild skulle du vilja få?"
       }
     },
+    "description": "Få en URL till en användares profilbild.",
+    "examples": ["avatar @Griefs#9476"],
     "title": {
-      "valid": "Här är profilbilden för {0}. [[URL]]({1}).",
-      "invalid": "{0} har ingen profilbild."
+      "invalid": "{0} har ingen profilbild.",
+      "valid": "Här är profilbilden för {0}. [[URL]]({1})."
     }
   },
   "birb": {
     "title": "🦜 Här är din fågelbild!"
   },
-  "cat": {
-    "title": "🐱 Här är din kattbild!"
-  },
-  "corona": {
-    "none": "Landet kunde inte hittas eller så finns inga fall där.",
-    "nostats": "COVID-19-statistik är otilgänglig för tillfället.",
-    "nocountry": "Kunde inte hitta någon data för det landet.",
-    "title": "Fall i {0}",
-    "info": "Här är fall av COVID-19 i {0}.\nSist uppdaterad för {1} sen.",
-    "titles": {
-      "cases": "Fall",
-      "deaths": "Dödsfall",
-      "infected": "Insjuknade",
-      "cured": "Friskförklarade",
-      "tests": "Tester",
-      "donations": "Donationer"
-    },
-    "donations": "**Totala donationer**: £{0}\n**Totala donatorer**: {1} personer\nSnälla överväg att donera till NHS på JustGiving för att stödja folk i nöd i dessa prövande tider [här]({2} \"akut vädjan angående COVID-19\")",
-    "format": "**Totalt**: {0}\n**Idag**: {1}"
-  },
-  "e6": {
-    "searching": "Söker {:loading:}",
-    "none": "Hittade inga resultat med dem angivna etiketterna.",
-    "download": "Ladda ner",
-    "video": "**[Det här inlägget har en video. För att se den, klicka här]({0})**",
-    "source": "Källa",
-    "postid": "Inläggets ID: {0}",
-    "error": "{0} återkom med ett fel.",
-    "full": {
-      "sources": "Källor: {0}",
-      "score": "Poäng: {0}"
-    },
-    "tags": {
-      "title": "Etiketter",
-      "artist": "Artister: ",
-      "copyright": "Upphovsrätt: ",
-      "character": "Karaktärer: ",
-      "general": "Annat: ",
-      "additional": "och {0} mer"
-    }
-  },
-  "fox": {
-    "title": "🦊 Här är din rävbild!"
-  },
-  "fursuit": {
-    "title": "🐾 Här är din pälsdräktsbild!"
-  },
-  "shibe": {
-    "title": "🐶 Här är din shibabild!"
-  },
-  "daily": {
-    "success": "{:check:} Du har tagit emot din dagliga poängkvot á **{0}** poäng!\nKom tillbaka imorgon vid **0:00 UTC** för **10.000** extra poäng! (Max 50.000 poäng, kombosar återställs efter en missad dag)",
-    "failed": "Hoppsan! Det verkar som du redan har tagit emot dina dagliga poäng. Återkom efter {0}.\n"
-  },
-  "donate": {
-    "success": "{:check:} Du donerade **{0}** poäng till {1}.",
-    "self": "Du kan inte donera till dig själv, pälsboll.",
-    "bot": "Du kan inte donera till bottar, dumbom."
-  },
-  "leaderboard": {
-    "title": "Placering",
-    "info": "Du är **#{0}** på topplistan med **{1}** poäng!",
-    "topfirst": "{0}{1}. {2}\n> **{3}** poäng",
-    "top": "{1}. {2} med **{3}** poäng!",
-    "more": "**{0}** andra användare är just nu på topplistan.",
-    "to": "{0} till {1}",
-    "server": "Topp 10 användarna i servern",
-    "world": "Topp 10 i världen"
-  },
-  "lottery": {
-    "info": "{:check:} Jag har lagt till dig till lotteriet för {0} poäng.\n[Se till att gå med i Discordservern för att få reda på vem som vann i lotterikanalen.](https://discord.gg/Kc7gDBb)",
-    "error": "Hoppsan, det verkar som ett fel uppstod.",
-    "entered": "Du har redan gått med i lotteriet."
-  },
-  "points": {
-    "points": "**{0}** poäng.",
-    "placement": "**#{0}** på topplistan",
-    "user": "Poäng för {0}",
-    "self": "Dina poäng",
-    "bonus": {
-      "title": "Aktiva bonusar",
-      "none": {
-        "self": "Du har inte några bonusar\nAnvänd {0} för en gratis bonus.",
-        "user": "Den här användaren har inte några bonusar\nAnvänd {0} för en gratis bonus."
-      },
-      "voted": {
-        "self": "Du har röstat **(2x-bonus)**",
-        "user": "Den här anävndaren har röstat **(2x-bonus)**"
-      }
-    }
-  },
-  "vote": {
-    "info": "Du kan rösta på botten [här]({0})",
-    "perks": "2x-poängsbonus\nKortare NSFW-väntetider\nRäcker upp till 12 timmar",
-    "voted": "Du har redan röstat. Du kan rösta igen [här]({0}) om 12 timmar.",
-    "titles": {
-      "perks": "Förmåner",
-      "vote": "Hur man röstar"
-    }
-  },
-  "role": {
-    "roleabove": "Den här rollen är ovanför din roll och kan varken läggas till eller tas bort.",
-    "userabove": "{0} har en roll ovanför dig och kan inte redigeras.",
-    "cannot_edit": "Jag kan inte redigera rollerna på {0} eftersom hen är ovanför min roll",
-    "added": "{0} har lagts till {1}.",
-    "removed": "{0} har tagits bort från {1}."
-  },
-  "slowmode": {
-    "title": "{:check:} Satte väntetiden till {0}",
-    "error": "Discord återkom med ett fel."
-  },
-  "clear": {
-    "success": "Rensade {0} låtar."
-  },
-  "join": {
-    "novc": "Du måste vara i en röstkanal för att anväda det här kommandot!"
-  },
-  "loop": {
-    "enabled": "Upprepning har slagits på.",
-    "disabled": "Upprepning har slagits av."
-  },
-  "looptrack": {
-    "enabled": "Spårupprepning har slagits på.",
-    "disabled": "Spårupprepning har slagits av."
-  },
-  "lyrics": {
-    "none": "Ingen låttext hittades för den aktuella låten."
-  },
-  "pause": {
-    "paused": "Uppspelningen är pausad. \\>Återupptar.",
-    "playing": "Pausad."
-  },
-  "play": {
-    "nosong": "Jag kan inte hitta den låten.",
-    "added": {
-      "multiple": "Lade till {0} låtar till kön.",
-      "single": {
-        "queued": "Lade till {0} till kön: `Plats {1}`",
-        "playing": "Lade till {0} till kön: `Spelas upp nu`"
-      }
-    },
-    "playing": "Uppspelning är inte pausad.",
-    "paused": "Återupptagen."
-  },
-  "playing": {
-    "none": "Ingen låt spelas.",
-    "current": "Spelar nu upp [{0}]({1})\n{2}"
-  },
-  "queue": {
-    "description": "Totalt {0} låtar\nTotalt {1} i längd\n{lang:commands.queue.loop.{2}}\n{lang:commands.queue.looptrack.{3}}",
-    "loop": {
-      "enabled": "✅ Låtupprepning påslagen",
-      "disabled": "❌ Låtupprepning avslagen"
-    },
-    "looptrack": {
-      "enabled": "✅ Köupprepning påslagen",
-      "disabled": "❌ Köupprepning avslagen"
-    },
-    "current": "Spelar nu upp"
-  },
-  "remove": {
-    "none": "Det finns ingen låt på den platsen.",
-    "success": "Tog bort {0}."
-  },
-  "shuffle": {
-    "none": "Det finns ingen kö att blanda.",
-    "success": "Blandad!"
-  },
-  "skip": {
-    "none": "Ingen låt spelas upp.",
-    "success": "Hoppade över."
+  "boop": {
+    "title": [
+      "{0} boppar försiktigt {1} på hens våta nos.",
+      "{0} ger {1} en puss på nosen.",
+      "{0} hoppar på {1} och duttar hens nos.",
+      "{0} ger plötsligt {1} en smack på nosen med hens tass.",
+      "{1} får en överraskningsdutt på hens nos av {0} och hens tass."
+    ]
   },
   "bulge": {
     "title": [
@@ -239,23 +65,42 @@
       "Ojsan. Den är så stor att jag kan se min spegelbild i den."
     ]
   },
-  "yiff": {
-    "title": [
-      "Jag slår vad om att den här killen har en söt rumpa.",
-      "Här är elitporren du efterfrågade:",
-      "Den här killen ser mer mumsigare ut än mig själv.",
-      "***JAG*** är större än sådär, och jag är bara en tass.",
-      "Söt fluffare, va?"
-    ]
+  "cat": {
+    "title": "🐱 Här är din kattbild!"
   },
-  "boop": {
-    "title": [
-      "{0} boppar försiktigt {1} på hens våta nos.",
-      "{0} ger {1} en puss på nosen.",
-      "{0} hoppar på {1} och duttar hens nos.",
-      "{0} ger plötsligt {1} en smack på nosen med hens tass.",
-      "{1} får en överraskningsdutt på hens nos av {0} och hens tass."
-    ]
+  "clear": {
+    "success": "Rensade {0} låtar."
+  },
+  "coinflip": {
+    "title": ["⭐ Det är krona!", "🌙 Det är klave!"]
+  },
+  "corona": {
+    "donations": "**Totala donationer**: £{0}\n**Totala donatorer**: {1} personer\nSnälla överväg att donera till NHS på JustGiving för att stödja folk i nöd i dessa prövande tider [här]({2} \"akut vädjan angående COVID-19\")",
+    "format": "**Totalt**: {0}\n**Idag**: {1}",
+    "info": "Här är fall av COVID-19 i {0}.\nSist uppdaterad för {1} sen.",
+    "nocountry": "Kunde inte hitta någon data för det landet.",
+    "none": "Landet kunde inte hittas eller så finns inga fall där.",
+    "nostats": "COVID-19-statistik är otilgänglig för tillfället.",
+    "title": "Fall i {0}",
+    "titles": {
+      "cases": "Fall",
+      "cured": "Friskförklarade",
+      "deaths": "Dödsfall",
+      "donations": "Donationer",
+      "infected": "Insjuknade",
+      "tests": "Tester"
+    }
+  },
+  "create-invite": {
+    "description": "{:check:} Jag skapade framgångsrikt en inbjudan till {0}.",
+    "disabled": "Av",
+    "enabled": "På",
+    "exp": "Går ut efter",
+    "invite": "Inbjudninglänk",
+    "max": "Maxanvändningar",
+    "temp": "Temporärt medlemskap",
+    "title": "Framgång",
+    "unable": "Jag kan inte skapa en inbjudan till den här kanalen."
   },
   "cuddle": {
     "title": [
@@ -266,6 +111,39 @@
       "{0} tar tag i {1} och tvingar hen in i en omfamning.",
       "{0} ligger ovanpå {1} medans de håller i varandra i en varsam kram."
     ]
+  },
+  "daily": {
+    "failed": "Hoppsan! Det verkar som du redan har tagit emot dina dagliga poäng. Återkom efter {0}.\n",
+    "success": "{:check:} Du har tagit emot din dagliga poängkvot á **{0}** poäng!\nKom tillbaka imorgon vid **0:00 UTC** för **10.000** extra poäng! (Max 50.000 poäng, kombosar återställs efter en missad dag)"
+  },
+  "dice": {
+    "title": "🎲 Du rullade en {0}!"
+  },
+  "donate": {
+    "bot": "Du kan inte donera till bottar, dumbom.",
+    "self": "Du kan inte donera till dig själv, pälsboll.",
+    "success": "{:check:} Du donerade **{0}** poäng till {1}."
+  },
+  "e6": {
+    "download": "Ladda ner",
+    "error": "{0} återkom med ett fel.",
+    "full": {
+      "score": "Poäng: {0}",
+      "sources": "Källor: {0}"
+    },
+    "none": "Hittade inga resultat med dem angivna etiketterna.",
+    "postid": "Inläggets ID: {0}",
+    "searching": "Söker {:loading:}",
+    "source": "Källa",
+    "tags": {
+      "additional": "och {0} mer",
+      "artist": "Artister: ",
+      "character": "Karaktärer: ",
+      "copyright": "Upphovsrätt: ",
+      "general": "Annat: ",
+      "title": "Etiketter"
+    },
+    "video": "**[Det här inlägget har en video. För att se den, klicka här]({0})**"
   },
   "flop": {
     "title": [
@@ -278,6 +156,32 @@
       "{0} blir uttröttad och bestämmer sig för att ta sig en tupplur på {1}."
     ]
   },
+  "fox": {
+    "title": "🦊 Här är din rävbild!"
+  },
+  "fursuit": {
+    "title": "🐾 Här är din pälsdräktsbild!"
+  },
+  "globals": {
+    "music": {
+      "active": "Jag spelar för tillfället musik i en annan röstkanal.",
+      "emptyqueue": "Kön är tom.",
+      "noplayer": "Det finns inte någon aktiv uppspelning inom den här servern.",
+      "novc": "Du måste vara i en röstkanal för att använda det här kommandot!"
+    },
+    "points": {
+      "notenough": "Hoppsan! Det verkar som du inte har nog med poäng för att göra det där."
+    },
+    "reddit": {
+      "error": "Åh nej, det verkar som ett fel uppstod medans den här bilden hämtades.\n```javascript\n{0}: {1}\n```\nOroa dig inte över detta! Dessa fel händer väldigt sällan och utvecklargruppen känner till dem.\nDet bästa du kan göra är att återkomma om några minuter så kommer felen inte att återupprepas.",
+      "image": "Kan du inte se bilden? [Klicka mig]({0}).",
+      "video": "[Klicka mig för att se videon]({0})"
+    }
+  },
+  "history": {
+    "none": "Jag kunde inte hitta meddelandet du letade efter :(\nMeddelandet kan ha raderats från mitt minne. I det fallet kommer jag inte kunna hitta det.",
+    "title": "Historik"
+  },
   "hold": {
     "title": [
       "{0} håller kärleksfullt i {1} i sin mjuka, varsamma famn.",
@@ -286,10 +190,7 @@
     ]
   },
   "howl": {
-    "title": [
-      "{0} hör hur andra ylar och börjar yla med.",
-      "{0} höjer sitt huvud och börjar yla mot dem andra djuren."
-    ]
+    "title": ["{0} hör hur andra ylar och börjar yla med.", "{0} höjer sitt huvud och börjar yla mot dem andra djuren."]
   },
   "hug": {
     "title": [
@@ -300,6 +201,19 @@
       "{0} blir invingad i en lång kram av {1}."
     ]
   },
+  "invite": {
+    "bot": "Du kan lägga till roboten [här]({0})",
+    "patreon": "Om du skulle vilja stödja utvecklingen av {0} och få förmåner fundera på att donera här: {1} {:furry.fingergun:}",
+    "support": "Om du behöver assistans känn dig välkommen att fråga oss om hjälp på vår supportserver.",
+    "title": {
+      "add": "Lägg till mig",
+      "donate": "Donera",
+      "support": "Stöd"
+    }
+  },
+  "join": {
+    "novc": "Du måste vara i en röstkanal för att anväda det här kommandot!"
+  },
   "kiss": {
     "title": [
       "{1} får en lång, våt kyss av {0}.",
@@ -308,6 +222,44 @@
       "{0} ger {1} en mjuk puss på kinden. Kan du försöka att inte rodna?"
     ]
   },
+  "language": {
+    "info": "Det nuvarande botspråket är **{0}**.",
+    "invalid": "`{0}` är inte ett giltigt språk.\nAnvänd {1}help \"settings language\" för hela listan av tillgängliga språk.",
+    "success": {
+      "default": "Satte framgångsrikt botspråket till `default` (**{0}**).",
+      "normal": "Satte framgångsrikt botspråket till **{0}**."
+    }
+  },
+  "leaderboard": {
+    "info": "Du är **#{0}** på topplistan med **{1}** poäng!",
+    "more": "**{0}** andra användare är just nu på topplistan.",
+    "server": "Topp 10 användarna i servern",
+    "title": "Placering",
+    "to": "{0} till {1}",
+    "top": "{1}. {2} med **{3}** poäng!",
+    "topfirst": "{0}{1}. {2}\n> **{3}** poäng",
+    "world": "Topp 10 i världen"
+  },
+  "levelup-channel": {
+    "info": "Den nuvarande nivåmeddelandekanalen är **{0}**.",
+    "invalid": "`{0}` är inte en giltig kanal.",
+    "none": "Ingen nivåmeddelandekanal har specificerats.",
+    "success": {
+      "none": "Satte framgångsrikt nivåmeddelandekanalen till `none`.",
+      "normal": "Satte framgångsrikt nivåmeddelandekanalen till **{0}**."
+    }
+  },
+  "levelups": {
+    "info": {
+      "off": "Nivåmeddelandena är **avslagna**.",
+      "on": "Nivåmeddelandena är **påslagna**."
+    },
+    "success": {
+      "default": "Satte framgångsrikt nivåmeddelanden till `default` (**{0}**).",
+      "off": "Slog framgångsrikt **av** nivåmedelanden.",
+      "on": "Slog framgångsrikt **på** nivåmeddelanden."
+    }
+  },
   "lick": {
     "title": [
       "{1} får en våt, slemmig slick på ansiktet av {0}. Stygg hund.",
@@ -315,123 +267,163 @@
       "{0} får sin varma, våta saliv över hela ansiktet av {1}."
     ]
   },
+  "logs": {
+    "info": "Den nuvarande loggkanalen är **{0}**.",
+    "invalid": "`{0}` är inte en giltig kanal.",
+    "none": "Ingen loggkanal har specificerats.",
+    "success": {
+      "none": "Satte framgångsrikt loggkanalen till `none`.",
+      "normal": "Satte framgångsrikt loggkanalen till **{0}**."
+    }
+  },
+  "loop": {
+    "disabled": "Upprepning har slagits av.",
+    "enabled": "Upprepning har slagits på."
+  },
+  "looptrack": {
+    "disabled": "Spårupprepning har slagits av.",
+    "enabled": "Spårupprepning har slagits på."
+  },
+  "lottery": {
+    "entered": "Du har redan gått med i lotteriet.",
+    "error": "Hoppsan, det verkar som ett fel uppstod.",
+    "info": "{:check:} Jag har lagt till dig till lotteriet för {0} poäng.\n[Se till att gå med i Discordservern för att få reda på vem som vann i lotterikanalen.](https://discord.gg/Kc7gDBb)"
+  },
+  "lyrics": {
+    "none": "Ingen låttext hittades för den aktuella låten."
+  },
+  "pause": {
+    "paused": "Uppspelningen är pausad. \\>Återupptar.",
+    "playing": "Pausad."
+  },
+  "permissions": {
+    "info": "Namn: Hexadecimal",
+    "total": "Alla behörigheter ({0})",
+    "user": "Dina behörigheter ({0})"
+  },
+  "play": {
+    "added": {
+      "multiple": "Lade till {0} låtar till kön.",
+      "single": {
+        "playing": "Lade till {0} till kön: `Spelas upp nu`",
+        "queued": "Lade till {0} till kön: `Plats {1}`"
+      }
+    },
+    "nosong": "Jag kan inte hitta den låten.",
+    "paused": "Återupptagen.",
+    "playing": "Uppspelning är inte pausad."
+  },
+  "playing": {
+    "current": "Spelar nu upp [{0}]({1})\n{2}",
+    "none": "Ingen låt spelas."
+  },
+  "points": {
+    "bonus": {
+      "none": {
+        "self": "Du har inte några bonusar\nAnvänd {0} för en gratis bonus.",
+        "user": "Den här användaren har inte några bonusar\nAnvänd {0} för en gratis bonus."
+      },
+      "title": "Aktiva bonusar",
+      "voted": {
+        "self": "Du har röstat **(2x-bonus)**",
+        "user": "Den här anävndaren har röstat **(2x-bonus)**"
+      }
+    },
+    "placement": "**#{0}** på topplistan",
+    "points": "**{0}** poäng.",
+    "self": "Dina poäng",
+    "user": "Poäng för {0}"
+  },
   "propose": {
     "title": [
       "Ojsan. {0} går ner på knä och friar till {1}...Det gick snabbt! Vad säger du {1}?",
       "{0} tar fram en liten ask från sin ficka och tar fram en ring för {1}. Den ser billig ut, så jag skulle säga nej! Vad säger du {1}?"
     ]
   },
-  "ship": {
-    "title": "{0} - {1} kompatibla! <:TFRBlepSmirk:655517665900625932>"
-  },
-  "language": {
-    "info": "Det nuvarande botspråket är **{0}**.",
-    "invalid": "`{0}` är inte ett giltigt språk.\nAnvänd {1}help \"settings language\" för hela listan av tillgängliga språk.",
-    "success": {
-      "normal": "Satte framgångsrikt botspråket till **{0}**.",
-      "default": "Satte framgångsrikt botspråket till `default` (**{0}**)."
-    }
-  },
-  "levelup-channel": {
-    "info": "Den nuvarande nivåmeddelandekanalen är **{0}**.",
-    "none": "Ingen nivåmeddelandekanal har specificerats.",
-    "invalid": "`{0}` är inte en giltig kanal.",
-    "success": {
-      "normal": "Satte framgångsrikt nivåmeddelandekanalen till **{0}**.",
-      "none": "Satte framgångsrikt nivåmeddelandekanalen till `none`."
-    }
-  },
-  "levelups": {
-    "info": {
-      "on": "Nivåmeddelandena är **påslagna**.",
-      "off": "Nivåmeddelandena är **avslagna**."
-    },
-    "success": {
-      "on": "Slog framgångsrikt **på** nivåmeddelanden.",
-      "off": "Slog framgångsrikt **av** nivåmedelanden.",
-      "default": "Satte framgångsrikt nivåmeddelanden till `default` (**{0}**)."
-    }
-  },
-  "logs": {
-    "info": "Den nuvarande loggkanalen är **{0}**.",
-    "none": "Ingen loggkanal har specificerats.",
-    "invalid": "`{0}` är inte en giltig kanal.",
-    "success": {
-      "normal": "Satte framgångsrikt loggkanalen till **{0}**.",
-      "none": "Satte framgångsrikt loggkanalen till `none`."
-    }
-  },
   "qotd-manager-role": {
     "info": "Den nuvarande QoTD-underhållarrollen är **{0}**.",
-    "none": "Ingen QoTD-underhållarroll har specificerats.",
     "invalid": "`{0}` är inte en giltig QoTD-underhållarroll.",
+    "none": "Ingen QoTD-underhållarroll har specificerats.",
     "success": {
-      "normal": "Satte framgångsrikt QoTD-underhållarrollen till **{0}**.",
-      "none": "Satte framgångsrikt QoTD-underhållarrollen till `none`."
+      "none": "Satte framgångsrikt QoTD-underhållarrollen till `none`.",
+      "normal": "Satte framgångsrikt QoTD-underhållarrollen till **{0}**."
     }
   },
   "qotd-role": {
     "info": "Den nuvarande QoTD-aviseringsrollen är **{0}**.",
-    "none": "Ingen QoTD-aviseringsroll har specificerats.",
     "invalid": "`{0}` är inte en giltig QoTD-aviseringsroll.",
+    "none": "Ingen QoTD-aviseringsroll har specificerats.",
     "success": {
-      "normal": "Satte framgångsrikt QoTD-aviseringsrollen till **{0}**.",
-      "none": "Satte framgångsrikt QoTD-aviseringsrollen till `none`."
+      "none": "Satte framgångsrikt QoTD-aviseringsrollen till `none`.",
+      "normal": "Satte framgångsrikt QoTD-aviseringsrollen till **{0}**."
     }
+  },
+  "queue": {
+    "current": "Spelar nu upp",
+    "description": "Totalt {0} låtar\nTotalt {1} i längd\n{lang:commands.queue.loop.{2}}\n{lang:commands.queue.looptrack.{3}}",
+    "loop": {
+      "disabled": "❌ Låtupprepning avslagen",
+      "enabled": "✅ Låtupprepning påslagen"
+    },
+    "looptrack": {
+      "disabled": "❌ Köupprepning avslagen",
+      "enabled": "✅ Köupprepning påslagen"
+    }
+  },
+  "remove": {
+    "none": "Det finns ingen låt på den platsen.",
+    "success": "Tog bort {0}."
+  },
+  "role": {
+    "added": "{0} har lagts till {1}.",
+    "cannot_edit": "Jag kan inte redigera rollerna på {0} eftersom hen är ovanför min roll",
+    "removed": "{0} har tagits bort från {1}.",
+    "roleabove": "Den här rollen är ovanför din roll och kan varken läggas till eller tas bort.",
+    "userabove": "{0} har en roll ovanför dig och kan inte redigeras."
+  },
+  "shibe": {
+    "title": "🐶 Här är din shibabild!"
+  },
+  "ship": {
+    "title": "{0} - {1} kompatibla! <:TFRBlepSmirk:655517665900625932>"
+  },
+  "shuffle": {
+    "none": "Det finns ingen kö att blanda.",
+    "success": "Blandad!"
+  },
+  "skip": {
+    "none": "Ingen låt spelas upp.",
+    "success": "Hoppade över."
+  },
+  "slowmode": {
+    "error": "Discord återkom med ett fel.",
+    "title": "{:check:} Satte väntetiden till {0}"
+  },
+  "vote": {
+    "info": "Du kan rösta på botten [här]({0})",
+    "perks": "2x-poängsbonus\nKortare NSFW-väntetider\nRäcker upp till 12 timmar",
+    "titles": {
+      "perks": "Förmåner",
+      "vote": "Hur man röstar"
+    },
+    "voted": "Du har redan röstat. Du kan rösta igen [här]({0}) om 12 timmar."
   },
   "welcome-channel": {
     "info": "Den nuvarande välkommstkanalen är **{0}**.",
-    "none": "Ingen välkommstkanal har specificerats.",
     "invalid": "`{0}` är inte en giltig kanal.",
+    "none": "Ingen välkommstkanal har specificerats.",
     "success": {
-      "normal": "Satte framgångsrikt välkommstkanalen till **{0}**.",
-      "none": "Satte framgångsrikt välkommstkanalen till `none`."
+      "none": "Satte framgångsrikt välkommstkanalen till `none`.",
+      "normal": "Satte framgångsrikt välkommstkanalen till **{0}**."
     }
   },
-  "about": {
-    "title": "Om {0}",
-    "description": "{0} är den snabbast växande furry-, nytto- och moderation-botten på Discord och hjälper till med över {1} servrar.",
-    "info": "{0} kan läggas till din server genom att använda \"{1}invite\"",
-    "meettheteam": "Möt teamet",
-    "specialthanks": "Speciellt tack"
-  },
-  "create-invite": {
-    "title": "Framgång",
-    "description": "{:check:} Jag skapade framgångsrikt en inbjudan till {0}.",
-    "invite": "Inbjudninglänk",
-    "max": "Maxanvändningar",
-    "exp": "Går ut efter",
-    "temp": "Temporärt medlemskap",
-    "enabled": "På",
-    "disabled": "Av",
-    "unable": "Jag kan inte skapa en inbjudan till den här kanalen."
-  },
-  "history": {
-    "title": "Historik",
-    "none": "Jag kunde inte hitta meddelandet du letade efter :(\nMeddelandet kan ha raderats från mitt minne. I det fallet kommer jag inte kunna hitta det."
-  },
-  "invite": {
-    "title": {
-      "add": "Lägg till mig",
-      "support": "Stöd",
-      "donate": "Donera"
-    },
-    "bot": "Du kan lägga till roboten [här]({0})",
-    "support": "Om du behöver assistans känn dig välkommen att fråga oss om hjälp på vår supportserver.",
-    "patreon": "Om du skulle vilja stödja utvecklingen av {0} och få förmåner fundera på att donera här: {1} {:furry.fingergun:}"
-  },
-  "permissions": {
-    "total": "Alla behörigheter ({0})",
-    "user": "Dina behörigheter ({0})",
-    "info": "Namn: Hexadecimal"
-  },
-  "coinflip": {
+  "yiff": {
     "title": [
-      "⭐ Det är krona!",
-      "🌙 Det är klave!"
+      "Jag slår vad om att den här killen har en söt rumpa.",
+      "Här är elitporren du efterfrågade:",
+      "Den här killen ser mer mumsigare ut än mig själv.",
+      "***JAG*** är större än sådär, och jag är bara en tass.",
+      "Söt fluffare, va?"
     ]
-  },
-  "dice": {
-    "title": "🎲 Du rullade en {0}!"
   }
 }

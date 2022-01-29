@@ -1,11 +1,11 @@
 {
   "lottery": {
-    "disabled": "La lotería está actualmente deshabilitada.",
-    "banned": "Actualmente está prohibido participar en loterías..",
     "active": "Actualmente se está llevando a cabo una lotería.",
+    "banned": "Actualmente está prohibido participar en loterías..",
+    "disabled": "La lotería está actualmente deshabilitada.",
     "insufficient": {
-      "single": "No tienes suficiente dinero para comprar un boleto.",
-      "multiple": "No puedes pagar tantas entradas."
+      "multiple": "No puedes pagar tantas entradas.",
+      "single": "No tienes suficiente dinero para comprar un boleto."
     },
     "maximum": {
       "normal": "1.000 boletos es el máximo.\nConviértase en un usuario premium donando en Patreon por un límite de 100.000 boletos: <{0}>",
