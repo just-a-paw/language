@@ -9,9 +9,9 @@ jobs:
         uses: MrGriefs/validate-json-action@master
         with:
           schema: ./locale.schema.json
-          jsons: ./locale.json
+          jsons: ./??/locale.json
       - name: Validate JSON config
         uses: MrGriefs/validate-json-action@master
         with:
           schema: ./schema.json
-          jsons: ./??/*.json
+          jsons: ./??/!(locale).json
