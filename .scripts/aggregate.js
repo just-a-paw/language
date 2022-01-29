@@ -5,6 +5,8 @@ const data = require('../index');
 const dot = require('dot-object');
 const fs = require('node:fs');
 
+// ignore config files
+for (const code in data) delete data[code].locale;
 const english = new Intl.DisplayNames('en', { type: 'language' });
 const text = [];
 

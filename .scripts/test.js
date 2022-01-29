@@ -6,6 +6,8 @@ const cldrData = require('cldr-data');
 const dot = require('dot-object');
 
 if (!data.en) throw new Error('English localisation does not exist');
+// ignore config files
+for (const code in data) delete data[code].locale;
 
 const stats = {
   warn: 0,
