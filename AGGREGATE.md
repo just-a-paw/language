@@ -13,7 +13,6 @@ Missing the following entries:
 * `commands.coinflip.title[1]`
 * `commands.dice.title`
 * `commands.urban.none`
-* `locale.contributors[0]`
 
 Contains deprecated entries:
 
@@ -36,7 +35,6 @@ Missing the following entries:
 * `features.lottery.maximum.premium`
 * `features.lottery.won.normal`
 * `features.lottery.won.voted`
-* `locale.contributors[0]`
 * `words.leaderboard`
 * `words.default`
 
@@ -45,6 +43,5 @@ Missing the following entries:
 Missing the following entries:
 
 * `commands.urban.none`
-* `locale.contributors[0]`
 
 <!-- BLOCK AGGREGATE END -->
