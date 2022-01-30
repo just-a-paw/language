@@ -5,6 +5,7 @@
   "main": "index.js",
   "scripts": {
     "aggregate": "node .scripts/aggregate.js",
+    "update-codeowners": "node .scripts/update-codeowners.js",
     "test": "npm run lint && node .scripts/test.js",
     "lint": "node .scripts/lint.js",
     "lint:fix": "node .scripts/lint.js --fix"
