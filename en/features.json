@@ -1,11 +1,11 @@
 {
   "lottery": {
-    "disabled": "The lottery is currently disabled.",
-    "banned": "You are currently banned from lotteries.",
     "active": "A lottery is currently taking place.",
+    "banned": "You are currently banned from lotteries.",
+    "disabled": "The lottery is currently disabled.",
     "insufficient": {
-      "single": "You don't have enough money to purchase a ticket.",
-      "multiple": "You can't afford that many tickets."
+      "multiple": "You can't afford that many tickets.",
+      "single": "You don't have enough money to purchase a ticket."
     },
     "maximum": {
       "normal": "1,000 tickets is the maximum.\nBecome a premium user by donating on Patreon for a limit of 100,000 tickets: <{0}>",

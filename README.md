@@ -21,7 +21,8 @@ If you would like to contribute and help translate Paw Bot, please read [Contrib
 ## Contributing
 
 If you would like to help translate Paw Bot, or improve already translated versions, read [Edit an existing locale](#edit-an-existing-locale) or [Audit your own locale](#audit-your-own-locale).  
-Don't understand these steps and want to help out? Don't worry! You can [contact us on our Discord server](#contact) or send us an email [translating@paw.bot](mailto:translating@paw.bot)
+Don't understand these steps and want to help out? Don't worry! You can [contact us on our Discord server](#contact) or send us an email [translating@paw.bot](mailto:translating@paw.bot)  
+An aggregate of translated languages can be found in [AGGREGATE.md](https://github.com/OfficialPawBot/language/blob/main/AGGREGATE.md).
 
 ### Rules
 
