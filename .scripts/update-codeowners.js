@@ -22,5 +22,5 @@ fs.writeFileSync(
   `# This file is generated.
 # Add yourself to the "locale.contributors" array instead.
 
-${Object.keys(contributors).map(code => `/${code}/`.padEnd(spacer + 3, ' ') + contributors[code].map(r => `@${r}`).join(' '))}`,
+${Object.keys(contributors).map(code => `/${code}/`.padEnd(spacer + 3, ' ') + contributors[code].map(r => `@${r}`).join(' ')).join('\n')}`,
 )
