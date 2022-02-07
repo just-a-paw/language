@@ -19,5 +19,5 @@ for (const ent of fs.readdirSync(__dirname, { withFileTypes: true })) {
       if (!name.endsWith('.json')) return false;
       return name.slice(0, name.length - 5);
     },
-  })
+  });
 }
