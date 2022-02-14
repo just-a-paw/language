@@ -35,8 +35,6 @@ Missing the following entries:
 
 ## `sv` Swedish (Svenska)
 
-Missing the following entries:
-
-* `commands.urban.none`
+Completed locale.
 
 <!-- BLOCK AGGREGATE END -->
