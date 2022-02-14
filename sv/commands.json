@@ -399,6 +399,9 @@
     "error": "Discord återkom med ett fel.",
     "title": "{:check:} Satte väntetiden till {0}"
   },
+  "urban": {
+    "none": "Jag kunde inte hitta det uppslagsordet i [urbandictionary.com](https://www.urbandictionary.com)."
+  },
   "vote": {
     "info": "Du kan rösta på botten [här]({0})",
     "perks": "2x-poängsbonus\nKortare NSFW-väntetider\nRäcker upp till 12 timmar",
