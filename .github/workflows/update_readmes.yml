@@ -22,10 +22,15 @@ jobs:
       - run: npm ci
       - run: npm test
       - run: npm run update-readmes
+        env:
+          CROWDIN_PROJECT_ID: ${{ secrets.CROWDIN_PROJECT_ID }}
+          CROWDIN_API_TOKEN: ${{ secrets.CROWDIN_API_TOKEN }}
       - run: git config user.name "Paw Bot"
       - run: git config user.email "translating@paw.bot"
       - run: git add AGGREGATE.md
+      - continue-on-error: true
+        run: git add [[:lower:]][[:lower:]]-[[:upper:]][[:upper:]]/README.md
+      - continue-on-error: true
+        run: git add [[:lower:]][[:lower:]].README.md
       - run: |
-          git add [[:lower:]][[:lower:]]-[[:upper:]][[:upper:]]/README.md
-          git add [[:lower:]][[:lower:]].README.md
           (git commit -m 'chore: 🤖 update readme' && git push) || echo "nothing to commit"
