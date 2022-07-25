@@ -20,12 +20,12 @@ jobs:
           distribution: 'temurin'
           java-version: '8'
       - run: npm ci
-      - run: npm test && npm run updates-readmes
-      - run: |
-          git config user.name "Paw Bot"
-          git config user.email "translating@paw.bot"
+      - run: npm test
+      - run: npm run update-readmes
+      - run: git config user.name "Paw Bot"
+      - run: git config user.email "translating@paw.bot"
+      - run: git add AGGREGATE.md
       - run: |
           git add [[:lower:]][[:lower:]]-[[:upper:]][[:upper:]]/README.md
           git add [[:lower:]][[:lower:]].README.md
-          git add AGGREGATE.md
           (git commit -m 'chore: 🤖 update readme' && git push) || echo "nothing to commit"
