@@ -24,8 +24,3 @@ Missing the following entries:
 * `commands.coinflip.title[1]` [Source](https://github.com/OfficialPawBot/language/blob/main/en-GB/commands.json#L75)
 * `commands.dice.title` [Source](https://github.com/OfficialPawBot/language/blob/main/en-GB/commands.json#L120)
 * `commands.urban.none` [Source](https://github.com/OfficialPawBot/language/blob/main/en-GB/commands.json#L406)
-* `locale.contributors[0]` [Source](https://github.com/OfficialPawBot/language/blob/main/en-GB/locale.json#L2)
-
-Contains deprecated entries:
-
-* [`locale.crowdin`](https://github.com/OfficialPawBot/language/blob/main/es-ES/locale.json#L2)

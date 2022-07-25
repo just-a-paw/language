@@ -23,10 +23,6 @@ Missing the following entries:
 * `commands.avatar.examples[0]` [Source](https://github.com/OfficialPawBot/language/blob/main/en-GB/commands.json#L39)
 * [`commands.bulge.title[3]`](https://github.com/OfficialPawBot/language/blob/main/sv-SE/commands.json#L60) [Source](https://github.com/OfficialPawBot/language/blob/main/en-GB/commands.json#L62)
 
-Contains deprecated entries:
-
-* [`locale.crowdin`](https://github.com/OfficialPawBot/language/blob/main/sv-SE/locale.json#L3)
-
 ## `es-ES` [European Spanish / Español de España][es-ES_here]
 
 [es-ES_crowdin]: https://crowdin.com/project/paw-bot/es-ES
@@ -51,11 +47,6 @@ Missing the following entries:
 * `commands.coinflip.title[1]` [Source](https://github.com/OfficialPawBot/language/blob/main/en-GB/commands.json#L75)
 * `commands.dice.title` [Source](https://github.com/OfficialPawBot/language/blob/main/en-GB/commands.json#L120)
 * `commands.urban.none` [Source](https://github.com/OfficialPawBot/language/blob/main/en-GB/commands.json#L406)
-* `locale.contributors[0]` [Source](https://github.com/OfficialPawBot/language/blob/main/en-GB/locale.json#L2)
-
-Contains deprecated entries:
-
-* [`locale.crowdin`](https://github.com/OfficialPawBot/language/blob/main/es-ES/locale.json#L2)
 
 ## `fr` [French / Français][fr_here]
 
@@ -90,9 +81,5 @@ Missing the following entries:
 * `features.lottery.maximum.premium` [Source](https://github.com/OfficialPawBot/language/blob/main/en-GB/features.json#L12)
 * `features.lottery.won.normal` [Source](https://github.com/OfficialPawBot/language/blob/main/en-GB/features.json#L15)
 * `features.lottery.won.voted` [Source](https://github.com/OfficialPawBot/language/blob/main/en-GB/features.json#L16)
-
-Contains deprecated entries:
-
-* [`locale.crowdin`](https://github.com/OfficialPawBot/language/blob/main/fr/locale.json#L3)
 
 <!-- BLOCK AGGREGATE END -->

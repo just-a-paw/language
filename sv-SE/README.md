@@ -16,7 +16,3 @@ Missing the following entries:
 * `commands.avatar.args.user.label` [Source](https://github.com/OfficialPawBot/language/blob/main/en-GB/commands.json#L34)
 * `commands.avatar.examples[0]` [Source](https://github.com/OfficialPawBot/language/blob/main/en-GB/commands.json#L39)
 * [`commands.bulge.title[3]`](https://github.com/OfficialPawBot/language/blob/main/sv-SE/commands.json#L60) [Source](https://github.com/OfficialPawBot/language/blob/main/en-GB/commands.json#L62)
-
-Contains deprecated entries:
-
-* [`locale.crowdin`](https://github.com/OfficialPawBot/language/blob/main/sv-SE/locale.json#L3)
