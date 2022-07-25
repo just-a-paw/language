@@ -18,10 +18,17 @@
       "title": "Array of locale data entries",
       "type": "array",
       "items": {
-        "$ref": "#"
+        "oneOf": [
+          {
+            "$ref": "#"
+          },
+          {
+            "title": "An empty property. Acts as a pass-through",
+            "type": "null"
+          }
+        ]
       },
-      "minItems": 1,
-      "uniqueItems": true
+      "minItems": 1
     },
     {
       "title": "Localised text",
