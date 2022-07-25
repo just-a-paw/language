@@ -19,4 +19,4 @@ Missing the following entries:
 
 Contains deprecated entries:
 
-* [`locale.crowdin`](https://github.com/OfficialPawBot/language/blob/main/sv-SE/locale.json#L5)
+* [`locale.crowdin`](https://github.com/OfficialPawBot/language/blob/main/sv-SE/locale.json#L3)
