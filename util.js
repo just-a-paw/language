@@ -106,3 +106,22 @@ exports.findJsonNode = (node, name, index) => {
     }
   }
 }
+
+/**
+ * Creates a two-level shallow copy of obj without any 'locale' prop on the second level
+ * @template T
+ * @param {T} obj 
+ * @returns {{[P in keyof T]: Omit<T[P], 'locale'>}[keyof T]}
+ */
+exports.removeConfigProperties = obj => {
+  const obj_ = {};
+
+  for (const locale in obj) {
+    obj_[locale] = {};
+    for (const prop in obj[locale]) {
+      if (prop !== 'locale') obj_[locale][prop] = obj[locale][prop]
+    }
+  }
+
+  return obj_;
+}

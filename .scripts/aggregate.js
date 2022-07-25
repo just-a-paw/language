@@ -4,10 +4,10 @@
 const path = require('node:path');
 const { readFileSync } = require('node:fs');
 const { parseExpression } = require('@babel/parser');
-const data = require('../data');
 const dot = require('dot-object');
 const { sourceLocale } = require('../constants');
-const { findJsonNode, getLocaleFiles } = require('../util');
+const { findJsonNode, getLocaleFiles, removeConfigProperties } = require('../util');
+const data = removeConfigProperties(require('../data'));
 
 const base = path.resolve(__dirname, '..');
 
