@@ -7,7 +7,7 @@
     "guild": "La `{0}` commande doit être utilisée dans un serveur. {:furry.really:}",
     "nsfw": "La commande `{0}` ne peut être utilisée que dans les salons NSFW. {:furry.really:}\nhttps://support.discord.com/hc/article_attachments/360007795191/2_.jpg",
     "permission": "Vous n'avez pas la permission d'utiliser la commande `{0}`. {:furry.really:}",
-    "premium": "La `{0}` commande ne peut être utilisée seulement par des utilisateurs premium.  Vous pouvez obtenir le premium sur https://paw.bot/donate",
+    "premium": "La `{0}` commande ne peut être utilisée seulement par des utilisateurs premium. Vous pouvez obtenir le premium sur https://paw.bot/donate",
     "role": "Vous n'avez pas les rôles requis pour utiliser la commande `{0}`.",
     "throttling": {
       "normal": [
@@ -17,14 +17,14 @@
         "Ah mince. Je me fatigue vite. Donnez moi {1} avant d'utiliser `{0}` de nouveau."
       ],
       "nsfw": "Vous ne pouvez pas utiliser la commande `{0}` pendant {1}.\n**Si vous souhaiteriez raccourcir ce temps pendant les prochaines 12 heures, votez pour le bot gratuitement ici: {2}.\nSi vous souhaiteriez réduire ce temps de façon permanente, faites un don ici: {3}.**",
-      "premium": "`{0}` a **{2}** chaque {3} d'intervale! Veuillez patienter {1}.\nDevenez un [Patreon](https://www.patreon.com/JustAPaw \n\"Become a Patron\" pour une intervalle de temps permanente de **{4}**/{5}.",
+      "premium": "`{0}` a **{2}** chaque {3} d'intervale! Veuillez patienter {1}.\nDevenez un [Patreon](https://www.patreon.com/JustAPaw \n\"Become a Patron\") pour une intervalle de temps permanente de **{4}**/{5}.",
       "premium_vote": "`{0}` a **{2}** chaque {3} d'intervale! Veuillez patienter {1} de plus.\n[Vote](https://top.gg/bot/663823539672973353/vote \"Vote for Paw Bot\") pour une intervalle de temps temporaire de **{4}**/{5} ou\nDevenez un [Patreon]:(https://www.patreon.com/JustAPaw \"Become a Patron\") pour une intervalle de temps permanente de **{6}**/{7}.",
       "vote": "`{0}` a **{2}** chaque {3} d'intervale! Veuillez patienter {1}.\n[Vote](https://top.gg/bot/663823539672973353/vote \"Vote for Paw Bot\") pour une intervalle de temps temporaire de **{4}**/{5}."
     }
   },
   "error": {
     "friendly": "Une erreur est subvenue en tentant de lancer la commande:\n{0}\nVous ne devriez pas recevoir une erreur comme celle-ci <:TFRNickConfused:655543877142577179>\nNous avons été informés et cette erreur devrait être fixée rapidement.\n[Envisagez à rejoindre le serveur de support pour les annonces et mises à jour]({2} \"owo\") {:furry.fingergun:}",
-    "generic": "Oh oh!Il s'avère qu'une erreur est subvenue, veuillez réessayer dans quelques minutes.",
+    "generic": "Uh oh! Il s'avère qu'une erreur est subvenue, veuillez réessayer dans quelques minutes.",
     "known": "Oh non, il s'avère qu'une erreur est subvenue en essayant de charger cette image.\n```javascript\n{0}: {1}\n```\nNe vous inquiétez pas! Ces erreurs arrivent très rarement et sont connues de l'équipe de développement.\nLa meilleure chose que vous pouvez faire est de revenir dans quelques minutes et ces erreurs ne devraient plus arriver."
   }
 }

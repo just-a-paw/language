@@ -2,10 +2,21 @@
 
 # `sv-SE` [Swedish (Sweden) / Svenska (Sverige)][sv-SE_here]
 
-[sv-SE_issue]: https://github.com/OfficialPawBot/language/issues/new?title=%5Bsv-SE%5D%20
-[sv-SE_pr]: https://github.com/OfficialPawBot/language/compare?title=%5Bsv-SE%5D%20
+[sv-SE_crowdin]: https://crowdin.com/project/paw-bot/sv-SE
 [sv-SE_here]: https://github.com/OfficialPawBot/language/tree/main/sv-SE
 
-> Translate [Svenska (Sverige)][sv-SE_here] via [pull request][sv-SE_pr] or submit an [issue][sv-SE_issue].
+[![Crowdin](https://img.shields.io/static/v1?label=Svenska%20(Sverige)&message={percent}%&color={colour})][sv-SE_crowdin]
 
-This locale is fully translated, but may require further proofreading.
+> Translate [Svenska (Sverige)][sv-SE_here] on [Crowdin][sv-SE_crowdin].
+
+This locale is generated from [Crowdin][sv-SE_crowdin] and should not be manually edited.  
+
+Missing the following entries:
+
+* `commands.avatar.args.user.label` [Source](https://github.com/OfficialPawBot/language/blob/main/en-GB/commands.json#L34)
+* `commands.avatar.examples[0]` [Source](https://github.com/OfficialPawBot/language/blob/main/en-GB/commands.json#L39)
+* [`commands.bulge.title[3]`](https://github.com/OfficialPawBot/language/blob/main/sv-SE/commands.json#L60) [Source](https://github.com/OfficialPawBot/language/blob/main/en-GB/commands.json#L62)
+
+Contains deprecated entries:
+
+* [`locale.crowdin`](https://github.com/OfficialPawBot/language/blob/main/sv-SE/locale.json#L5)

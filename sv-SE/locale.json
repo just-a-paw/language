@@ -1,3 +1,4 @@
 {
-  "contributors": ["lesslih <https://github.com/lesslih>"]
+  "contributors": ["lesslih <https://github.com/lesslih>"],
+  "crowdin": true
 }

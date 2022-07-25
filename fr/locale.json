@@ -1,3 +1,4 @@
 {
-  "contributors": ["Furie <https://github.com/FurieFox>"]
+  "contributors": ["Furie <https://github.com/FurieFox>"],
+  "crowdin": true
 }
