@@ -2,15 +2,17 @@ name: Update CODEOWNERs
 on:
   schedule:
     # https://crontab.guru/#5_8_*_*_1,4
-    - cron: "5 8 * * 1,4"
+    - cron: "0 8 * * 1,4"
   workflow_dispatch:
 jobs:
   update:
+    permissions:
+      contents: write
     runs-on: ubuntu-latest
-    if: github.repository == 'OfficialPawBot/language'
+    if: github.repository == 'OfficialPawBot/language' && github.ref == 'refs/heads/main'
     steps:
-      - uses: actions/checkout@v2
-      - uses: actions/setup-node@v2
+      - uses: actions/checkout@v3
+      - uses: actions/setup-node@v3
         with:
           node-version: '16'
       - run: npm install

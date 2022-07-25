@@ -4,33 +4,40 @@
   "description": "Paw Bot Locale",
   "main": "index.js",
   "scripts": {
-    "aggregate": "node .scripts/aggregate.js",
     "update-codeowners": "node .scripts/update-codeowners.js",
     "test": "npm run lint && node .scripts/test.js",
     "lint": "node .scripts/lint.js",
-    "lint:fix": "node .scripts/lint.js --fix"
+    "lint:fix": "node .scripts/lint.js --fix",
+    "deduplicate": "node .scripts/deduplicate.js",
+    "update-readmes": "node .scripts/update-readmes.js",
+    "update-config": "node .scripts/update-config.js",
+    "crowdin-push": "crowdin push sources --auto-update",
+    "crowdin-pull": "crowdin pull && npm run deduplicate && npm run update-config && npm run update-readmes"
   },
+  "contributors": [
+    "Reece Stokes <hagen@paw.bot>",
+    "Furie Francaise (github.com/FurieFox)"
+  ],
+  "license": "NONE",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/OfficialPawBot/language.git"
   },
-  "keywords": [],
-  "author": "",
-  "license": "NONE",
   "bugs": {
     "url": "https://github.com/OfficialPawBot/language/issues"
   },
   "homepage": "https://github.com/OfficialPawBot/language#readme",
   "devDependencies": {
+    "@babel/parser": "^7.18.9",
+    "@babel/types": "^7.18.9",
+    "@crowdin/cli": "^3.7.9",
     "@types/dot-object": "^2.1.2",
-    "@types/glob": "^7.2.0",
-    "@types/node": "^17.0.12",
+    "@types/node": "^18.0.6",
     "@types/prettier": "^2.4.3",
+    "ajv": "^8.11.0",
     "cldr-data": "^36.0.1",
     "dot-object": "^2.1.4",
-    "glob": "^7.2.0",
-    "ignore": "^5.2.0",
-    "prettier": "^2.5.1",
-    "require-all": "^3.0.0"
+    "mri": "^1.2.0",
+    "prettier": "^2.5.1"
   }
 }
