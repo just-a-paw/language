@@ -77,6 +77,8 @@ const getL10nPercent = () => {
   if (error || status != 0) throw error || stderr || status || signal;
 
   for (const str of stdout.split('\n').slice(1, -1).map(s => s.trim().slice(2))) {
+    if (str.length === 0) break;
+
     const [locale, percent] = str.split(': ');
     if (!crowdinLocales.has(locale)) continue;
     const num = +percent.slice(0, -1);
