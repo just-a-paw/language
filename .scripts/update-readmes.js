@@ -124,15 +124,24 @@ const run = () => {
   });
 
   const allowed = new Set(options._.length ? options._ : Object.keys(data));
+  const shouldUpdateAggreate = !options._.length || options.aggregatel
   const readmes = {};
+
+  if (shouldUpdateAggreate) getL10nPercent();
+  else for (const locale of allowed.values()) {
+    if (crowdinLocales.has(locale)) {
+      getL10nPercent();
+      break;
+    }
+  }
+
   for (const locale in data) {
     if (allowed.has(locale)) readmes[locale] = formatReadme(locale);
   }
 
-  getL10nPercent();
   addReadmes(readmes);
 
-  if (!options._.length || options.aggregate) {
+  if (shouldUpdateAggreate) {
     for (const locale in data)
       readmes[locale] ??= formatReadme(locale);
     updateAggregate(readmes)
