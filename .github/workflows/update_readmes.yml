@@ -1,0 +1,36 @@
+name: Update READMEs
+on:
+  push:
+    branches:
+      - 'main'
+  workflow_dispatch:
+jobs:
+  update:
+    permissions:
+      contents: write
+    runs-on: ubuntu-latest
+    if: github.repository == 'OfficialPawBot/language'
+    steps:
+      - uses: actions/checkout@v3
+      - uses: actions/setup-node@v3
+        with:
+          node-version: '16'
+      - uses: actions/setup-java@v3
+        with:
+          distribution: 'temurin'
+          java-version: '8'
+      - run: npm ci
+      - run: npm test
+      - run: npm run update-readmes
+        env:
+          CROWDIN_PROJECT_ID: ${{ secrets.CROWDIN_PROJECT_ID }}
+          CROWDIN_API_TOKEN: ${{ secrets.CROWDIN_API_TOKEN }}
+      - run: git config user.name "Paw Bot"
+      - run: git config user.email "translating@paw.bot"
+      - run: git add AGGREGATE.md
+      - continue-on-error: true
+        run: git add [[:lower:]][[:lower:]]-[[:upper:]][[:upper:]]/README.md
+      - continue-on-error: true
+        run: git add [[:lower:]][[:lower:]].README.md
+      - run: |
+          (git commit -m 'chore: 🤖 update readme' && git push) || echo "nothing to commit"

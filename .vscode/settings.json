@@ -3,14 +3,23 @@
     {
       "url": "./schema.json",
       "fileMatch": [
-        "??/*.json",
-        "!??/locale.json"
+        "[a-z][a-z]-[A-Z][A-Z]/**.json",
+        "![a-z][a-z]-[A-Z][A-Z]/locale.json",
+        "[a-z][a-z]-[A-Z][A-Z].json",
+        "![a-z][a-z]-[A-Z][A-Z].locale.json",
+        "[a-z][a-z]/**.json",
+        "![a-z][a-z]/locale.json",
+        "[a-z][a-z].json",
+        "![a-z][a-z].locale.json",
       ]
     },
     {
       "url": "./locale.schema.json",
       "fileMatch": [
-        "??/locale.json"
+        "[a-z][a-z]-[A-Z][A-Z]/locale.json",
+        "[a-z][a-z]-[A-Z][A-Z].locale.json",
+        "[a-z][a-z]/locale.json",
+        "[a-z][a-z].locale.json",
       ]
     }
   ]

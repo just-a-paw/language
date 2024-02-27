@@ -31,15 +31,13 @@
   "avatar": {
     "args": {
       "user": {
-        "label": "{lang:words.user}",
         "prompt": "Vems profilbild skulle du vilja få?"
       }
     },
-    "description": "Få en URL till en användares profilbild.",
-    "examples": ["avatar @Griefs#9476"],
+    "description": "Få en url till en användares profilbild.",
     "title": {
       "invalid": "{0} har ingen profilbild.",
-      "valid": "Här är profilbilden för {0}. [[URL]]({1})."
+      "valid": "Här är profilbilden för {0}. [[URL]]({1})"
     }
   },
   "birb": {
@@ -59,7 +57,7 @@
       "OwO \\*märker din bula\\* vad är detTA!??!",
       "Vilket fint paket du har där.",
       "Ser liten ut. Får jag pröva på den?",
-      "owO",
+      null,
       "\\*leker med din bula-lula\\*",
       "Min är större.",
       "Ojsan. Den är så stor att jag kan se min spegelbild i den."
@@ -77,10 +75,10 @@
   "corona": {
     "donations": "**Totala donationer**: £{0}\n**Totala donatorer**: {1} personer\nSnälla överväg att donera till NHS på JustGiving för att stödja folk i nöd i dessa prövande tider [här]({2} \"akut vädjan angående COVID-19\")",
     "format": "**Totalt**: {0}\n**Idag**: {1}",
-    "info": "Här är fall av COVID-19 i {0}.\nSist uppdaterad för {1} sen.",
+    "info": "Här är fall av COVID-19 i {0}.\nSist uppdaterad för {1} sen",
     "nocountry": "Kunde inte hitta någon data för det landet.",
     "none": "Landet kunde inte hittas eller så finns inga fall där.",
-    "nostats": "COVID-19-statistik är otilgänglig för tillfället.",
+    "nostats": "COVID-19-statistik är otillgänglig för tillfället.",
     "title": "Fall i {0}",
     "titles": {
       "cases": "Fall",
@@ -100,12 +98,12 @@
     "max": "Maxanvändningar",
     "temp": "Temporärt medlemskap",
     "title": "Framgång",
-    "unable": "Jag kan inte skapa en inbjudan till den här kanalen."
+    "unable": "Jag kan inte skapa en inbjudan till den här kanalen"
   },
   "cuddle": {
     "title": [
       "{0} hoppar på {1} och ger hen nära kramar.",
-      "{1} blir kastad in i en lång, kärleksful kram med {0}.",
+      "{1} blir kastad in i en lång, kärleksfull kram med {0}.",
       "{1} ramlar efter att ha måttat en häftig omfamning från {0}.",
       "{1} tappar balansen när {0} lyfter upp hen i en klaustrofobisk kram.",
       "{0} tar tag i {1} och tvingar hen in i en omfamning.",
@@ -198,13 +196,13 @@
       "{0} ger en väldigt mjuk, hårig kram till {1}.",
       "{1} känner den mjuka pälsen av {0} mot sitt bröst när hen dras in i en kram.",
       "{1} känner pälsen av {0} mot sitt bröst när hen blir kärleksfullt intvingad i en försiktig omfamning.",
-      "{0} blir invingad i en lång kram av {1}."
+      "{0} blir intvingad i en lång kram av {1}."
     ]
   },
   "invite": {
     "bot": "Du kan lägga till roboten [här]({0})",
     "patreon": "Om du skulle vilja stödja utvecklingen av {0} och få förmåner fundera på att donera här: {1} {:furry.fingergun:}",
-    "support": "Om du behöver assistans känn dig välkommen att fråga oss om hjälp på vår supportserver.",
+    "support": "Om du behöver assistans känn dig välkommen att fråga oss om hjälp på vår supportserver: {0}",
     "title": {
       "add": "Lägg till mig",
       "donate": "Donera",
@@ -212,13 +210,13 @@
     }
   },
   "join": {
-    "novc": "Du måste vara i en röstkanal för att anväda det här kommandot!"
+    "novc": "Du måste vara i en röstkanal för att använda det här kommandot!"
   },
   "kiss": {
     "title": [
       "{1} får en lång, våt kyss av {0}.",
       "{0} hoppar på {1} och ger hen en stor puss i ansiktet.",
-      "{1} dras in i en mjuk puss av {0}.",
+      "{1} dras in i en mjuk puss av {0}",
       "{0} ger {1} en mjuk puss på kinden. Kan du försöka att inte rodna?"
     ]
   },
@@ -264,7 +262,7 @@
     "title": [
       "{1} får en våt, slemmig slick på ansiktet av {0}. Stygg hund.",
       "{0} bestämmer sig för att blöta ner {1} och hens päls och slickar hen rakt i ansiktet.",
-      "{0} får sin varma, våta saliv över hela ansiktet av {1}."
+      "{0} får sin varma, våta saliv över hela ansiktet av {1}"
     ]
   },
   "logs": {
@@ -326,7 +324,7 @@
       "title": "Aktiva bonusar",
       "voted": {
         "self": "Du har röstat **(2x-bonus)**",
-        "user": "Den här anävndaren har röstat **(2x-bonus)**"
+        "user": "Den här användaren har röstat **(2x-bonus)**"
       }
     },
     "placement": "**#{0}** på topplistan",
@@ -376,7 +374,7 @@
   },
   "role": {
     "added": "{0} har lagts till {1}.",
-    "cannot_edit": "Jag kan inte redigera rollerna på {0} eftersom hen är ovanför min roll",
+    "cannot_edit": "Jag kan inte redigera rollerna på {0} eftersom hen är ovanför min roll.",
     "removed": "{0} har tagits bort från {1}.",
     "roleabove": "Den här rollen är ovanför din roll och kan varken läggas till eller tas bort.",
     "userabove": "{0} har en roll ovanför dig och kan inte redigeras."

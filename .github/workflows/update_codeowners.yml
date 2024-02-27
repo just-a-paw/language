@@ -1,23 +1,25 @@
 name: Update CODEOWNERs
 on:
   schedule:
-    # https://crontab.guru/#5_8_*_*_1,4
-    - cron: "5 8 * * 1,4"
+    # https://crontab.guru/#0_8_*_*_1,4
+    - cron: "0 8 * * 1,4"
   workflow_dispatch:
 jobs:
   update:
+    permissions:
+      contents: write
     runs-on: ubuntu-latest
-    if: github.repository == 'OfficialPawBot/language'
+    if: github.repository == 'OfficialPawBot/language' && github.ref == 'refs/heads/main'
     steps:
-      - uses: actions/checkout@v2
-      - uses: actions/setup-node@v2
+      - uses: actions/checkout@v3
+      - uses: actions/setup-node@v3
         with:
           node-version: '16'
-      - run: npm install
-      - run: npm test && npm run update-codeowners
+      - run: npm ci
+      - run: npm test
+      - run: npm run update-codeowners
+      - run: git config user.name "Paw Bot"
+      - run: git config user.email "translating@paw.bot"
+      - run: git add .github/CODEOWNERS
       - run: |
-          git config user.name "Paw Bot"
-          git config user.email "translating@paw.bot"
-      - run: |
-          git add .github/CODEOWNERS
           (git commit -m 'chore: 🤖 update codeowners' && git push) || echo "nothing to commit"

@@ -3,14 +3,14 @@
     "answer": "Responder",
     "list": [
       "Sí",
-      "No",
+      null,
       "Quizás",
       "Pregunta de nuevo",
       "Algunas veces",
       "Okey",
       "INFIERNO NO",
       "JODER SÍ",
-      "no no no",
+      null,
       "Eso es bastante gay... pero seguro",
       "Gay de ultra",
       "No tengo ni puta idea",
@@ -29,14 +29,6 @@
     "title": "Sobre {0}"
   },
   "avatar": {
-    "args": {
-      "user": {
-        "label": "{lang:words.user}",
-        "prompt": "Who would you like to get the avatar of?"
-      }
-    },
-    "description": "Get a user's avatr url.",
-    "examples": ["avatar @Griefs#9476"],
     "title": {
       "invalid": "{0} no tiene avatar.",
       "valid": "Aquí está el avatar de {0}. [[URL]]({1})"
@@ -47,19 +39,19 @@
   },
   "boop": {
     "title": [
-      "{0} golpea suavemente la nariz mojada de {1}.",
+      "{0} golpea suavemente la nariz mojada dé {1}.",
       "{0} da {1} un beso en la nariz.",
       "{0} salta a {1} y se toca la nariz.",
       "De repente, {0} le da un golpe al snoot de {1} con la pata.",
-      "{1} recibe un golpe de sorpresa en la nariz de la pata de {0}."
+      "{1} recibe un golpe dé sorpresa en la nariz dé la pata dé {0}."
     ]
   },
   "bulge": {
     "title": [
-      "OwO \\*nota tu bulto\\* ¡¿qué es esto ?!",
-      "Qué lindo paquete tienes allí",
+      "OwO \\*nota tu bulto\\* ¡¿qué es esto?!",
+      "Qué lindo paquete tienes allí.",
       "Parece pequeño. ¿Te importa si me lo pruebo?",
-      "owO",
+      null,
       "\\*juega con su wolgy bolgy\\*",
       "El mío es más grande.",
       "Woah. Es tan grande que puedo ver mi reflejo en él."
@@ -72,8 +64,8 @@
     "success": "{0} canciones eliminadas."
   },
   "corona": {
-    "donations": "**Donaciones totales**: £{0}\n**Donantes totales**: {1} gente\nConsidere hacer una donación al NHS en JustGiving para ayudar a las personas necesitadas durante este momento difícil [aquí]({2} \"COVID-19 Urgent Appeal\")",
-    "format": "**Total**: {0}\n**Hoy dia**: {1}",
+    "donations": "**Donaciones totales**: £{0}\n**Donantes totales**: {1} gente\nConsidere hacer una donación al NHS en JustGiving para ayudar a las personas necesitadas durante este momento difícil [aquí]({2} \"Llamamiento Urgente COVID-19\")",
+    "format": "**Total**: {0}\n**Hoy día**: {1}",
     "info": "Estos son los casos de COVID-19 en {0}.\nÚltima actualización hace {1}",
     "nocountry": "No se pueden obtener datos de ese país.",
     "none": "País no encontrado o no tiene casos.",
@@ -97,20 +89,20 @@
     "max": "Usos máximos",
     "temp": "Membresía temporal",
     "title": "Éxito",
-    "unable": "No puedo crear una invitación para este canal."
+    "unable": "No puedo crear una invitación para este canal"
   },
   "cuddle": {
     "title": [
       "{0} rebota en {1} y les da un fuerte abrazo.",
       "{1} consigue un abrazo largo y amoroso con {0}.",
-      "{1} se cae después de recibir un fuerte abrazo de {0}.",
+      "{1} se cae después dé recibir un fuerte abrazo dé {0}.",
       "{1} pierde el equilibrio cuando {0} los levanta en un abrazo claustrofóbico.",
-      "{0} los agarra {1} y los obliga a abrazars.e",
+      "{0} los agarra {1} y los obliga a abrazarse.",
       "{0} se acuesta encima de {1} mientras se abrazan en un suave abrazo."
     ]
   },
   "daily": {
-    "failed": "¡UH oh! Parece que ya ha reclamado sus puntos diarios. Vuelve de nuevo en {0}.\n",
+    "failed": "¡Uh oh! Parece que ya ha reclamado sus puntos diarios. Vuelve de nuevo en {0}.\n",
     "success": "{:check:} ¡Has reclamado tus puntos diarios de **{0}** puntos!\n¡Vuelve mañana a las **0: 00 UTC** para obtener **10.000** puntos adicionales! (Máximo 50.000 puntos, combos restablece después de fallar un día)"
   },
   "donate": {
@@ -137,14 +129,14 @@
       "general": "Más: ",
       "title": "Etiquetas"
     },
-    "video": "**[Esta publicación es un video. Para verlo, haga click aquí]({0})**"
+    "video": "**[Esta publicación es un video. Para verlo, haga clic aquí]({0})**"
   },
   "flop": {
     "title": [
       "{0} cae directamente en el regazo de {1} con un fuerte fwooosh.",
       "{0} le roba la vuelta a {1}. ¿Los encargados de los buscadores, supongo?",
       "{0} salta sobre {1} y los aplasta.",
-      "{1} es aplastado por el culo gordo de {0}.",
+      "{1} es aplastado por el culo gordo dé {0}.",
       "{0} se pone cómodo y aterriza en {1}.",
       "{0} cae como una pluma sobre {1}.",
       "{0} se agota y decide tomar en su sueño del {1}."
@@ -191,11 +183,11 @@
   },
   "hug": {
     "title": [
-      "{1} recibe un abrazo largo y cálido de {0}.",
+      "{1} recibe un abrazo largo y cálido dé {0}.",
       "{0} le da un abrazo muy suave y peludo a {1}.",
       "{1} siente el suave pelaje de {0} contra su pecho mientras lo abrazan.",
-      "{1} siente el pelaje de {0} contra su pecho mientras se ven forzados amorosamente al suave abrazo de {0}.",
-      "{0} se ve obligado a darle un largo abrazo de {1}."
+      "{1} siente el pelaje dé {0} contra su pecho mientras se ven forzados amorosamente al suave abrazo dé {0}.",
+      "{0} se ve obligado a darle un largo abrazo dé {1}."
     ]
   },
   "invite": {
@@ -213,9 +205,9 @@
   },
   "kiss": {
     "title": [
-      "{1} recibe un beso largo y húmedo de {0}.",
+      "{1} recibe un beso largo y húmedo dé {0}.",
       "{0} se abalanza sobre {1} y les da un gran beso en la cara.",
-      "{1} recibe un suave beso de {0}.",
+      "{1} recibe un suave beso dé {0}",
       "{0} le da {1} un ligero beso en la mejilla. Intenta no sonrojarte, ¿quieres?"
     ]
   },
@@ -259,9 +251,9 @@
   },
   "lick": {
     "title": [
-      "{1} recibe una lamida húmeda y viscosa en la cara de {0}. Perro malo.",
+      "{1} recibe una lamida húmeda y viscosa en la cara dé {0}. Perro malo.",
       "{0} decide mojar el pelaje de {1} y lo lame directamente en la cara.",
-      "{0} manden su baba caliente y húmeda por toda la cara de {1}."
+      "{0} manden su baba caliente y húmeda por toda la cara dé {1}"
     ]
   },
   "logs": {
@@ -290,7 +282,7 @@
     "none": "No se encontraron letras para la canción actual."
   },
   "pause": {
-    "paused": "La jugadora esta pausada. \\> Reanudando.",
+    "paused": "La jugadora está pausada. \\> Reanudando.",
     "playing": "Pausado."
   },
   "permissions": {
@@ -306,7 +298,7 @@
         "queued": "Añadidas {0} canciones a la cola: `Posición {1}`"
       }
     },
-    "nosong": "No puedo encontrar esa cancion.",
+    "nosong": "No puedo encontrar esa canción.",
     "paused": "Reanudado.",
     "playing": "La jugadora no está pausada."
   },
@@ -318,7 +310,7 @@
     "bonus": {
       "none": {
         "self": "No tienes bonificaciones\nUtilice {0} para obtener una bonificación gratuita.",
-        "user": "Esta usuaria no tiene bonos.\nUtilice {0} para obtener una bonificación gratuita.."
+        "user": "Esta usuaria no tiene bonos.\nUtilice {0} para obtener una bonificación gratuita."
       },
       "title": "Bonificaciones activas",
       "voted": {
@@ -333,34 +325,34 @@
   },
   "propose": {
     "title": [
-      "Woah. {0} se arrodilla y le propone matrimonio a {1} ... ¡Eso fue rápido! ¿Qué dices {1}?",
+      "Woah. {0} se arrodilla y le propone matrimonio a {1}... ¡Eso fue rápido! ¿Qué dices {1}?",
       "{0} saca una pequeña caja de su bolsillo y saca un anillo para {1}. Parece barato, yo diría que no. ¿Qué dices {1}?"
     ]
   },
   "qotd-manager-role": {
     "info": "La función actual de QoTD Manager es **{0}**.",
-    "invalid": "`{0}` no es una función válida QOTD Manager.",
-    "none": "No hay un conjunto papel QOTD Manager.",
+    "invalid": "`{0}` no es una función válida QoTD Manager.",
+    "none": "No hay un conjunto papel QoTD Manager.",
     "success": {
       "none": "Establezca con éxito el rol de QoTD Manager en `none`.",
       "normal": "Estableció correctamente la función QoTD Manager en **{0}**."
     }
   },
   "qotd-role": {
-    "info": "El actual papel QOTD Ping es **{0}**.",
-    "invalid": "`{0}` no es un papel QOTD Ping válida.",
+    "info": "El actual papel QoTD Ping es **{0}**.",
+    "invalid": "`{0}` no es un papel QoTD Ping válida.",
     "none": "No hay un conjunto de roles de ping de QoTD.",
     "success": {
-      "none": "Establecer con éxito el papel QOTD Ping para `none`.",
-      "normal": "Establecer con éxito el papel QOTD Ping para **{0}**."
+      "none": "Establecer con éxito el papel QoTD Ping para `none`.",
+      "normal": "Establecer con éxito el papel QoTD Ping para **{0}**."
     }
   },
   "queue": {
     "current": "Reproducción en curso",
     "description": "{0} canciones en total\n{1} duración total\n{lang:commands.queue.loop.{2}}\n{lang:commands.queue.looptrack.{3}}",
     "loop": {
-      "disabled": "❌ Repetición de canciones deshabilitado",
-      "enabled": "✅ Repetición de canciones habilitado"
+      "disabled": "❌ Repetición de canciones deshabilitada",
+      "enabled": "✅ Repetición de canciones habilitada"
     },
     "looptrack": {
       "disabled": "❌ Repetición de cola deshabilitada",
@@ -386,7 +378,7 @@
   },
   "shuffle": {
     "none": "No hay cola para mezclar.",
-    "success": "Barajada!"
+    "success": "¡Barajada!"
   },
   "skip": {
     "none": "No hay ninguna canción sonando.",
@@ -416,10 +408,10 @@
   },
   "yiff": {
     "title": [
-      "Apuesto a que este chico tiene un lindo trasero",
+      "Apuesto a que este chico tiene un lindo trasero.",
       "Aquí está el porno de élite que solicitaste:",
-      "Este tipo se ve más sabroso que yo",
-      "Soy más grande que eso, y solo soy una pata",
+      "Este tipo se ve más sabroso que yo.",
+      "Soy más grande que eso, y solo soy una pata.",
       "Lindo floofer, ¿eh?"
     ]
   }

@@ -5,7 +5,7 @@
       "Oui",
       "Non",
       "Peut-être",
-      "Je n'ai pas compris, pouvez-vous répétez ?",
+      "Je n'ai pas compris, pouvez-vous répétez",
       "Des fois",
       "Ok",
       "ALORS NON",
@@ -18,8 +18,7 @@
       "Dépend de la météo",
       "Aussi vrai que la Lune étant faite de fromage",
       "Quasiment certain"
-    ],
-    "question": "Question"
+    ]
   },
   "about": {
     "description": "{0} est le bot furry à la croissance grandissante sur Discord, utile et pratique à la modération sur Discord, aidant plus de {1} serveurs.",
@@ -31,12 +30,10 @@
   "avatar": {
     "args": {
       "user": {
-        "label": "{lang:words.user}",
         "prompt": "De qui souhaiteriez-vous obtenir l'avatar?"
       }
     },
-    "description": "Obtenir l'URL de l'avatar d'un utilisateur.",
-    "examples": ["avatar @Griefs#9476"],
+    "description": "Obtenir l'url de l'avatar d'un utilisateur.",
     "title": {
       "invalid": "{0} n'a pas d'avatar.",
       "valid": "Voici l'avatar de {0}'s. [[URL]]({1})"
@@ -59,7 +56,7 @@
       "OwO \\*remarque ta bosse\\* qu'est-ce que c'est que ÇA!??!",
       "Quel beau paquet tu as là.",
       "Ça a l'air petit. Ça ne te dérange pas que j'essaie?",
-      "owO",
+      null,
       "\\*joue avec ton big ben\\*",
       "La mienne est plus grosse.",
       "Wow. C'est tellement grand que je peux voir mon reflet dedans."
@@ -70,6 +67,9 @@
   },
   "clear": {
     "success": "J'ai effacé {0} musiques."
+  },
+  "coinflip": {
+    "title": ["⭐ C'est des queues !", "🌙 C'est la tête !"]
   },
   "corona": {
     "donations": "**Dons total**: £{0}\n**Donneurs totals**: {1} people\nVeuillez considérer à faire un don au NHS sur JustGiving afin de soutenir les personnes dans le besoin durant cette période difficile [ici]({2} \"Appel urgent concernant la pandémie COVID-19\")",
@@ -110,8 +110,11 @@
     ]
   },
   "daily": {
-    "failed": "Oh non! Il s'avère que vous avez déjà réclamé vos points journaliers. Revenez dans {0}.\n",
+    "failed": "Uh oh! Il s'avère que vous avez déjà réclamé vos points journaliers. Revenez dans {0}.\n",
     "success": "{:check:} Vous avez réclamé vos points **{0}** journaliers!\nRevenez demain à **0:00 UTC** pour un extra de **10,000** points! (Maximum 50,000 points, les combos se remettent à jour automatiquement après avoir manqué un jour)"
+  },
+  "dice": {
+    "title": "🎲 Vous avez roulé un {0}!"
   },
   "donate": {
     "bot": "Tu ne peux pas donner de points aux bots, andouille.",
@@ -121,21 +124,15 @@
   "e6": {
     "download": "Télécharger",
     "error": "{0} résolu avec une erreur.",
-    "full": {
-      "score": "Score: {0}",
-      "sources": "Sources: {0}"
-    },
     "none": "Aucun résultats trouvé pour les tags donnés.",
     "postid": "Identifiant du post: {0}",
     "searching": "Recherche {:loading:}",
-    "source": "Source",
     "tags": {
       "additional": "et {0} de plus",
       "artist": "Artistes: ",
       "character": "Personnages: ",
       "copyright": "Droit d'auteur: ",
-      "general": "Autre: ",
-      "title": "Tags"
+      "general": "Autre: "
     },
     "video": "**[Ce post est une vidéo. Pour la visionner, cliquez ici]({0})**"
   },
@@ -164,7 +161,7 @@
       "novc": "Vous devez être dans un salon vocal pour utiliser cette commande!"
     },
     "points": {
-      "notenough": "Oh non! Il s'avère que vous n'avez pas assez de points pour faire cela."
+      "notenough": "Uh oh! Il s'avère que vous n'avez pas assez de points pour faire cela."
     },
     "reddit": {
       "error": "Oh non, il s'avère qu'une erreur est subvenue en essayant de charger l'image.\n```javascript\n{0}: {1}\n```\nNe vous inquiétez pas! Ces erreurs arrivent arrivent très rarement et sont connues de l'équipe de développement.\nLa meilleure chose que vous pouvez faire est de revenir dans plusieurs minutes et ces erreurs ne devraient plus arriver.",
@@ -223,7 +220,7 @@
     "info": "La langue actuelle du bot est **{0}**.",
     "invalid": "`{0}` n'est pas une langue valide.\nUtilisez `{1}help \"settings language\"` pour une liste des langues disponibles.",
     "success": {
-      "default": "Langue définie avec succès sur `default` (**{0}**).",
+      "default": "Langue définie avec succès sur `défaut` (**{0}**).",
       "normal": "Langue du bot définie avec succès en **{0}**."
     }
   },
@@ -231,10 +228,8 @@
     "info": "Tu es **#{0}** au classement avec un total de **{1}** points!",
     "more": "**{0}** autre personnes sont en ce moment sur le classement.",
     "server": "Top 10 des utilisateurs du serveur",
-    "title": "Placement",
-    "to": "{0} to {1}",
+    "to": "{0} à {1}",
     "top": "{1}. {2} avec **{3}** points!",
-    "topfirst": "{0}{1}. {2}\n> **{3}** points",
     "world": "Top 10 mondial"
   },
   "levelup-channel": {
@@ -260,7 +255,7 @@
   "lick": {
     "title": [
       "{1} reçoit un coup de langue humide et visqueuse sur son visage par {0}. Méchant chien.",
-      "{0} décide de mouiller la fourrue de {1} et le lèche directement au visage.",
+      "{0} décide de mouiller la fourrure de {1} et le lèche directement au visage.",
       "{0} obtient leur bave chaude et humide partout sur le visage de {1}"
     ]
   },
@@ -283,24 +278,24 @@
   },
   "lottery": {
     "entered": "Vous êtes déjà inscrit à la lotterie.",
-    "error": "Oh non, Il s'avère qu'une erreur est survenue.",
+    "error": "Oh non, il s'avère qu'une erreur est survenue.",
     "info": "{:check:} Je vous ai ajouté à la lotterie pour {0} points.\n[Pensez à rejoindre le serveur Discord pour savoir qui a gagné dans le salon lotterie.](https://discord.gg/Kc7gDBb)"
   },
   "lyrics": {
-    "none": "Aucun sous-titres trouvés pour la musique actuelle."
+    "none": "Aucun sous-titre trouvé pour la musique actuelle."
   },
   "pause": {
     "paused": "Le lecteur est mis en pause. \\> Reprise.",
     "playing": "Pause."
   },
   "permissions": {
-    "info": "Pseudo: Hexadecimal",
+    "info": "Pseudo: Hexadécimal",
     "total": "Toutes les permissions ({0})",
     "user": "Vos permissions ({0})"
   },
   "play": {
     "added": {
-      "multiple": "Ajouté {0} musique(s) à la file d'attente.",
+      "multiple": "Ajoutées {0} musiques à la file d'attente.",
       "single": {
         "playing": "Ajouté {0} à la file d'attente: `Joue actuellement`",
         "queued": "Ajouté {0} à la file d'attente: `{1} Position`"
@@ -327,14 +322,13 @@
       }
     },
     "placement": "**#{0}** sur le classement",
-    "points": "**{0}** points.",
     "self": "Vos points",
     "user": "points de {0}'s"
   },
   "propose": {
     "title": [
       "Wow. {0} s'agenouille et propose à {1}...C'était rapide! Que dis-tu {1}?",
-      "{0} sort une petite boîte de sa poche et sort de celle-ci un anneau pour {1}. Ça a l'air pas cher, je dis non! Que dis-tu {1}?"
+      "{0} sort une petite boîte de sa poche et sort de celle-ci un anneau pour {1}. Ça a l'air pas cher, je dis non ! Que dis-tu {1}?"
     ]
   },
   "qotd-manager-role": {
@@ -382,11 +376,11 @@
     "title": "🐶 Voici votre photo de shiba!"
   },
   "ship": {
-    "title": "{0} - {1} match! <:TFRBlepSmirk:655517665900625932>"
+    "title": "{0} - {1} correspondance ! <:TFRBlepSmirk:655517665900625932>"
   },
   "shuffle": {
     "none": "Il n'y a aucune lecture aléatoire.",
-    "success": "Lecture aléatoire!"
+    "success": "Lecture aléatoire !"
   },
   "skip": {
     "none": "Il n'y a aucune musique jouée.",
@@ -396,9 +390,12 @@
     "error": "Discord résolu avec une erreur.",
     "title": "{:check:} Mettre le mode lent à {0}"
   },
+  "urban": {
+    "none": "Je n'ai pas trouvé cette entrée sur [urbandictionary.com](https://www.urbandictionary.com)."
+  },
   "vote": {
     "info": "Vous pouvez voter pour le bot [here]({0})",
-    "perks": "2x points bonus\nRalentir NSFW \nLasts up to 12 hours",
+    "perks": "2x points bonus\nRalentir NSFW \nDure jusqu'à 12 heures",
     "titles": {
       "perks": "Avantages",
       "vote": "Comment voter"
