@@ -12,7 +12,7 @@
     "throttling": {
       "normal": [
         "You may not use the `{0}` command again for another {1}.",
-        "Woah there! Please wait another {0} before using `{1}` again.",
+        "Woah there! Please wait another {1} before using `{0}` again.",
         "I'm exhausted. Please wait {1} before using `{0}` again.",
         "Aw heck. I do be getting tired though. Give me {1} before using `{0}` again."
       ],

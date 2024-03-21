@@ -12,7 +12,7 @@
     "throttling": {
       "normal": [
         "Vous ne pouvez pas utiliser la commande `{0}` de nouveau pour une durée de {1}.",
-        "Wow! Veuillez patienter {0} avant d'utiliser `{1}` de nouveau.",
+        "Wow! Veuillez patienter {1} avant d'utiliser `{0}` de nouveau.",
         "Je suis fatigué. Veuillez patienter {1} avant d'utiliser `{0}` de nouveau.",
         "Ah mince. Je me fatigue vite. Donnez moi {1} avant d'utiliser `{0}` de nouveau."
       ],

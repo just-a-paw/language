@@ -12,7 +12,7 @@
     "throttling": {
       "normal": [
         "No puede volver a utilizar el comando `{0}` para otro {1}.",
-        "¡Woah ahí! Espere otro {0} antes de volver a utilizar `{1}`.",
+        "¡Woah ahí! Espere otro {1} antes de volver a utilizar `{0}`.",
         "Estoy agotado. Espere {1} antes de usar `{0}` nuevamente.",
         "Aw diablos. Yo conseguiré aunque cansado. Dame {1} antes de usar `{0}` de nuevo."
       ],

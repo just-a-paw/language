@@ -12,7 +12,7 @@
     "throttling": {
       "normal": [
         "Du kan inte använda `{0}`-kommandot igen under {1}.",
-        "Hallå där! Var god vänta {0} till för du använder `{1}` igen.",
+        "Hallå där! Var god vänta {1} till för du använder `{0}` igen.",
         "Jag är utmattad. Var god vänta {1} före du använder `{0}` igen.",
         "Nä helsike. Nog börjar bli trött. Ge mig {1} före du använder `{0}` igen."
       ],
