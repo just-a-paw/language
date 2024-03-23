@@ -31,6 +31,10 @@ jobs:
       - continue-on-error: true
         run: git add [[:lower:]][[:lower:]]-[[:upper:]][[:upper:]]/README.md
       - continue-on-error: true
+        run: git add [[:lower:]][[:lower:]]-[[:upper:]][[:upper:]].README.md
+      - continue-on-error: true
+        run: git add [[:lower:]][[:lower:]]/README.md
+      - continue-on-error: true
         run: git add [[:lower:]][[:lower:]].README.md
       - run: |
           (git commit -m 'chore: 🤖 update readme' && git push) || echo "nothing to commit"
