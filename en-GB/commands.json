@@ -240,7 +240,7 @@
     "title": "Placement",
     "to": "{0} to {1}",
     "top": "{1}. {2} with **{3}** points!",
-    "topfirst": "{0}{1}. {2}\n> **{3}** points",
+    "topfirst": "{0}{1}\\. {2}\n> **{3}** points",
     "world": "Top 10 world-wide"
   },
   "levelup-channel": {

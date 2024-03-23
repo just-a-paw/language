@@ -235,7 +235,7 @@
     "title": "Placering",
     "to": "{0} till {1}",
     "top": "{1}. {2} med **{3}** poäng!",
-    "topfirst": "{0}{1}. {2}\n> **{3}** poäng",
+    "topfirst": "{0}{1}\\. {2}\n> **{3}** poäng",
     "world": "Topp 10 i världen"
   },
   "levelup-channel": {

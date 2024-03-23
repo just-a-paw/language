@@ -226,7 +226,7 @@
     "title": "Colocación",
     "to": "{0} hasta {1}",
     "top": "{1}. {2} con **{3}** puntos!",
-    "topfirst": "{0}{1}. {2}\n> **{3}** puntos",
+    "topfirst": "{0}{1}\\. {2}\n> **{3}** puntos",
     "world": "Los 10 mejores del mundo"
   },
   "levelup-channel": {
