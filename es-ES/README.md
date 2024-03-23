@@ -5,7 +5,7 @@
 [es-ES_crowdin]: https://crowdin.com/project/paw-bot/es-ES
 [es-ES_here]: https://github.com/just-a-paw/language/tree/main/es-ES
 
-[![Crowdin](https://img.shields.io/static/v1?label=Espa%C3%B1ol%20de%20Espa%C3%B1a&message=98%&color=green)][es-ES_crowdin]
+[![Crowdin](https://img.shields.io/static/v1?label=Espa%C3%B1ol%20de%20Espa%C3%B1a&message=96%&color=green)][es-ES_crowdin]
 
 > Translate [Español de España][es-ES_here] on [Crowdin][es-ES_crowdin].
 

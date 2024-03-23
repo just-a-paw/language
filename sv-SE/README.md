@@ -5,7 +5,7 @@
 [sv-SE_crowdin]: https://crowdin.com/project/paw-bot/sv-SE
 [sv-SE_here]: https://github.com/just-a-paw/language/tree/main/sv-SE
 
-[![Crowdin](https://img.shields.io/static/v1?label=Svenska%20(Sverige)&message=100%&color=brightgreen)][sv-SE_crowdin]
+[![Crowdin](https://img.shields.io/static/v1?label=Svenska%20(Sverige)&message=98%&color=green)][sv-SE_crowdin]
 
 > Translate [Svenska (Sverige)][sv-SE_here] on [Crowdin][sv-SE_crowdin].
 
