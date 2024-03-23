@@ -1,6 +1,6 @@
 {
   "$schema": "http://json-schema.org/draft-07/schema#",
-  "$id": "https://raw.githubusercontent.com/OfficialPawBot/language/main/locale.schema.json",
+  "$id": "https://raw.githubusercontent.com/just-a-paw/language/main/locale.schema.json",
   "title": "Locale",
   "description": "An object of locale config",
   "type": "object",

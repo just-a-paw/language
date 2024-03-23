@@ -1,7 +1,7 @@
 # `{locale}` [{fullDisplayName}][{locale}_here]
 
 [{locale}_crowdin]: https://crowdin.com/project/paw-bot/{locale}
-[{locale}_here]: https://github.com/OfficialPawBot/language/{treeOrBlob}/main/{locale}{extension}
+[{locale}_here]: https://github.com/just-a-paw/language/{treeOrBlob}/main/{locale}{extension}
 
 [![Crowdin](https://img.shields.io/static/v1?label={uriDisplayName}&message={percent}%&color={colour})][{locale}_crowdin]
 

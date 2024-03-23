@@ -18,7 +18,7 @@ const uriEncodeFilename = filename => filename.split(path.sep).map(encodeURIComp
 const formatEntryInfo = (locale, entry) => {
   const info = this.entryInfo(locale, entry);
   const sourceInfo = this.entryInfo(sourceLocale, entry);
-  const baseUrl = 'https://github.com/OfficialPawBot/language/blob/main/';
+  const baseUrl = 'https://github.com/just-a-paw/language/blob/main/';
 
   let text = info ? `* [\`${entry}\`](${baseUrl}${uriEncodeFilename(info.filename)}#${formatLineFragment(info.start.line, info.end.line)})` :
     `* \`${entry}\``
