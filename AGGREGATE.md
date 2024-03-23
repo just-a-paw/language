@@ -11,7 +11,7 @@ This is an aggregation of all current locales.
 [sv-SE_crowdin]: https://crowdin.com/project/paw-bot/sv-SE
 [sv-SE_here]: https://github.com/just-a-paw/language/tree/main/sv-SE
 
-[![Crowdin](https://img.shields.io/static/v1?label=Svenska%20(Sverige)&message=98%&color=green)][sv-SE_crowdin]
+[![Crowdin](https://img.shields.io/static/v1?label=Svenska%20(Sverige)&message=99%&color=green)][sv-SE_crowdin]
 
 > Translate [Svenska (Sverige)][sv-SE_here] on [Crowdin][sv-SE_crowdin].
 
@@ -30,7 +30,7 @@ Missing the following entries:
 [es-ES_crowdin]: https://crowdin.com/project/paw-bot/es-ES
 [es-ES_here]: https://github.com/just-a-paw/language/tree/main/es-ES
 
-[![Crowdin](https://img.shields.io/static/v1?label=Espa%C3%B1ol%20de%20Espa%C3%B1a&message=96%&color=green)][es-ES_crowdin]
+[![Crowdin](https://img.shields.io/static/v1?label=Espa%C3%B1ol%20de%20Espa%C3%B1a&message=97%&color=green)][es-ES_crowdin]
 
 > Translate [Español de España][es-ES_here] on [Crowdin][es-ES_crowdin].
 
