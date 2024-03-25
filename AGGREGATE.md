@@ -22,8 +22,8 @@ Missing the following entries:
 * `commands.avatar.args.user.label` [Source](https://github.com/just-a-paw/language/blob/main/en-GB/commands.json#L34)
 * `commands.avatar.examples[0]` [Source](https://github.com/just-a-paw/language/blob/main/en-GB/commands.json#L39)
 * [`commands.bulge.title[3]`](https://github.com/just-a-paw/language/blob/main/sv-SE/commands.json#L60) [Source](https://github.com/just-a-paw/language/blob/main/en-GB/commands.json#L62)
-* `commands.points.bonus.premium.self` [Source](https://github.com/just-a-paw/language/blob/main/en-GB/commands.json#L335)
-* `commands.points.bonus.premium.user` [Source](https://github.com/just-a-paw/language/blob/main/en-GB/commands.json#L336)
+* `commands.points.bonus.premium.self` [Source](https://github.com/just-a-paw/language/blob/main/en-GB/commands.json#L330)
+* `commands.points.bonus.premium.user` [Source](https://github.com/just-a-paw/language/blob/main/en-GB/commands.json#L331)
 
 ## `es-ES` [European Spanish / Español de España][es-ES_here]
 
@@ -48,8 +48,8 @@ Missing the following entries:
 * `commands.coinflip.title[0]` [Source](https://github.com/just-a-paw/language/blob/main/en-GB/commands.json#L75)
 * `commands.coinflip.title[1]` [Source](https://github.com/just-a-paw/language/blob/main/en-GB/commands.json#L75)
 * `commands.dice.title` [Source](https://github.com/just-a-paw/language/blob/main/en-GB/commands.json#L120)
-* `commands.points.bonus.premium.self` [Source](https://github.com/just-a-paw/language/blob/main/en-GB/commands.json#L335)
-* `commands.points.bonus.premium.user` [Source](https://github.com/just-a-paw/language/blob/main/en-GB/commands.json#L336)
+* `commands.points.bonus.premium.self` [Source](https://github.com/just-a-paw/language/blob/main/en-GB/commands.json#L330)
+* `commands.points.bonus.premium.user` [Source](https://github.com/just-a-paw/language/blob/main/en-GB/commands.json#L331)
 * `commands.urban.none` [Source](https://github.com/just-a-paw/language/blob/main/en-GB/commands.json#L410)
 
 ## `fr` [French / Français][fr_here]
@@ -75,8 +75,8 @@ Missing the following entries:
 * `commands.e6.tags.title` [Source](https://github.com/just-a-paw/language/blob/main/en-GB/commands.json#L144)
 * `commands.leaderboard.title` [Source](https://github.com/just-a-paw/language/blob/main/en-GB/commands.json#L240)
 * `commands.leaderboard.topfirst` [Source](https://github.com/just-a-paw/language/blob/main/en-GB/commands.json#L243)
-* `commands.points.bonus.premium.self` [Source](https://github.com/just-a-paw/language/blob/main/en-GB/commands.json#L335)
-* `commands.points.bonus.premium.user` [Source](https://github.com/just-a-paw/language/blob/main/en-GB/commands.json#L336)
+* `commands.points.bonus.premium.self` [Source](https://github.com/just-a-paw/language/blob/main/en-GB/commands.json#L330)
+* `commands.points.bonus.premium.user` [Source](https://github.com/just-a-paw/language/blob/main/en-GB/commands.json#L331)
 * `commands.points.points` [Source](https://github.com/just-a-paw/language/blob/main/en-GB/commands.json#L340)
 * `features.lottery.active` [Source](https://github.com/just-a-paw/language/blob/main/en-GB/features.json#L3)
 * `features.lottery.banned` [Source](https://github.com/just-a-paw/language/blob/main/en-GB/features.json#L4)

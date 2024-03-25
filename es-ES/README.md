@@ -23,6 +23,6 @@ Missing the following entries:
 * `commands.coinflip.title[0]` [Source](https://github.com/just-a-paw/language/blob/main/en-GB/commands.json#L75)
 * `commands.coinflip.title[1]` [Source](https://github.com/just-a-paw/language/blob/main/en-GB/commands.json#L75)
 * `commands.dice.title` [Source](https://github.com/just-a-paw/language/blob/main/en-GB/commands.json#L120)
-* `commands.points.bonus.premium.self` [Source](https://github.com/just-a-paw/language/blob/main/en-GB/commands.json#L335)
-* `commands.points.bonus.premium.user` [Source](https://github.com/just-a-paw/language/blob/main/en-GB/commands.json#L336)
+* `commands.points.bonus.premium.self` [Source](https://github.com/just-a-paw/language/blob/main/en-GB/commands.json#L330)
+* `commands.points.bonus.premium.user` [Source](https://github.com/just-a-paw/language/blob/main/en-GB/commands.json#L331)
 * `commands.urban.none` [Source](https://github.com/just-a-paw/language/blob/main/en-GB/commands.json#L410)

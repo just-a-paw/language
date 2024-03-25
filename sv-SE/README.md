@@ -16,5 +16,5 @@ Missing the following entries:
 * `commands.avatar.args.user.label` [Source](https://github.com/just-a-paw/language/blob/main/en-GB/commands.json#L34)
 * `commands.avatar.examples[0]` [Source](https://github.com/just-a-paw/language/blob/main/en-GB/commands.json#L39)
 * [`commands.bulge.title[3]`](https://github.com/just-a-paw/language/blob/main/sv-SE/commands.json#L60) [Source](https://github.com/just-a-paw/language/blob/main/en-GB/commands.json#L62)
-* `commands.points.bonus.premium.self` [Source](https://github.com/just-a-paw/language/blob/main/en-GB/commands.json#L335)
-* `commands.points.bonus.premium.user` [Source](https://github.com/just-a-paw/language/blob/main/en-GB/commands.json#L336)
+* `commands.points.bonus.premium.self` [Source](https://github.com/just-a-paw/language/blob/main/en-GB/commands.json#L330)
+* `commands.points.bonus.premium.user` [Source](https://github.com/just-a-paw/language/blob/main/en-GB/commands.json#L331)
