@@ -326,14 +326,14 @@
         "self": "You do not have any bonuses\nUse {0} for a free bonus.",
         "user": "This user does not have any bonuses\nUse {0} for a free bonus."
       },
+      "premium": {
+        "self": "You have Paw Bot Premium **(2x bonus)**",
+        "user": "This user has Paw Bot Premium **(2x bonus)**"
+      },
       "title": "Active bonuses",
       "voted": {
         "self": "You have voted **(2x bonus)**",
         "user": "This user has voted **(2x bonus)**"
-      },
-      "premium": {
-        "self": "You have Paw Bot Premium **(2x bonus)**",
-        "user": "This user has Paw Bot Premium **(2x bonus)**"
       }
     },
     "placement": "**#{0}** on the leaderboard",
