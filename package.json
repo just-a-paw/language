@@ -13,7 +13,7 @@
     "update-config": "node .scripts/update-config.js",
     "crowdin-push": "crowdin push sources --auto-update",
     "crowdin-push-translations": "crowdin push translations",
-    "crowdin-pull": "crowdin pull && npm run deduplicate && npm run update-config && npm run update-readmes"
+    "crowdin-pull": "crowdin pull && npm run deduplicate && npm run update-config && npm run lint:fix && npm run update-readmes"
   },
   "contributors": [
     "Reece Stokes <hagen@paw.bot>",
