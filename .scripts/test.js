@@ -83,12 +83,42 @@ for (const file of getLocaleFiles(locales)) {
   });
 
   if (!isLocaleFile)
-    for (const key in dot.dot(data)) {
+    for (const [key, value] of Object.entries(dot.dot(data))) {
       const origin = dot.pick(`${parts.join('/')}/${key}`, source);
       if (!origin) {
         const node = findJsonNode(ast, key.split('/'), 0);
         const location = node ? `:${node.loc.start.line}:${node.loc.start.column + 1}` : '';
         warn(`${absolute}${location} ${key} entry should not exist.`);
+      } else if (typeof value === 'string') {
+        const node = findJsonNode(ast, key.split('/'), 0);
+        const location = node ? `:${node.loc.start.line}:${node.loc.start.column + 1}` : '';
+
+        const a_vars = extract_string_vars(value);
+        const b_vars = extract_string_vars(origin);
+
+        const missing = [];
+        const added = [];
+
+        for (const b_var of b_vars)
+          if (!a_vars.has(b_var)) missing.push(b_var);
+
+        for (const a_var of a_vars)
+          if (!b_vars.has(a_var)) added.push(a_var);
+
+        if (missing.length > 0 || added.length > 0)
+          error(
+            `${absolute}${location} ${key} entry has incorrect variables.` +
+            (
+              added.length > 0
+                ? ` added: ${added.join(', ')}.`
+                : ''
+            ) +
+            (
+              missing.length > 0
+                ? ` missing: ${missing.join(', ')}.`
+                : ''
+            )
+          );
       }
     }
 
@@ -117,3 +147,32 @@ if (stats.error) {
 }
 
 if (stats.warn) console.info(`\nFinished with ${stats.warn} warnings.`);
+process.exit(0);
+
+function extract_string_vars(string) {
+  const vars = new Set();
+  let vari = -1;
+  let depth = -1;
+
+  for (let i = 0; i < string.length; ++i) {
+    const char = string[i];
+
+    switch (char) {
+      case '{':
+        if (depth < 0)
+          vari = i;
+        depth += 1;
+        break;
+
+      case '}':
+        if (depth < 0) break;
+        depth -= 1;
+        if (depth < 0)
+          vars.add(string.substring(vari, 1 + i));
+        break;
+    }
+
+  }
+
+  return vars;
+}
