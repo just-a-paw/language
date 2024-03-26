@@ -22,7 +22,7 @@
     "question": "Question"
   },
   "about": {
-    "description": "{0} is the fastest growing furry, utilty and moderative bot on Discord, helping out with over {1} servers.",
+    "description": "{0} is the fastest growing furry, utility and moderation bot on Discord, helping out with over {1} servers.",
     "info": "{0} can be added to your server using \"{1}invite\"",
     "meettheteam": "Meet the team",
     "specialthanks": "Special thanks",
@@ -106,7 +106,7 @@
     "title": [
       "{0} bounces on {1} and gives them a tight cuddles.",
       "{1} gets yeeted into a long, loving cuddle with {0}.",
-      "{1} topples over after receiving a heft cuddle from {0}.",
+      "{1} topples over after receiving a hefty cuddle from {0}.",
       "{1} loses their balance as {0} picks them up into a claustrophobic hug.",
       "{0} grabs {1} and forces them into a cuddle.",
       "{0} lays on top of {1} as they hold each other in a gentle cuddle."
@@ -265,9 +265,9 @@
   },
   "lick": {
     "title": [
-      "{1} receives a wet, slimey lick on their face by {0}. Bad dog.",
+      "{1} receives a wet, slimy lick on their face by {0}. Bad dog.",
       "{0} decides to get {1}'s fur wet and licks them directly in the face.",
-      "{0} get their warm, wet slobber all over {1}'s face"
+      "{0} gets their warm, wet slobber all over {1}'s face"
     ]
   },
   "logs": {
@@ -289,7 +289,7 @@
   },
   "lottery": {
     "entered": "You already have entered the lottery.",
-    "error": "Uh oh, it appears an error occured.",
+    "error": "Uh oh, it appears an error occurred.",
     "info": "{:check:} I have added you to the lottery for {0} points.\n[Make sure to join the Discord server to find out who won in the lottery channel.](https://discord.gg/Kc7gDBb)"
   },
   "lyrics": {
@@ -407,7 +407,7 @@
     "title": "{:check:} Set slowmode to {0}"
   },
   "urban": {
-    "none": "I couldn't find that enty on [urbandictionary.com](https://www.urbandictionary.com)."
+    "none": "I couldn't find that entry on [urbandictionary.com](https://www.urbandictionary.com)."
   },
   "vote": {
     "info": "You can vote for the bot [here]({0})",
