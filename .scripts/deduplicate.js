@@ -21,6 +21,13 @@ const deduplicate = () => {
     const picked = dot.pick(baseDotPath, data);
     for (const [key, value] of Object.entries(dot.dot(picked))) {
       const fullDotPath = `${baseDotPath}.${key}`;
+
+      switch (value) {
+        case null:
+        case undefined:
+          continue;
+      }
+
       if (value !== dot.pick(fullDotPath, { [code]: source }))
         dot.set(fullDotPath, value, deduplicated);
     }
