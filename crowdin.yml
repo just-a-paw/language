@@ -19,3 +19,4 @@ files:
         zh-CN: zh-CN
         zh-TW: zh-TW
     update_option: update_without_changes
+    export_only_approved: true
