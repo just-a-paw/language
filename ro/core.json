@@ -1,0 +1,21 @@
+{
+  "blocked": {
+    "client_permissions": {
+      "multiple": "Am nevoie de următoarele permisiuni pentru comanda `{0}` pentru a funcționa: {1}"
+    },
+    "guild": "Comanda `{0}` trebuie folosită într-un server. {:furry.really:}",
+    "nsfw": "Comanda `{0}` poate fi folosită numai pe canalele NSFW. {:furry.really:}\nhttps://support.discord.com/hc/article_attachments/360007795191/2_.jpg",
+    "role": "Nu ai rolurile necesare pentru a folosi comanda `{0}`.",
+    "throttling": {
+      "normal": [
+        null,
+        "Stai așa! Te rugăm să aștepți încă {1} înainte de a folosi `{0}` din nou.",
+        "Sunt epuizat. Așteptați {1} înainte de a utiliza `{0}` din nou.",
+        "La naiba. Chiar sunt obosit. Dă-mi {1} înainte de a folosi `{0}` din nou."
+      ]
+    }
+  },
+  "error": {
+    "known": "Oh nu, se pare că a apărut o eroare în timpul preluării acestei imagini.\n```javascript\n{0}: {1}\n````\nNu vă faceți griji despre asta! Aceste erori apar foarte rar şi sunt constientizate de echipa de dezvoltator.\nCel mai bun lucru pe care îl poți face este să te întorci în câteva minute și aceste erori nu vor apărea."
+  }
+}

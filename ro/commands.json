@@ -1,0 +1,32 @@
+{
+  "8ball": {
+    "answer": "Răspuns",
+    "list": [
+      "Da",
+      "Nu",
+      "Poate",
+      "Întreabă din nou",
+      "Uneori",
+      "Bine",
+      "LA NAIBA NU",
+      "CU SIGURANTA",
+      "nu nu nu",
+      "Cam gay... dar da",
+      null,
+      "Nu am nici o idee",
+      "Nu este evident?",
+      "Depinde de vreme",
+      "La fel de adevărat precum luna e din brânza",
+      "Aproape sigur"
+    ],
+    "question": "Întrebare"
+  },
+  "about": {
+    "description": "{0} este un bot de creștere a unui furry, de moderare si utilitate ajutând {1} servere."
+  },
+  "globals": {
+    "reddit": {
+      "error": "Oh nu, se pare că a apărut o eroare în timpul preluării acestei imagini.\n```javascript\n{0}: {1}\n````\nNu vă faceți griji despre asta! Aceste erori apar foarte rar şi sunt constientizate de echipa de dezvoltator.\nCel mai bun lucru pe care îl poți face este să te întorci în câteva minute și aceste erori nu vor apărea."
+    }
+  }
+}

@@ -22,7 +22,7 @@
   },
   "about": {
     "description": "{0} est le bot furry à la croissance grandissante sur Discord, utile et pratique à la modération sur Discord, aidant plus de {1} serveurs.",
-    "info": "{0} peut-être ajouté à votre serveur en utilisant \"{1}inviter\"",
+    "info": "{0} peut-être ajouté à votre serveur en utilisant \"{1}{command:invite}\"",
     "meettheteam": "Rencontrez l'équipe",
     "specialthanks": "Mille merci",
     "title": "A propos de {0}"
@@ -376,7 +376,7 @@
     "title": "🐶 Voici votre photo de shiba!"
   },
   "ship": {
-    "title": "{0} - {1} correspondance ! <:TFRBlepSmirk:655517665900625932>"
+    "title": "{0} - {1} correspondance ! {:furry.blep_smirk:}"
   },
   "shuffle": {
     "none": "Il n'y a aucune lecture aléatoire.",

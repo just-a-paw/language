@@ -23,7 +23,7 @@
     }
   },
   "error": {
-    "friendly": "An error occurred while running the command:\n{0}\nYou shouldn't ever receive an error like this <:TFRNickConfused:655543877142577179>\nWe have been informed and this issue should be fixed shortly.\n[Consider joining the support server for news and updates]({2} \"owo\") {:furry.fingergun:}",
+    "friendly": "An error occurred while running the command:\n{0}\nYou shouldn't ever receive an error like this {:furry.nick_confused:}\nWe have been informed and this issue should be fixed shortly.\n[Consider joining the support server for news and updates]({2} \"owo\") {:furry.fingergun:}",
     "generic": "Uh oh! It appears an error has occurred! Try again in a few minutes.",
     "known": "Oh noes, it appears an error occurred whilst fetching this image.\n```javascript\n{0}: {1}\n```\nDon't worry about this! These errors occur very rarely and are aware by the dev team.\nThe best thing you can is come back in a few minutes and these errors won't occur."
   }

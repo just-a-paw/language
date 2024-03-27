@@ -1,0 +1,17 @@
+{
+  "lottery": {
+    "active": "În prezent are loc o loterie.",
+    "banned": "În prezent vi se interzice accesul la loterii.",
+    "disabled": "Loteria este dezactivată în prezent.",
+    "insufficient": {
+      "multiple": "Nu vă puteţi permite atâtea bilete.",
+      "single": "Nu ai suficienți bani pentru a cumpăra un bilet."
+    },
+    "maximum": {
+      "premium": "100 000 de bilete reprezintă numărul maxim pentru utilizatorii premium."
+    },
+    "won": {
+      "voted": "{0} a votat și tocmai a câștigat **{1}** (**{3}x**) puncte folosind **{2}** bilete!"
+    }
+  }
+}

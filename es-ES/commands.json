@@ -23,7 +23,7 @@
   },
   "about": {
     "description": "{0} es el robot furry, utilitario y de moderación de más rápido crecimiento en Discord, y ayuda con más de {1} servidores.",
-    "info": "{0} se puede agregar a su servidor usando \"{1}invite\"",
+    "info": "{0} se puede agregar a su servidor usando \"{1}{command:invite}\"",
     "meettheteam": "Conocer al equipo",
     "specialthanks": "Gracias especiales",
     "title": "Sobre {0}"
@@ -374,7 +374,7 @@
     "title": "🐶 ¡Aquí tienes la foto de tu perro!"
   },
   "ship": {
-    "title": "{0} - ¡{1} de coincidencia! <:TFRBlepSmirk:655517665900625932>"
+    "title": "{0} - ¡{1} de coincidencia! {:furry.blep_smirk:}"
   },
   "shuffle": {
     "none": "No hay cola para mezclar.",

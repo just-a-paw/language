@@ -23,7 +23,7 @@
   },
   "about": {
     "description": "{0} är den snabbast växande furry-, nytto- och moderation-botten på Discord och hjälper till med över {1} servrar.",
-    "info": "{0} kan läggas till din server genom att använda \"{1}invite\"",
+    "info": "{0} kan läggas till din server genom att använda \"{1}{command:invite}\"",
     "meettheteam": "Möt teamet",
     "specialthanks": "Speciellt tack",
     "title": "Om {0}"
@@ -383,7 +383,7 @@
     "title": "🐶 Här är din shibabild!"
   },
   "ship": {
-    "title": "{0} - {1} kompatibla! <:TFRBlepSmirk:655517665900625932>"
+    "title": "{0} - {1} kompatibla! {:furry.blep_smirk:}"
   },
   "shuffle": {
     "none": "Det finns ingen kö att blanda.",

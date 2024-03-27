@@ -23,7 +23,7 @@
     }
   },
   "error": {
-    "friendly": "Se produjo un error al ejecutar el comando:\n{0}\nNunca debería recibir un error como este <:TFRNickConfused:655543877142577179>\nHemos sido informados y este problema debería solucionarse en breve.\n[Considere unirse al servidor de soporte para recibir noticias y actualizaciones]({2} \"owo\") {:furry.fingergun:}",
+    "friendly": "Se produjo un error al ejecutar el comando:\n{0}\nNunca debería recibir un error como este {:furry.nick_confused:}\nHemos sido informados y este problema debería solucionarse en breve.\n[Considere unirse al servidor de soporte para recibir noticias y actualizaciones]({2} \"owo\") {:furry.fingergun:}",
     "generic": "¡Uh oh! ¡Parece que ha ocurrido un error! Vuelve a intentarlo en unos minutos.",
     "known": "Oh no, aparece un error ocurrido mientras recuperaba esta imagen.\n```javascript\n{0}: {1}\n```\n¡No se preocupe por esto! Estos errores ocurren muy raramente y el equipo de desarrollo los conoce.\nLo mejor que puede hacer es volver en unos minutos y no se producirán estos errores."
   }

@@ -23,7 +23,7 @@
   },
   "about": {
     "description": "{0} is the fastest growing furry, utility and moderation bot on Discord, helping out with over {1} servers.",
-    "info": "{0} can be added to your server using \"{1}invite\"",
+    "info": "{0} can be added to your server using \"{1}{command:invite}\"",
     "meettheteam": "Meet the team",
     "specialthanks": "Special thanks",
     "title": "About {0}"
@@ -392,7 +392,7 @@
     "title": "🐶 Here's your shibe pic!"
   },
   "ship": {
-    "title": "{0} - {1} match! <:TFRBlepSmirk:655517665900625932>"
+    "title": "{0} - {1} match! {:furry.blep_smirk:}"
   },
   "shuffle": {
     "none": "There is no queue to shuffle.",

@@ -23,7 +23,7 @@
     }
   },
   "error": {
-    "friendly": "Ett fel uppstod medans det här kommandot utfördes:\n{0}\nDu borde aldrig få ett sådant här fel <:TFRNickConfused:655543877142577179>\nVi har blivit informerade och det här problemet bör bli åtgärdat inom kort.\n[Fundera på att gå med i supportservern för nyheter och uppdateringar]({2} \"owo\") {:furry.fingergun:}",
+    "friendly": "Ett fel uppstod medans det här kommandot utfördes:\n{0}\nDu borde aldrig få ett sådant här fel {:furry.nick_confused:}\nVi har blivit informerade och det här problemet bör bli åtgärdat inom kort.\n[Fundera på att gå med i supportservern för nyheter och uppdateringar]({2} \"owo\") {:furry.fingergun:}",
     "generic": "Hoppsan! Det verkar som ett fel uppstod! Försök igen om några minuter.",
     "known": "Åh nej, det verkar som ett fel uppstod medans den här bilden hämtades.\n```javascript\n{0}: {1}\n```\nOroa dig inte över detta! Dessa fel händer väldigt sällan och utvecklarna känner till dem.\nDet bästa du kan göra är att återkomma om några minuter så kommer felen inte att återupprepas."
   }

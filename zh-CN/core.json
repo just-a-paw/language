@@ -1,0 +1,25 @@
+{
+  "blocked": {
+    "client_permissions": {
+      "multiple": "我需要以下权限才能运行 `{0}` 命令： {1}",
+      "single": "我需要 `{1}` 权限才能执行 `{0}` 命令。"
+    },
+    "guild": "必须在服务器中使用 `{0}` 命令。 {:furry.really:}",
+    "nsfw": "`{0}` 命令只能在 NSFW 频道中使用。 {:furry.really:}\nhttps://support.discord.com/hc/article_attachments/360007795191/2_.jpg",
+    "permission": "您没有权限使用 `{0}` 命令。{:furry.really:}",
+    "premium": "`{0}` 命令只能被高级用户使用。您可以在 https://paw.bot/donate 获得高级版",
+    "role": "您没有使用 `{0}` 命令所需的角色。",
+    "throttling": {
+      "normal": [
+        "此后 {1}内不得再次使用\"{0}`\"命令。",
+        "哇 请再等 {1}秒后再使用 `{0}`。",
+        "我累坏了。请等待 {1}后再使用 `{0}`。",
+        "噢，见鬼。不过我确实累了。等我 {1}钟再用一次 `{0}`。"
+      ]
+    }
+  },
+  "error": {
+    "friendly": "运行命令时发生错误：\n{0}\n你不应该收到这样的错误 {:furry.nick_confused:}\n我们已收到通知，该问题将很快得到修复。\n[考虑加入支持服务器以获取新闻和更新]({2} \"owo\") {:furry.fingergun:}",
+    "generic": "啊哦 似乎发生了错误！几分钟后再试一次。"
+  }
+}
