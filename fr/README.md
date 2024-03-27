@@ -5,7 +5,7 @@
 [fr_crowdin]: https://crowdin.com/project/paw-bot/fr
 [fr_here]: https://github.com/just-a-paw/language/tree/main/fr
 
-[![Crowdin](https://img.shields.io/static/v1?label=Fran%C3%A7ais&message=94%&color=green)][fr_crowdin]
+[![Crowdin](https://img.shields.io/static/v1?label=Fran%C3%A7ais&message=93%&color=green)][fr_crowdin]
 
 > Translate [Français][fr_here] on [Crowdin][fr_crowdin].
 
