@@ -32,7 +32,7 @@ Missing the following entries:
 [es-ES_crowdin]: https://crowdin.com/project/paw-bot/es-ES
 [es-ES_here]: https://github.com/just-a-paw/language/tree/main/es-ES
 
-[![Crowdin](https://img.shields.io/static/v1?label=Espa%C3%B1ol%20de%20Espa%C3%B1a&message=96%&color=green)][es-ES_crowdin]
+[![Crowdin](https://img.shields.io/static/v1?label=Espa%C3%B1ol%20de%20Espa%C3%B1a&message=95%&color=green)][es-ES_crowdin]
 
 > Translate [Español de España][es-ES_here] on [Crowdin][es-ES_crowdin].
 
@@ -61,7 +61,7 @@ Missing the following entries:
 [fr_crowdin]: https://crowdin.com/project/paw-bot/fr
 [fr_here]: https://github.com/just-a-paw/language/tree/main/fr
 
-[![Crowdin](https://img.shields.io/static/v1?label=Fran%C3%A7ais&message=93%&color=green)][fr_crowdin]
+[![Crowdin](https://img.shields.io/static/v1?label=Fran%C3%A7ais&message=92%&color=green)][fr_crowdin]
 
 > Translate [Français][fr_here] on [Crowdin][fr_crowdin].
 
