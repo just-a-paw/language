@@ -18,3 +18,5 @@ Missing the following entries:
 * [`commands.bulge.title[3]`](https://github.com/just-a-paw/language/blob/main/sv-SE/commands.json#L60) [Source](https://github.com/just-a-paw/language/blob/main/en-GB/commands.json#L62)
 * `commands.points.bonus.premium.self` [Source](https://github.com/just-a-paw/language/blob/main/en-GB/commands.json#L330)
 * `commands.points.bonus.premium.user` [Source](https://github.com/just-a-paw/language/blob/main/en-GB/commands.json#L331)
+* `core.deprecated.command` [Source](https://github.com/just-a-paw/language/blob/main/en-GB/core.json#L26)
+* `core.deprecated.generic` [Source](https://github.com/just-a-paw/language/blob/main/en-GB/core.json#L27)

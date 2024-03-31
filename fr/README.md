@@ -26,6 +26,8 @@ Missing the following entries:
 * `commands.points.bonus.premium.self` [Source](https://github.com/just-a-paw/language/blob/main/en-GB/commands.json#L330)
 * `commands.points.bonus.premium.user` [Source](https://github.com/just-a-paw/language/blob/main/en-GB/commands.json#L331)
 * `commands.points.points` [Source](https://github.com/just-a-paw/language/blob/main/en-GB/commands.json#L340)
+* `core.deprecated.command` [Source](https://github.com/just-a-paw/language/blob/main/en-GB/core.json#L26)
+* `core.deprecated.generic` [Source](https://github.com/just-a-paw/language/blob/main/en-GB/core.json#L27)
 * `features.lottery.active` [Source](https://github.com/just-a-paw/language/blob/main/en-GB/features.json#L3)
 * `features.lottery.banned` [Source](https://github.com/just-a-paw/language/blob/main/en-GB/features.json#L4)
 * `features.lottery.disabled` [Source](https://github.com/just-a-paw/language/blob/main/en-GB/features.json#L5)

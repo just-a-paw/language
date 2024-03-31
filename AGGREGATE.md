@@ -24,6 +24,8 @@ Missing the following entries:
 * [`commands.bulge.title[3]`](https://github.com/just-a-paw/language/blob/main/sv-SE/commands.json#L60) [Source](https://github.com/just-a-paw/language/blob/main/en-GB/commands.json#L62)
 * `commands.points.bonus.premium.self` [Source](https://github.com/just-a-paw/language/blob/main/en-GB/commands.json#L330)
 * `commands.points.bonus.premium.user` [Source](https://github.com/just-a-paw/language/blob/main/en-GB/commands.json#L331)
+* `core.deprecated.command` [Source](https://github.com/just-a-paw/language/blob/main/en-GB/core.json#L26)
+* `core.deprecated.generic` [Source](https://github.com/just-a-paw/language/blob/main/en-GB/core.json#L27)
 
 ## `es-ES` [European Spanish / Español de España][es-ES_here]
 
@@ -51,6 +53,8 @@ Missing the following entries:
 * `commands.points.bonus.premium.self` [Source](https://github.com/just-a-paw/language/blob/main/en-GB/commands.json#L330)
 * `commands.points.bonus.premium.user` [Source](https://github.com/just-a-paw/language/blob/main/en-GB/commands.json#L331)
 * `commands.urban.none` [Source](https://github.com/just-a-paw/language/blob/main/en-GB/commands.json#L410)
+* `core.deprecated.command` [Source](https://github.com/just-a-paw/language/blob/main/en-GB/core.json#L26)
+* `core.deprecated.generic` [Source](https://github.com/just-a-paw/language/blob/main/en-GB/core.json#L27)
 
 ## `fr` [French / Français][fr_here]
 
@@ -78,6 +82,8 @@ Missing the following entries:
 * `commands.points.bonus.premium.self` [Source](https://github.com/just-a-paw/language/blob/main/en-GB/commands.json#L330)
 * `commands.points.bonus.premium.user` [Source](https://github.com/just-a-paw/language/blob/main/en-GB/commands.json#L331)
 * `commands.points.points` [Source](https://github.com/just-a-paw/language/blob/main/en-GB/commands.json#L340)
+* `core.deprecated.command` [Source](https://github.com/just-a-paw/language/blob/main/en-GB/core.json#L26)
+* `core.deprecated.generic` [Source](https://github.com/just-a-paw/language/blob/main/en-GB/core.json#L27)
 * `features.lottery.active` [Source](https://github.com/just-a-paw/language/blob/main/en-GB/features.json#L3)
 * `features.lottery.banned` [Source](https://github.com/just-a-paw/language/blob/main/en-GB/features.json#L4)
 * `features.lottery.disabled` [Source](https://github.com/just-a-paw/language/blob/main/en-GB/features.json#L5)
@@ -226,7 +232,9 @@ Missing the following entries:
 * `core.blocked.throttling.premium` [Source](https://github.com/just-a-paw/language/blob/main/en-GB/core.json#L20)
 * `core.blocked.throttling.premium_vote` [Source](https://github.com/just-a-paw/language/blob/main/en-GB/core.json#L21)
 * `core.blocked.throttling.vote` [Source](https://github.com/just-a-paw/language/blob/main/en-GB/core.json#L22)
-* `core.error.known` [Source](https://github.com/just-a-paw/language/blob/main/en-GB/core.json#L28)
+* `core.deprecated.command` [Source](https://github.com/just-a-paw/language/blob/main/en-GB/core.json#L26)
+* `core.deprecated.generic` [Source](https://github.com/just-a-paw/language/blob/main/en-GB/core.json#L27)
+* `core.error.known` [Source](https://github.com/just-a-paw/language/blob/main/en-GB/core.json#L32)
 * `features.lottery.disabled` [Source](https://github.com/just-a-paw/language/blob/main/en-GB/features.json#L5)
 * `features.lottery.maximum.normal` [Source](https://github.com/just-a-paw/language/blob/main/en-GB/features.json#L11)
 * `features.lottery.won.voted` [Source](https://github.com/just-a-paw/language/blob/main/en-GB/features.json#L16)
@@ -479,8 +487,10 @@ Missing the following entries:
 * `core.blocked.throttling.premium` [Source](https://github.com/just-a-paw/language/blob/main/en-GB/core.json#L20)
 * `core.blocked.throttling.premium_vote` [Source](https://github.com/just-a-paw/language/blob/main/en-GB/core.json#L21)
 * `core.blocked.throttling.vote` [Source](https://github.com/just-a-paw/language/blob/main/en-GB/core.json#L22)
-* `core.error.friendly` [Source](https://github.com/just-a-paw/language/blob/main/en-GB/core.json#L26)
-* `core.error.generic` [Source](https://github.com/just-a-paw/language/blob/main/en-GB/core.json#L27)
+* `core.deprecated.command` [Source](https://github.com/just-a-paw/language/blob/main/en-GB/core.json#L26)
+* `core.deprecated.generic` [Source](https://github.com/just-a-paw/language/blob/main/en-GB/core.json#L27)
+* `core.error.friendly` [Source](https://github.com/just-a-paw/language/blob/main/en-GB/core.json#L30)
+* `core.error.generic` [Source](https://github.com/just-a-paw/language/blob/main/en-GB/core.json#L31)
 * `features.lottery.maximum.normal` [Source](https://github.com/just-a-paw/language/blob/main/en-GB/features.json#L11)
 * `features.lottery.won.normal` [Source](https://github.com/just-a-paw/language/blob/main/en-GB/features.json#L15)
 
