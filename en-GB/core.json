@@ -22,6 +22,10 @@
       "vote": "`{0}` has a **{2}** every {3} cooldown! Please wait {1} longer.\n[Vote](https://top.gg/bot/663823539672973353/vote \"Vote for Paw Bot\") for a temporary **{4}**/{5} cooldown."
     }
   },
+  "deprecated": {
+    "command": "Please use the {0} command instead.",
+    "generic": "This feature has been deprecated."
+  },
   "error": {
     "friendly": "An error occurred while running the command:\n{0}\nYou shouldn't ever receive an error like this {:furry.nick_confused:}\nWe have been informed and this issue should be fixed shortly.\n[Consider joining the support server for news and updates]({2} \"owo\") {:furry.fingergun:}",
     "generic": "Uh oh! It appears an error has occurred! Try again in a few minutes.",
