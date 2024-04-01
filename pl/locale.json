@@ -1,3 +1,10 @@
 {
+  "contributors": [
+    {
+      "name": "Dreibliar",
+      "github": "https://github.com/dreibliarfox",
+      "discord": "1060233281158787172"
+    }
+  ],
   "crowdin": true
 }
