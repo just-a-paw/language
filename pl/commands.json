@@ -1,0 +1,158 @@
+{
+  "8ball": {
+    "answer": "Odpowiedź",
+    "list": [
+      "Tak",
+      "Nie",
+      "Możliwe",
+      "Spytaj ponownie",
+      "Czasami",
+      "Okej",
+      "OCZYWIŚCIE, ŻE NIE",
+      "OCZYWIŚCIE, ŻE TAK",
+      "nie nie nie",
+      "To dość gejowskie…ale jasne",
+      "Bardzo gejowskie",
+      "Nie mam zielonego pojęcia",
+      "Czy to nieoczywiste?",
+      "Zależy od pogody",
+      "Prawdziwe jak księżyc zrobiony z sera",
+      "Prawie że na pewno"
+    ],
+    "question": "Pytanie"
+  },
+  "about": {
+    "description": "{0} to najszybciej rozwijający się bot furry, użytkowy i moderacyjny na Discordzie, pomagający na ponad {1} serwerach.",
+    "info": "{0} może zostać dodany do twojego serwera za pomocą „{1}{command:invite}”",
+    "meettheteam": "Poznaj nasz zespół",
+    "specialthanks": "Specjalne podziękowania",
+    "title": "O {0}"
+  },
+  "avatar": {
+    "args": {
+      "user": {
+        "prompt": "Czyj chcesz dostać awatar?"
+      }
+    },
+    "description": "Uzyskaj adres url awatara danego użytkownika.",
+    "title": {
+      "invalid": "{0} nie posiada awatara.",
+      "valid": "Oto awatar użytkownika {0}. [[URL]]({1})"
+    }
+  },
+  "birb": {
+    "title": "🦜 Oto twoje zdjęcie birb!"
+  },
+  "boop": {
+    "title": [
+      "{0} delikatnie trąca mokry nosek {1}.",
+      "{0} całuje {1} w nos.",
+      "{0} skoczył na {1} i dotknął jego nosa.",
+      "Nagle {0} uderzył łapą w nos {1}.",
+      "{1} został zaskoczony szturchnięciem łapy {0} w nos."
+    ]
+  },
+  "bulge": {
+    "title": [
+      "OwO \\*zauważa twoje wybrzuszenie\\* co to jeST!??!",
+      "Jaką ładną paczkę tam masz.",
+      "Wygląda na małe. Czy nie masz nic przeciwko, żebym to przymierzył?",
+      null,
+      "\\*bawi się twoim wybrzuszeniem\\*",
+      "Moje jest większe.",
+      "Wow. Jest tak duże, że widzę w nim swoje odbicie."
+    ]
+  },
+  "cat": {
+    "title": "🐱 Oto zdjęcie kota dla Ciebie!"
+  },
+  "coinflip": {
+    "title": ["⭐ To reszka!", "🌙 To orzeł!"]
+  },
+  "create-invite": {
+    "description": "{:check:} Udało mi się utworzyć zaproszenie do {0}.",
+    "disabled": "Wyłączone",
+    "enabled": "Włączone",
+    "exp": "Wygasa po",
+    "invite": "Link z zaproszeniem",
+    "max": "Limit użyć",
+    "temp": "Tymczasowe członkostwo",
+    "title": "Wykonano",
+    "unable": "Nie mogę utworzyć zaproszenia do tego kanału"
+  },
+  "cuddle": {
+    "title": [
+      "{0} odbija się od {1} i mocno ich przytula.",
+      "{1} zostaje wrzucony w długie, pełne miłości przytulanie z {0}.",
+      "{1} przewraca się po mocnym przytuleniu od {0}.",
+      "{1} traci równowagę, gdy {0} podnosi i klaustrofobicznie ich obejmuje.",
+      "{0} chwyta {1} i zmusza ich do przytulania."
+    ]
+  },
+  "e6": {
+    "download": "Pobierz"
+  },
+  "leaderboard": {
+    "more": "**{0}** innych użytkowników znajduje się obecnie na tablicy wyników.",
+    "title": "Umieszczenie",
+    "to": "{0} do {1}",
+    "top": "{1}. {2} z **{3}** punktami!",
+    "topfirst": "{0}{1}\\. {2}\n> **{3}** punktów",
+    "world": "Top 10 na całym świecie"
+  },
+  "lick": {
+    "title": [
+      "{1} otrzymuje mokre, oślizgłe lizanie po twarzy od {0}. Zły pies.",
+      "{0} postanawia zmoczyć futro {1} i liże go bezpośrednio w twarz.",
+      "{0} oblewa ciepłą, mokrą śliną całą twarz {1}"
+    ]
+  },
+  "lottery": {
+    "entered": "Już zgłosiłeś się do loterii.",
+    "info": "{:check:} Dodałem Cię do loterii o {0} punktów.\n[Dołącz do serwera Discord, aby dowiedzieć się, kto wygrał na kanale loterii.](https://discord.gg/Kc7gDBb)"
+  },
+  "points": {
+    "bonus": {
+      "none": {
+        "self": "Nie masz żadnych bonusów\nUżyj {0}, aby otrzymać darmowy bonus.",
+        "user": "Ten użytkownik nie posiada żadnych bonusów\nUżyj {0}, aby otrzymać darmowy bonus."
+      },
+      "premium": {
+        "self": "Masz Paw Bota Premium **(bonus 2x)**",
+        "user": "Ten użytkownik ma Paw Bota Premium **(bonus 2x)**"
+      },
+      "title": "Aktywne bonusy"
+    },
+    "placement": "**#{0}** na tablicy wyników",
+    "points": "**{0}** punktów.",
+    "self": "Twoje punkty",
+    "user": "Punkty użytkownika {0}"
+  },
+  "propose": {
+    "title": [
+      "Woah. {0} klęka i oświadcza się {1}...To było szybkie! Co powiesz {1}?",
+      "{0} wyjmuje z kieszeni małe pudełko i wyciąga pierścionek dla {1}. Wygląda tanio, powiedziałbym nie! Co powiesz {1}?"
+    ]
+  },
+  "shibe": {
+    "title": "🐶 Oto twoje zdjęcie shibe!"
+  },
+  "ship": {
+    "title": "{0} - {1} kompatybilność! {:furry.blep_smirk:}"
+  },
+  "slowmode": {
+    "title": "{:check:} Ustawiono tryb spowolnienia na {0}"
+  },
+  "urban": {
+    "none": "Nie udało mi się znaleźć tego wpisu na [urbandictionary.com](https://www.urbandictionary.com)."
+  },
+  "yiff": {
+    "title": [
+      "Założę się, że ta osoba ma ładny tyłek.",
+      "Oto elitarne porno, o które prosiłeś:",
+      "Ta osoba wygląda na smaczniejszą ode mnie.",
+      "***Ja jestem*** większy, a jestem tylko łapą.",
+      "Uroczy floofer, eh?"
+    ]
+  }
+}
