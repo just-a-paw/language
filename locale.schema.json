@@ -7,11 +7,30 @@
   "properties": {
     "contributors": {
       "description": "Translators of this locale",
-      "default": [
-        "Name <https://github.com/UserName>"
-      ],
       "items": {
-        "pattern": "^.+ <https:\\/\\/github\\.com\\/[\\w-]+>$"
+        "type": "object",
+        "properties": {
+          "email": {
+            "type": "string",
+            "minLength": 1,
+            "maxLength": 32
+          },
+          "name": {
+            "type": "string",
+            "minLength": 1,
+            "maxLength": 32
+          },
+          "discord": {
+            "type": "string",
+            "pattern": "^\\d+$"
+          },
+          "github": {
+            "type": "string",
+            "pattern": "^https:\\/\\/github\\.com\\/[\\w-]+$"
+          }
+        },
+        "required": ["name"],
+        "additionalProperties": false
       },
       "type": "array"
     },

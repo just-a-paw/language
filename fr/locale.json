@@ -1,4 +1,10 @@
 {
-  "contributors": ["Furie <https://github.com/FurieFox>"],
+  "contributors": [
+    {
+      "name": "Furie",
+      "github": "https://github.com/FurieFox",
+      "discord": "292959447444226048"
+    }
+  ],
   "crowdin": true
 }

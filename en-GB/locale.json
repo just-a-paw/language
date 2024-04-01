@@ -1,3 +1,9 @@
 {
-  "contributors": ["Hagen <https://github.com/MrGriefs>"]
+  "contributors": [
+    {
+      "name": "Hagen",
+      "github": "https://github.com/MrGriefs",
+      "discord": "291656468493631488"
+    }
+  ]
 }
