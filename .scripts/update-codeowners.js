@@ -13,7 +13,7 @@ for (const ent of getLocaleDirents()) {
   const data = require(`../${file}`);
   if (data && Array.isArray(data.contributors) && data.contributors.length !== 0) {
     const parsed = data.contributors
-      .map(r => r?.match(/<https:\/\/github\.com\/([\w-]+)>/)?.[1])
+      .map(r => r?.github?.match(/^https:\/\/github\.com\/([\w-]+)$/)?.[1])
       .filter(r => typeof r === 'string')
       .sort((a, b) => a.normalize().localeCompare(b.normalize()));
     if (parsed.length !== 0) contributors[code] = parsed;
