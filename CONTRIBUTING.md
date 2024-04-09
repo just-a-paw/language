@@ -7,8 +7,7 @@
 
 This repository's purpose is
 
-* Continuous Integration (CI);
-* Continuous Delivery (CD);
+* CI/CD;
 * maintaining the source locale;
 * providing and maintaining miscellaneous locale;
 * providing these locales as a Node.js library
@@ -35,34 +34,37 @@ Add your locale the manual way if it's not on [Crowdin].
 
 ### Prerequisites
 
-[Node.js](https://nodejs.org/) version 12 or higher is needed to lint and test.  
-[Git command-line tools](https://git-scm.com/downloads).
+* [Node.js](https://nodejs.org/) version 12 or higher is needed to lint and test.  
+* [Git command-line tools](https://git-scm.com/downloads).
 
 ### Steps
 
-[Fork this repository](/fork).  
+[Fork this repository](/../../fork).  
 
-`git clone` your fork  
+`git clone` your fork.  
 
-`npm install`  
+Run `npm ci` inside the folder.  
 
-Copy the source locale folder `en-GB` to a folder with the name of your locale's correct [IEFT BCP 47 / RFC 5646](https://developer.crowdin.com/language-codes/) language tag and optional territory tag  
+Copy the source locale folder `en-GB` to a folder with the name of your locale's correct [IEFT BCP 47 / RFC 5646](https://developer.crowdin.com/language-codes/) language tag.  
 
 Localise the contents of your locale's folder (not `en-GB`!) from English to your locale using the editor of your choice.  
+`locale.json` is a config file that does not need to be translated. Simply add yourself to `contributors` and remove everyone else.  
 
-Once satisfied, run without issues:  
+Once satisfied, run the following without errors:  
 
 ```sh-connection
 npm run lint:fix
 npm run test
 ```
 
-Create your branch, commit your changes and push. Replace `ar` with your [IEFT BCP 47 / RFC 5646](https://developer.crowdin.com/language-codes/) code:  
+Create your branch, commit your changes and push. Replace `bcp` with your [IEFT BCP 47 / RFC 5646](https://developer.crowdin.com/language-codes/) code:  
 
 ```sh-connection
-git switch -c feat/ar
-git commit -m 'feat(ar): add translation'
+git switch -c feat/bcp
+git commit -m 'feat(bcp): add translation'
 git push -u origin HEAD
 ```
 
-[Pull request](/compare).
+Submit a [pull request](/../../compare).  
+
+Profit.
