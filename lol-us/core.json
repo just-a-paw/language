@@ -1,0 +1,34 @@
+{
+  "blocked": {
+    "client_permissions": {
+      "multiple": "I needz teh follwin permishuns fur teh `{0}` command 2 werk: {1}",
+      "single": "I need teh `{1}` permishun fer teh `{0}` command to werk."
+    },
+    "guild": "Teh `{0}` command must be uzed in a srvr. {:furry.really:}",
+    "nsfw": "Teh `{0}` command can onli bee uzed in NSFW chanl. {:furry.really:}\nhttps://support.discord.com/hc/article_attachments/360007795191/2_.jpg",
+    "permission": "U do not has permishun to use da `{0}` command. {:furry.really:}",
+    "premium": "Teh `{0}` command iz used by premiem usr. U can git premnin at https://paw.bot/donate",
+    "role": "U do not haz teh rekwired rolls to use teh `{0}` command.",
+    "throttling": {
+      "normal": [
+        "You may not use teh `{0}` command agin fur anothr {1}.",
+        "Woh ther! Plz wate anoter {1} b4 usin `{0}` agan.",
+        "Ima sleepi. Plz w8 {1} b4 usin `{0}` agin.",
+        "Aw heck. I do be getin tired tho. Gib me {1} b4 usin `{0}` agan."
+      ],
+      "nsfw": "No use teh `{0}` command agin pls wate {1}.\n**If u'd liek 2 smallr dis tiem fur teh next 12 huors, vote fur teh bot 4 phree here: {2}.\nIv u'd liek 2 smallish dis tiem 4 eva, donat here: {3}.**",
+      "premium": "`{0}` haz a **{2}** evry {3} wate tiem! Plz w8 {1} moar.\nBecom a [Patron](https://www.patreon.com/JustAPaw \"Become a Patron\") for a **{4}**/{5} w8 4 eva.",
+      "premium_vote": "`{0}` haz a **{2}** ebry {3} w8 tiem! Plz w8 {1} moarer.\n[Vote](https://top.gg/bot/663823539672973353/vote \"Vote for Paw Bot\") for a smal **{4}**/{5} wait or\nMak in2 a [Patron](https://www.patreon.com/JustAPaw \"Become a Patron\") 4 a 4eva **{6}**/{7} wait.",
+      "vote": "`{0}` haz a **{2}** evr {3} w8! Plz wait {1} moar.\n[Vote](https://top.gg/bot/663823539672973353/vote \"Vote for Paw Bot\") 4 a smallisher **{4}**/{5} wait."
+    }
+  },
+  "deprecated": {
+    "command": "Plz use teh {0} command silli.",
+    "generic": "Dis feetorer haz bin bad."
+  },
+  "error": {
+    "friendly": "An erur hepin by ask teh command:\n{0}\nU donut ever git eruyr liek dis {:furry.nick_confused:}\ni haz bin tuld am fizx suun.\n[Tink join teh halp srvr 4 newz and cahngez]({2} \"owo\") {:furry.fingergun:}",
+    "generic": "Uh oh! It appears an erur has occurred! Try again in a few minutes.",
+    "known": "Oh noes, it luk liek an erur hapen whilst gitin dis piktur.\n```javascript\n{0}: {1}\n```\nDonut wirry abot dis! Des arur hapen vry rare nd r know by teh dev team.\nTeh numbr 1 thng u can is return in few minute and these erurs no hapun."
+  }
+}

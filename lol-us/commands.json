@@ -1,0 +1,439 @@
+{
+  "8ball": {
+    "answer": "Anzwr",
+    "list": [
+      "Yus",
+      "Naw",
+      "Maybe",
+      "Aks agin",
+      "Somtim",
+      "Oka",
+      "HELL NO",
+      "FUK YEAH",
+      "no meow no",
+      "Tatz pretty gai?? ...butt sure",
+      "Ulta gai",
+      "i haz no fukn clu",
+      "Izntt it obvius?",
+      "dependz on teh weter",
+      "az true az teh mun bean maked owt for chese",
+      "almst yez"
+    ],
+    "question": "Kweshun"
+  },
+  "about": {
+    "description": "{0} r teh FAstest growIN Furi utilitie an moderashun bOT ON DISCORD HELPIn owT WIF OVR {1} serVerz??",
+    "info": "{0} can be addD 2 ur server uzng \"{1}{command:invite}\"",
+    "meettheteam": "Meat teh tem",
+    "specialthanks": "Speciel tanks",
+    "title": "Abowt {0}"
+  },
+  "avatar": {
+    "args": {
+      "user": {
+        "label": "{lang:words.user}",
+        "prompt": "wo would u liek  to ge tEh avatar for? k?"
+      }
+    },
+    "description": "Git a uzerz avutar url.",
+    "examples": ["avtr @Griefs#9476"],
+    "title": {
+      "invalid": "oh hai {0} doesnt haz a avutr.",
+      "valid": "herz {0}'s avuutar. [[URL]]({1})"
+    }
+  },
+  "birb": {
+    "title": "🦜 herez ur birb pic!"
+  },
+  "boop": {
+    "title": [
+      "{0} buups {1}'s wit snut gentl.",
+      "{0} given {1} a pek on de noz.",
+      "{0} jumpz at {1} nd fingerz deir noz.",
+      "Suddenle, {0} gib {1}'s snut a smak wit deir paw.",
+      "{1} receivez a surpris pok on deir noz frum {0}'s paw."
+    ]
+  },
+  "bulge": {
+    "title": [
+      "oh hai, OwO \\*notices ur bulg\\* whaz thIS!??!",
+      "wat  nIS pakage u haz tHer?? plz?",
+      "lokz smeL?? min if i try iT on?",
+      "owO",
+      "\\*plays with ur bolgy wolgy\\*",
+      "mine r biggr?? K?",
+      "woah?? itz so big i caN se my reflecshUn iN it?? plz touchy?"
+    ]
+  },
+  "cat": {
+    "title": "🐱 herez ur Cat pic!"
+  },
+  "clear": {
+    "success": "Kleered {0} sungs."
+  },
+  "coinflip": {
+    "title": ["⭐ It's tailz!", "🌙 It's heedz!"]
+  },
+  "corona": {
+    "donations": "**totel donationz**: £{0}\n**totel donorz**: {1} peepl\nPlz considr dontatin to teh NHS on JustGiving 2 supprt peepl in need during dis trying tim [here]({2} \"COVID-19 Urgnt Appeel\")",
+    "format": "**Totel**: {0}\n**2dai**: {1}",
+    "info": "Her r teh COVID-19 casez in {0}.\nLas updats {1} ago",
+    "nocountry": "cant GEt dataS Fr COUnTry.",
+    "none": "country not finded or dOesNT Haz any casez.",
+    "nostats": "COVID-19 statististisst r curntly unvalbl.",
+    "title": "Casez in {0}",
+    "titles": {
+      "cases": "Casez",
+      "cured": "Kurd",
+      "deaths": "ded",
+      "donations": "donates",
+      "infected": "infektd",
+      "tests": "Tests"
+    }
+  },
+  "create-invite": {
+    "description": "{:check:} Ai successfully madez an invite to {0}.",
+    "disabled": "Dizabled",
+    "enabled": "Enabld",
+    "exp": "Expeyeres aftur",
+    "invite": "Invite link",
+    "max": "Max uses",
+    "temp": "Temporary membership",
+    "title": "Success",
+    "unable": "I can't createz an invite fur dis channel"
+  },
+  "cuddle": {
+    "title": [
+      "{0} bounces on {1} an gives dem a tight cuddles.",
+      "{1} gets yeeted into a long, lovin cuddle wif {0}.",
+      "{1} topples over aftur receivin a hefty cuddle from {0}.",
+      "{1} loses their balance as {0} picks dem up into a claustrophobic hug.",
+      "{0} grabs {1} an forces dem into a cuddle.",
+      "{0} lays on top of {1} as they hold each other in a gentle cuddle."
+    ]
+  },
+  "daily": {
+    "failed": "Oh noes! It lok liek u alredy hav clame ur dayli pooint. com bak l8r in {0}.\n",
+    "success": "{:check:} U hav gited ur dayli point ov **{0}** pointz!\nCom bak nxt dai at **0:00 UTC** 4 an xtra **10,000** ponit! (max 50,000 point, combins undo aftr skip dai)"
+  },
+  "dice": {
+    "title": "🎲 U roles a {0}!"
+  },
+  "donate": {
+    "bot": "Yoo can nut donute to robits, you sili.",
+    "self": "U cant donte to urslef, you furball.",
+    "success": "{:check:} U donted **{0}** point 2 {1}."
+  },
+  "e6": {
+    "download": "Dounlod",
+    "error": "{0} fin wit un erur.",
+    "full": {
+      "score": "Skor: {0}",
+      "sources": "frum: {0}"
+    },
+    "none": "No ansur for da tags.",
+    "postid": "Msg ID: {0}",
+    "searching": "Findin {:loading:}",
+    "source": "Frum",
+    "tags": {
+      "additional": "nd {0} moar",
+      "artist": "Paint Boi: ",
+      "character": "peoples: ",
+      "copyright": "Dats mien silly: ",
+      "general": "Otr: ",
+      "title": "Tags"
+    },
+    "video": "**[This msg is a fast pic. To see it, paw here]({0})**"
+  },
+  "flop": {
+    "title": [
+      "{0} falls inta {1}'s lap wif a loud ploop.",
+      "{1} git ther spac takun by {0}. Findrs keeps, I gues?",
+      "{0} yumps on 2 {1} and skwishes em.",
+      "{1} gits skweshed by {0}'s thic arse.",
+      "{0} make thimslef comfy and land on {1}.",
+      "{0} falls liek a feather on to {1}.",
+      "{0} git sleepi and slep on {1}."
+    ]
+  },
+  "fox": {
+    "title": "🦊 Herz ur fox pic!"
+  },
+  "fursuit": {
+    "title": "🐾 Herz ur fur cloh pic!"
+  },
+  "globals": {
+    "music": {
+      "active": "I am plai tuns in a diff voyc chanl.",
+      "emptyqueue": "Teh kwewe iz m-t.",
+      "noplayer": "oh noes, no playr aktiv in here.",
+      "novc": "U r not in voyc chanl!"
+    },
+    "points": {
+      "notenough": "Oh noes, poor :("
+    },
+    "reddit": {
+      "error": "Oh noes, erur hapn when gitn pic.\n```javascript\n{0}: {1}\n```\nDonut wirry abot dis! Des arur hapen vry rare nd r know by teh dev team.\nTeh numbr 1 thng u can is return in few minute and these erurs no hapun.",
+      "image": "no pic?!? [do da Stabn me]({0}).",
+      "video": "[Stab 2 see mov-e]({0})"
+    }
+  },
+  "history": {
+    "none": "so sry, no msg :(\nI may haz been mem wiped :(",
+    "title": "Hizturi"
+  },
+  "hold": {
+    "title": [
+      "{0} lovinly holdin {1}.",
+      "{0} gentl grab {1} wit deir paws.",
+      "{1} git pul clos 2 {0} wit smiles."
+    ]
+  },
+  "howl": {
+    "title": [
+      "{0} join in da howl",
+      "{0} pokes their head up and begins howling at the other animals."
+    ]
+  },
+  "hug": {
+    "title": [
+      "{1} gits hugd by {0}.",
+      "{0} gibs hug 2 {1}.",
+      "{1} felz {0} as dey git hugd.",
+      "{1} felz {0}'s fur as they git forcd into {0}'s tendr embrac.",
+      "{0} gits forcd hug frum {1}."
+    ]
+  },
+  "invite": {
+    "bot": "You can add the bot [here]({0})",
+    "patreon": "Iv yoo wood liek 2 suprt {0}'s devlepement, and get goods, consider donatin here: {1} {:furry.fingergun:}",
+    "support": "Iv u rekwire assistance, ask us 4 halp on our suprt server: {0}",
+    "title": {
+      "add": "Add em",
+      "donate": "donat",
+      "support": "suprt"
+    }
+  },
+  "join": {
+    "novc": "U R NOT INA VOYC CHANL!"
+  },
+  "kiss": {
+    "title": [
+      "{1} receibe a long, wet kith frum {0}.",
+      "{0} hops on {1} nd gibs em a big 'ole kith on the fac.",
+      "{1} gits pul into a tendr kith frum {0}",
+      "{0} gibs {1} a simpl peck on the chek. no blushi >:("
+    ]
+  },
+  "language": {
+    "info": "Teh curnt bot language iz **{0}**.",
+    "invalid": "`{0}` is not a valid langage.\nUse `{1}help \"settings langage\"` fur a full list ov available lange.",
+    "success": {
+      "default": "Sucesfuli set bot langage too `default` (**{0}**).",
+      "normal": "Sucesfuli set bot langage 2 **{0}**."
+    }
+  },
+  "leaderboard": {
+    "info": "U r **#{0}** on da ledrbrd wit **{1}** point!",
+    "more": "**{0}** other usr r curent on da ledrbrd.",
+    "server": "Top 10 usr in da srvr",
+    "title": "Placmnt",
+    "to": "{0} 2 {1}",
+    "top": "{1}. {2} wit **{3}** point!",
+    "topfirst": "{0}{1}\\. {2}\n> **{3}** pointz",
+    "world": "Top 10 world-wide"
+  },
+  "levelup-channel": {
+    "info": "The curnt lvlup chanl is **{0}**.",
+    "invalid": "`{0}` is not a valid chanl.",
+    "none": "no lvlup chanl set.",
+    "success": {
+      "none": "Sucesfuli set lvlup chanl 2 `none`.",
+      "normal": "Sucesfuli set lvlup chanl too **{0}**."
+    }
+  },
+  "levelups": {
+    "info": {
+      "off": "lvlup tellins r turnd **off**.",
+      "on": "lvlup tellins r turnd **on**."
+    },
+    "success": {
+      "default": "Successfully set levelup announcements to `default` (**{0}**).",
+      "off": "Successfully set levelup announcements to **off**.",
+      "on": "Successfully set levelup announcements to **on**."
+    }
+  },
+  "lick": {
+    "title": [
+      "{1} gits a wet, slimy lick on deir fac by {0}. Bad dog.",
+      "{0} decides 2 git {1}'s fur wet n licks dem directly in da fac.",
+      "{0} gits der warm, wet slobber all over {1}'s face"
+    ]
+  },
+  "logs": {
+    "info": "The curent logs chanl is **{0}**.",
+    "invalid": "`{0}` is not a vald chanl.",
+    "none": "no logs chanl set.",
+    "success": {
+      "none": "Sucesfuli set logs chanl 2 `none`.",
+      "normal": "Sucesfuli set logs chanl too **{0}**."
+    }
+  },
+  "loop": {
+    "disabled": "Re-peet haz bin dizabld.",
+    "enabled": "Re-pete haz bin enabld."
+  },
+  "looptrack": {
+    "disabled": "trak repeet haz bin dizabld.",
+    "enabled": "trak repeet haz bin enabld."
+  },
+  "lottery": {
+    "entered": "U R already in da lotto.",
+    "error": "Oh noes, erur hapn.",
+    "info": "{:check:} adud to lotto fur {0} pointz.\n[Join da discord to see winner of da lotto.](https://discord.gg/Kc7gDBb)"
+  },
+  "lyrics": {
+    "none": "no singin 4 tun."
+  },
+  "pause": {
+    "paused": "Da playur is pauzd. \\> re-zoomin.",
+    "playing": "Pauzd."
+  },
+  "permissions": {
+    "info": "Nom: hexameow",
+    "total": "all mega permishunz ({0})",
+    "user": "ur permishunz ({0})"
+  },
+  "play": {
+    "added": {
+      "multiple": "Adud {0} tuns to teh kwewe.",
+      "single": {
+        "playing": "Adud {0} 2 da kwewe: `Curentli playin`",
+        "queued": "Adud {0} too teh kwewe: `plac {1}`"
+      }
+    },
+    "nosong": "no exizty :( .",
+    "paused": "re-zoomd.",
+    "playing": "Not pauzd silli."
+  },
+  "playing": {
+    "current": "Curentli playin [{0}]({1})\n{2}",
+    "none": "tuns not tunin :(."
+  },
+  "points": {
+    "bonus": {
+      "none": {
+        "self": "U donut haz ani bonusez\nUz {0} 4 a phree bone-us.",
+        "user": "This uzr duz not haz any bonusz\nUz {0} fur a rfe bonuz."
+      },
+      "premium": {
+        "self": "U haz Paw Bot premiem **(2x bonus)**",
+        "user": "Dat usr haz Paw Bot premiem **(2x bonus)**"
+      },
+      "title": "Aktiv bonusz",
+      "voted": {
+        "self": "U haz votid **(2x bonus)**",
+        "user": "Dis usr haz votid **(2x bonus)**"
+      }
+    },
+    "placement": "**#{0}** on teh lederbrd",
+    "points": "**{0}** point.",
+    "self": "Ur ponts",
+    "user": "{0}'s pointz"
+  },
+  "propose": {
+    "title": [
+      "Woh. {0} propossez {1}...Dat wuz fazt! Wot do u sai {1}?",
+      "{0} pulz out ring fer {1}. Luks niec! Wot do u sai {1}?"
+    ]
+  },
+  "qotd-manager-role": {
+    "info": "QoTD managr is **{0}**.",
+    "invalid": "`{0}` is not possibl.",
+    "none": "no QoTD managr set. :(",
+    "success": {
+      "none": ":D QoTD managr is `none`.",
+      "normal": ":D QoTD managr is **{0}**."
+    }
+  },
+  "qotd-role": {
+    "info": "QoTD Ping role is **{0}**.",
+    "invalid": "`{0}` is not possibl.",
+    "none": "no QoTD Ping role set. :(",
+    "success": {
+      "none": ":D QoTD Ping role is `none`.",
+      "normal": ":D QoTD Ping role is **{0}**."
+    }
+  },
+  "queue": {
+    "current": "am singin",
+    "description": "{0} num tuns\n{1} duration\n{lang:commands.queue.loop.{2}}\n{lang:commands.queue.looptrack.{3}}",
+    "loop": {
+      "disabled": "❌ Tun agan off",
+      "enabled": "✅ Tun agin on"
+    },
+    "looptrack": {
+      "disabled": "❌ Kwewe agin off",
+      "enabled": "✅ Kwewe agan on"
+    }
+  },
+  "remove": {
+    "none": "no tun at plac.",
+    "success": "delet : {0}."
+  },
+  "role": {
+    "added": "{0} haz bun addud 2 {1}.",
+    "cannot_edit": "No edit {0}'s role as dey r ovr me. :(",
+    "removed": "{0} haz bin delet frum {1}.",
+    "roleabove": "Dis role is ovr ur role and no touch or delet.",
+    "userabove": "{0} haz a role ovr u n no edit."
+  },
+  "shibe": {
+    "title": "🐶 Herez ur shibe pic!"
+  },
+  "ship": {
+    "title": "{0} - {1} same! {:furry.blep_smirk:}"
+  },
+  "shuffle": {
+    "none": "no kwewe to shufl. :(",
+    "success": "Shufld!"
+  },
+  "skip": {
+    "none": "no tun playing.",
+    "success": "skip :(."
+  },
+  "slowmode": {
+    "error": "Discord said erur.",
+    "title": "{:check:} Set slow msg to {0}"
+  },
+  "urban": {
+    "none": "no exist :( on [urbandictionary.com](https://www.urbandictionary.com)."
+  },
+  "vote": {
+    "info": "U vot [here]({0})",
+    "perks": "dubl points bonus\nSmalish NSFW wiat\nup to 12 hours",
+    "titles": {
+      "perks": "bonus duks",
+      "vote": "how to vote?!?"
+    },
+    "voted": "Alredy vote. tri agin [here]({0}) in 12 hurs."
+  },
+  "welcome-channel": {
+    "info": "welcom is **{0}**.",
+    "invalid": "`{0}` is not exist >:(.",
+    "none": "none :(.",
+    "success": {
+      "none": "maed welcom chanl `none`.",
+      "normal": "maed welcom chanl to **{0}**."
+    }
+  },
+  "yiff": {
+    "title": [
+      "I bet dis dood has a cute butt.",
+      "da mega pron you rkwested:",
+      "dood luks tasti.",
+      "***I'M*** bigr thn dat, n jus paw.",
+      "Coot fluuf, eh?"
+    ]
+  }
+}
