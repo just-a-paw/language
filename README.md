@@ -10,7 +10,7 @@
 ## Introduction
 
 These are the language configurations used by [Paw Bot](https://paw.bot).  
-Paw Bot natively localises depending on what language Discord is set to, and can be manually configured to your preference.
+Paw Bot natively localises depending on what language Discord is set to, and can be manually configured to your preference (`paw language`).
 
 ## Contributing
 
@@ -19,12 +19,16 @@ If you would like to contribute and help translate Paw Bot, please read [Contrib
 ## As a Node.js Library
 
 This repository contains utilities for Node.js.  
-Add as a dependancy or git submodule, importing `data` provides all locales as an object.
+Add as a dependancy or git submodule, importing `data` provides all locales as an object.  
+
+> [!NOTE]  
+> It is recommended to transform each locale object into a string hashmap in production.  
+> Consuming the data/API as-is is only intended for development or modules that transform it for production.
 
 ```ts
-import { en } from './language/data'
+import { ['en-GB']: en_GB } from './language/data'
 
-console.log(en.commands.globals.music.emptyqueue) // The queue is empty.
+console.log(en_GB.commands.globals.music.emptyqueue) // The queue is empty.
 ```
 
 ```ts
