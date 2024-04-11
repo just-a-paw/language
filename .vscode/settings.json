@@ -3,23 +3,20 @@
     {
       "url": "./schema.json",
       "fileMatch": [
-        "[a-z][a-z]-[A-Z][A-Z]/**.json",
-        "![a-z][a-z]-[A-Z][A-Z]/locale.json",
-        "[a-z][a-z]-[A-Z][A-Z].json",
-        "![a-z][a-z]-[A-Z][A-Z].locale.json",
-        "[a-z][a-z]/**.json",
-        "![a-z][a-z]/locale.json",
-        "[a-z][a-z].json",
-        "![a-z][a-z].locale.json",
+        "/[a-z][a-z]{[a-z],}{-*,}/**/*.json",
+        "!/[a-z][a-z]{[a-z],}{-*,}/{locale,meta}.json",
       ]
     },
     {
       "url": "./locale.schema.json",
       "fileMatch": [
-        "[a-z][a-z]-[A-Z][A-Z]/locale.json",
-        "[a-z][a-z]-[A-Z][A-Z].locale.json",
-        "[a-z][a-z]/locale.json",
-        "[a-z][a-z].locale.json",
+        "/[a-z][a-z]{[a-z],}{-*,}/locale.json",
+      ]
+    },
+    {
+      "url": "./meta.schema.json",
+      "fileMatch": [
+        "/[a-z][a-z]{[a-z],}{-*,}/meta.json",
       ]
     }
   ]

@@ -18,7 +18,7 @@ const base = path.resolve(__dirname);
  * @param {string} code 
  * @returns {boolean}
  */
-exports.isCode = code => /^[a-z]{2}(-[A-Z]{2})?$/.test(code);
+exports.isCode = code => /^[a-z]{2,3}(-[A-Za-z0-9]{2,})?$/.test(code);
 
 /**
  * Check whether this code and its subtags exist, excluding script.

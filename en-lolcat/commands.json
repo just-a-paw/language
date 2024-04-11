@@ -183,17 +183,10 @@
     "title": "Hizturi"
   },
   "hold": {
-    "title": [
-      "{0} lovinly holdin {1}.",
-      "{0} gentl grab {1} wit deir paws.",
-      "{1} git pul clos 2 {0} wit smiles."
-    ]
+    "title": ["{0} lovinly holdin {1}.", "{0} gentl grab {1} wit deir paws.", "{1} git pul clos 2 {0} wit smiles."]
   },
   "howl": {
-    "title": [
-      "{0} join in da howl",
-      "{0} pokes their head up and begins howling at the other animals."
-    ]
+    "title": ["{0} join in da howl", "{0} pokes their head up and begins howling at the other animals."]
   },
   "hug": {
     "title": [

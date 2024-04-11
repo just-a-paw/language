@@ -37,7 +37,46 @@
     "crowdin": {
       "description": "Whether this locale is managed by Crowdin",
       "default": true,
+      "enum": [true],
       "type": "boolean"
+    },
+    "standard": {
+      "description": "false if this locale is BCP 47 / IEFT non-compliant",
+      "default": false,
+      "enum": [false],
+      "type": "boolean"
+    },
+    "aliases": {
+      "description": "An array of aliases to the locale's language code",
+      "default": [],
+      "items": {
+        "type": "string",
+        "pattern": "^[a-z]+$",
+        "minLength": 1,
+        "maxLength": 9
+      },
+      "minItems": 1,
+      "type": "array"
+    },
+    "flag": {
+      "description": "An emoji that represents this locale's country flag.  \nPaw Bot automatically determines the correct flag emoji for BCP 47 compliant locales. Only set this property if this locale is not compliant or Paw Bot does not determine the correct emoji.",
+      "default": "",
+      "oneOf": [
+        {
+          "type": "string",
+          "minLength": 1,
+          "maxLength": 9
+        },
+        {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "minLength": 1,
+            "maxLength": 9
+          },
+          "minItems": 1
+        }
+      ]
     }
   },
   "additionalProperties": false
