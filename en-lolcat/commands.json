@@ -4,11 +4,11 @@
     "list": [
       "Yus",
       "Naw",
-      "Maybe",
+      null,
       "Aks agin",
       "Somtim",
       "Oka",
-      "HELL NO",
+      null,
       "FUK YEAH",
       "no meow no",
       "Tatz pretty gai?? ...butt sure",
@@ -31,7 +31,6 @@
   "avatar": {
     "args": {
       "user": {
-        "label": "{lang:words.user}",
         "prompt": "wo would u liek  to ge tEh avatar for? k?"
       }
     },
@@ -59,7 +58,7 @@
       "oh hai, OwO \\*notices ur bulg\\* whaz thIS!??!",
       "wat  nIS pakage u haz tHer?? plz?",
       "lokz smeL?? min if i try iT on?",
-      "owO",
+      null,
       "\\*plays with ur bolgy wolgy\\*",
       "mine r biggr?? K?",
       "woah?? itz so big i caN se my reflecshUn iN it?? plz touchy?"
@@ -87,8 +86,7 @@
       "cured": "Kurd",
       "deaths": "ded",
       "donations": "donates",
-      "infected": "infektd",
-      "tests": "Tests"
+      "infected": "infektd"
     }
   },
   "create-invite": {
@@ -96,10 +94,6 @@
     "disabled": "Dizabled",
     "enabled": "Enabld",
     "exp": "Expeyeres aftur",
-    "invite": "Invite link",
-    "max": "Max uses",
-    "temp": "Temporary membership",
-    "title": "Success",
     "unable": "I can't createz an invite fur dis channel"
   },
   "cuddle": {
@@ -108,8 +102,7 @@
       "{1} gets yeeted into a long, lovin cuddle wif {0}.",
       "{1} topples over aftur receivin a hefty cuddle from {0}.",
       "{1} loses their balance as {0} picks dem up into a claustrophobic hug.",
-      "{0} grabs {1} an forces dem into a cuddle.",
-      "{0} lays on top of {1} as they hold each other in a gentle cuddle."
+      "{0} grabs {1} an forces dem into a cuddle."
     ]
   },
   "daily": {
@@ -140,8 +133,7 @@
       "artist": "Paint Boi: ",
       "character": "peoples: ",
       "copyright": "Dats mien silly: ",
-      "general": "Otr: ",
-      "title": "Tags"
+      "general": "Otr: "
     },
     "video": "**[This msg is a fast pic. To see it, paw here]({0})**"
   },
@@ -186,7 +178,7 @@
     "title": ["{0} lovinly holdin {1}.", "{0} gentl grab {1} wit deir paws.", "{1} git pul clos 2 {0} wit smiles."]
   },
   "howl": {
-    "title": ["{0} join in da howl", "{0} pokes their head up and begins howling at the other animals."]
+    "title": ["{0} join in da howl"]
   },
   "hug": {
     "title": [
@@ -198,7 +190,6 @@
     ]
   },
   "invite": {
-    "bot": "You can add the bot [here]({0})",
     "patreon": "Iv yoo wood liek 2 suprt {0}'s devlepement, and get goods, consider donatin here: {1} {:furry.fingergun:}",
     "support": "Iv u rekwire assistance, ask us 4 halp on our suprt server: {0}",
     "title": {
@@ -233,8 +224,7 @@
     "title": "Placmnt",
     "to": "{0} 2 {1}",
     "top": "{1}. {2} wit **{3}** point!",
-    "topfirst": "{0}{1}\\. {2}\n> **{3}** pointz",
-    "world": "Top 10 world-wide"
+    "topfirst": "{0}{1}\\. {2}\n> **{3}** pointz"
   },
   "levelup-channel": {
     "info": "The curnt lvlup chanl is **{0}**.",
@@ -249,11 +239,6 @@
     "info": {
       "off": "lvlup tellins r turnd **off**.",
       "on": "lvlup tellins r turnd **on**."
-    },
-    "success": {
-      "default": "Successfully set levelup announcements to `default` (**{0}**).",
-      "off": "Successfully set levelup announcements to **off**.",
-      "on": "Successfully set levelup announcements to **on**."
     }
   },
   "lick": {
