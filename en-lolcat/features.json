@@ -1,0 +1,19 @@
+{
+  "lottery": {
+    "active": "A lottery iz currently takin place.",
+    "banned": "Yoo iz currently banned frum lotteries.",
+    "disabled": "Da lottery iz currently disabled.",
+    "insufficient": {
+      "multiple": "U can't afford dat mani tiekt.",
+      "single": "Yoo don't has enuff moneh to purchise a tikut."
+    },
+    "maximum": {
+      "normal": "1,000 tieket iz teh max.\nBecum a premiem usr by donatin on Patreon fur a limit of 100,000 tickets: <{0}>",
+      "premium": "100,000 tickets iz teh max fur premiem usr."
+    },
+    "won": {
+      "normal": "{0} just won **{1}** points usin **{2}** tickets!",
+      "voted": "{0} has votid an jus wun **{1}** (**{3}x**) points usin **{2}** tikt!"
+    }
+  }
+}

@@ -1,0 +1,59 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "https://raw.githubusercontent.com/just-a-paw/language/main/meta.schema.json",
+  "title": "Locale metadata",
+  "type": "object",
+  "properties": {
+    "locale": {
+      "description": "Additional strings for use by other locales",
+      "type": "object",
+      "patternProperties": {
+        "^[a-z]{2,3}(-[a-zA-Z0-9]{2,})*$": {
+          "type": "object",
+          "properties": {
+            "display_name": {
+              "title": "The display names localised to this locale",
+              "type": "object",
+              "properties": {
+                "long": {
+                  "title": "Language name and territory (i.e. \"Enlgish (United Kingdom)\")",
+                  "$ref": "#/definitions/locale.value"
+                },
+                "short": {
+                  "title": "Language name (i.e. \"English\")",
+                  "$ref": "#/definitions/locale.value"
+                }
+              },
+              "minProperties": 1,
+              "additionalProperties": false
+            }
+          },
+          "required": ["display_name"],
+          "minProperties": 1,
+          "additionalProperties": false
+        }
+      },
+      "minProperties": 1,
+      "additionalProperties": false
+    }
+  },
+  "minProperties": 1,
+  "additionalProperties": false,
+
+  "definitions": {
+    "locale.value": {
+      "default": "",
+      "oneOf": [
+        {
+          "description": "Overrides the default value in meta.locale.en-GB for this locale",
+          "type": "string",
+          "minLength": 1
+        },
+        {
+          "description": "Does not override the default value in meta.locale.en-GB for this locale",
+          "type": "null"
+        }
+      ]
+    }
+  }
+}

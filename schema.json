@@ -3,7 +3,13 @@
   "$id": "https://raw.githubusercontent.com/just-a-paw/language/main/schema.json",
   "title": "Locale data entry",
   "oneOf": [
-    {
+    { "$ref": "#/definitions/object" },
+    { "$ref": "#/definitions/array" },
+    { "$ref": "#/definitions/string" }
+  ],
+
+  "definitions": {
+    "object": {
       "type": "object",
       "patternProperties": {
         "^[a-z0-9-_]+$": {
@@ -14,7 +20,7 @@
       "minProperties": 1,
       "additionalProperties": false
     },
-    {
+    "array": {
       "title": "Array of locale data entries",
       "type": "array",
       "items": {
@@ -30,9 +36,9 @@
       },
       "minItems": 1
     },
-    {
+    "string": {
       "title": "Localised text",
       "type": "string"
     }
-  ]
+  }
 }

@@ -8,8 +8,9 @@ const Ajv = require('ajv');
 const { parseExpression } = require('@babel/parser');
 const { isLocale, getLocaleFiles, findJsonNode, getLocaleDirents } = require('../util');
 const { locales, sourceLocale } = require('../constants');
-const { [sourceLocale]: source } = require('../data');
+const _data = require('../data');
 
+const { [sourceLocale]: source } = _data;
 const base = path.resolve(__dirname, '..');
 const ajv = new Ajv({ allErrors: true, strict: false, logger: false });
 
@@ -31,6 +32,7 @@ function warn(message) {
 }
 
 for (const code of locales) {
+  if (_data[code].locale?.standard === false) continue;
   if (!isLocale(code)) error(`Language code "${code}" is not valid for this project.`);
 }
 

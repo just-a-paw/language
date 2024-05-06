@@ -14,6 +14,7 @@ const crowdinLocales = new Set();
 for (const locale in data) if (data[locale].locale?.crowdin) crowdinLocales.add(locale);
 
 const base = path.resolve(__dirname, '..');
+const source = data[sourceLocale];
 delete data[sourceLocale];
 
 const displayNames = Object.fromEntries(locales.map(locale => [locale, new Intl.DisplayNames(locale, { type: 'language' })]));
@@ -52,8 +53,8 @@ const format = (str, info) => {
 const formatReadme = locale => {
   const readme = crowdinLocales.has(locale) ? crowdinReadme : localeReadme;
   const percent = l10nPercent[locale];
-  const nativeDisplayName = capital(displayNames[locale].of(locale), locale);
-  const englishDisplayName = displayNames[sourceLocale].of(locale);
+  const nativeDisplayName = data[locale].meta?.locale?.[locale]?.display_name?.long || capital(displayNames[locale].of(locale), locale);
+  const englishDisplayName = source.meta?.locale?.[locale]?.display_name?.long || displayNames[sourceLocale].of(locale);
 
   return format(readme, {
     locale,
