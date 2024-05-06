@@ -29,6 +29,8 @@ jobs:
       - run: git config user.email "translating@paw.bot"
       - run: git add AGGREGATE.md
       - continue-on-error: true
-        run: git add /[a-z][a-z]{[a-z],}{-*,}/README.md
+        run: git add [a-z][a-z]{-*,}/README.md
+      - continue-on-error: true
+        run: git add [a-z][a-z][a-z]{-*,}/README.md
       - run: |
           (git commit -m 'chore: 🤖 update readme' && git push) || echo "nothing to commit"
