@@ -29,12 +29,6 @@ jobs:
       - run: git config user.name "Paw Bot"
       - run: git config user.email "translating@paw.bot"
       - continue-on-error: true
-        run: git add [[:lower:]][[:lower:]]-[[:upper:]][[:upper:]]/
-      - continue-on-error: true
-        run: git add [[:lower:]][[:lower:]]-[[:upper:]][[:upper:]].*
-      - continue-on-error: true
-        run: git add [[:lower:]][[:lower:]]/
-      - continue-on-error: true
-        run: git add [[:lower:]][[:lower:]].*
+        run: git add /[a-z][a-z]{[a-z],}{-*,}/
       - run: |
           (git commit -m 'chore: 🤖 update locale' && git push) || echo "nothing to commit"
