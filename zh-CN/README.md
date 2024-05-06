@@ -144,3 +144,5 @@ Missing the following entries:
 * `features.lottery.disabled` [Source](https://github.com/just-a-paw/language/blob/main/en-GB/features.json#L5)
 * `features.lottery.maximum.normal` [Source](https://github.com/just-a-paw/language/blob/main/en-GB/features.json#L11)
 * `features.lottery.won.voted` [Source](https://github.com/just-a-paw/language/blob/main/en-GB/features.json#L16)
+* `meta.locale.en-lolcat.display_name.long` [Source](https://github.com/just-a-paw/language/blob/main/en-GB/meta.json#L5)
+* `meta.locale.en-lolcat.display_name.short` [Source](https://github.com/just-a-paw/language/blob/main/en-GB/meta.json#L6)

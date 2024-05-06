@@ -28,3 +28,5 @@ Missing the following entries:
 * `commands.urban.none` [Source](https://github.com/just-a-paw/language/blob/main/en-GB/commands.json#L410)
 * `core.deprecated.command` [Source](https://github.com/just-a-paw/language/blob/main/en-GB/core.json#L26)
 * `core.deprecated.generic` [Source](https://github.com/just-a-paw/language/blob/main/en-GB/core.json#L27)
+* `meta.locale.en-lolcat.display_name.long` [Source](https://github.com/just-a-paw/language/blob/main/en-GB/meta.json#L5)
+* `meta.locale.en-lolcat.display_name.short` [Source](https://github.com/just-a-paw/language/blob/main/en-GB/meta.json#L6)

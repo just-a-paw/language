@@ -11,7 +11,7 @@ This is an aggregation of all current locales.
 [sv-SE_crowdin]: https://crowdin.com/project/paw-bot/sv-SE
 [sv-SE_here]: https://github.com/just-a-paw/language/tree/main/sv-SE
 
-[![Crowdin](https://img.shields.io/static/v1?label=Svenska%20(Sverige)&message=98%&color=green)][sv-SE_crowdin]
+[![Crowdin](https://img.shields.io/static/v1?label=Svenska%20(Sverige)&message=97%&color=green)][sv-SE_crowdin]
 
 > Translate [Svenska (Sverige)][sv-SE_here] on [Crowdin][sv-SE_crowdin].
 
@@ -26,6 +26,8 @@ Missing the following entries:
 * `commands.points.bonus.premium.user` [Source](https://github.com/just-a-paw/language/blob/main/en-GB/commands.json#L331)
 * `core.deprecated.command` [Source](https://github.com/just-a-paw/language/blob/main/en-GB/core.json#L26)
 * `core.deprecated.generic` [Source](https://github.com/just-a-paw/language/blob/main/en-GB/core.json#L27)
+* `meta.locale.en-lolcat.display_name.long` [Source](https://github.com/just-a-paw/language/blob/main/en-GB/meta.json#L5)
+* `meta.locale.en-lolcat.display_name.short` [Source](https://github.com/just-a-paw/language/blob/main/en-GB/meta.json#L6)
 
 ## `es-ES` [European Spanish / Español de España][es-ES_here]
 
@@ -55,6 +57,8 @@ Missing the following entries:
 * `commands.urban.none` [Source](https://github.com/just-a-paw/language/blob/main/en-GB/commands.json#L410)
 * `core.deprecated.command` [Source](https://github.com/just-a-paw/language/blob/main/en-GB/core.json#L26)
 * `core.deprecated.generic` [Source](https://github.com/just-a-paw/language/blob/main/en-GB/core.json#L27)
+* `meta.locale.en-lolcat.display_name.long` [Source](https://github.com/just-a-paw/language/blob/main/en-GB/meta.json#L5)
+* `meta.locale.en-lolcat.display_name.short` [Source](https://github.com/just-a-paw/language/blob/main/en-GB/meta.json#L6)
 
 ## `fr` [French / Français][fr_here]
 
@@ -93,6 +97,8 @@ Missing the following entries:
 * `features.lottery.maximum.premium` [Source](https://github.com/just-a-paw/language/blob/main/en-GB/features.json#L12)
 * `features.lottery.won.normal` [Source](https://github.com/just-a-paw/language/blob/main/en-GB/features.json#L15)
 * `features.lottery.won.voted` [Source](https://github.com/just-a-paw/language/blob/main/en-GB/features.json#L16)
+* `meta.locale.en-lolcat.display_name.long` [Source](https://github.com/just-a-paw/language/blob/main/en-GB/meta.json#L5)
+* `meta.locale.en-lolcat.display_name.short` [Source](https://github.com/just-a-paw/language/blob/main/en-GB/meta.json#L6)
 
 ## `zh-CN` [Chinese (China) / 中文（中国）][zh-CN_here]
 
@@ -238,6 +244,8 @@ Missing the following entries:
 * `features.lottery.disabled` [Source](https://github.com/just-a-paw/language/blob/main/en-GB/features.json#L5)
 * `features.lottery.maximum.normal` [Source](https://github.com/just-a-paw/language/blob/main/en-GB/features.json#L11)
 * `features.lottery.won.voted` [Source](https://github.com/just-a-paw/language/blob/main/en-GB/features.json#L16)
+* `meta.locale.en-lolcat.display_name.long` [Source](https://github.com/just-a-paw/language/blob/main/en-GB/meta.json#L5)
+* `meta.locale.en-lolcat.display_name.short` [Source](https://github.com/just-a-paw/language/blob/main/en-GB/meta.json#L6)
 
 ## `pl` [Polish / Polski][pl_here]
 
@@ -439,6 +447,8 @@ Missing the following entries:
 * `features.lottery.maximum.premium` [Source](https://github.com/just-a-paw/language/blob/main/en-GB/features.json#L12)
 * `features.lottery.won.normal` [Source](https://github.com/just-a-paw/language/blob/main/en-GB/features.json#L15)
 * `features.lottery.won.voted` [Source](https://github.com/just-a-paw/language/blob/main/en-GB/features.json#L16)
+* `meta.locale.en-lolcat.display_name.long` [Source](https://github.com/just-a-paw/language/blob/main/en-GB/meta.json#L5)
+* `meta.locale.en-lolcat.display_name.short` [Source](https://github.com/just-a-paw/language/blob/main/en-GB/meta.json#L6)
 * `words.default` [Source](https://github.com/just-a-paw/language/blob/main/en-GB/words.json#L2)
 * `words.leaderboard` [Source](https://github.com/just-a-paw/language/blob/main/en-GB/words.json#L3)
 
@@ -696,5 +706,35 @@ Missing the following entries:
 * `core.error.generic` [Source](https://github.com/just-a-paw/language/blob/main/en-GB/core.json#L31)
 * `features.lottery.maximum.normal` [Source](https://github.com/just-a-paw/language/blob/main/en-GB/features.json#L11)
 * `features.lottery.won.normal` [Source](https://github.com/just-a-paw/language/blob/main/en-GB/features.json#L15)
+* `meta.locale.en-lolcat.display_name.long` [Source](https://github.com/just-a-paw/language/blob/main/en-GB/meta.json#L5)
+* `meta.locale.en-lolcat.display_name.short` [Source](https://github.com/just-a-paw/language/blob/main/en-GB/meta.json#L6)
+
+## `en-lolcat` [LOLCAT (Kingdom of Cats) / LULCAT (catsl ov Catz)][en-lolcat_here]
+
+[en-lolcat_issue]: https://github.com/just-a-paw/language/issues/new?title=%5Ben-lolcat%5D%20
+[en-lolcat_pr]: https://github.com/just-a-paw/language/compare?title=%5Ben-lolcat%5D%20
+[en-lolcat_here]: https://github.com/just-a-paw/language/tree/main/en-lolcat
+
+> Translate [LULCAT (catsl ov Catz)][en-lolcat_here] via [pull request][en-lolcat_pr] or submit an [issue][en-lolcat_issue].
+
+Missing the following entries:
+
+* [`commands.8ball.list[2]`](https://github.com/just-a-paw/language/blob/main/en-lolcat/commands.json#L7) [Source](https://github.com/just-a-paw/language/blob/main/en-GB/commands.json#L7)
+* [`commands.8ball.list[6]`](https://github.com/just-a-paw/language/blob/main/en-lolcat/commands.json#L11) [Source](https://github.com/just-a-paw/language/blob/main/en-GB/commands.json#L11)
+* `commands.avatar.args.user.label` [Source](https://github.com/just-a-paw/language/blob/main/en-GB/commands.json#L34)
+* [`commands.bulge.title[3]`](https://github.com/just-a-paw/language/blob/main/en-lolcat/commands.json#L61) [Source](https://github.com/just-a-paw/language/blob/main/en-GB/commands.json#L62)
+* `commands.corona.titles.tests` [Source](https://github.com/just-a-paw/language/blob/main/en-GB/commands.json#L91)
+* `commands.create-invite.invite` [Source](https://github.com/just-a-paw/language/blob/main/en-GB/commands.json#L99)
+* `commands.create-invite.max` [Source](https://github.com/just-a-paw/language/blob/main/en-GB/commands.json#L100)
+* `commands.create-invite.temp` [Source](https://github.com/just-a-paw/language/blob/main/en-GB/commands.json#L101)
+* `commands.create-invite.title` [Source](https://github.com/just-a-paw/language/blob/main/en-GB/commands.json#L102)
+* `commands.cuddle.title[5]` [Source](https://github.com/just-a-paw/language/blob/main/en-GB/commands.json#L112)
+* `commands.e6.tags.title` [Source](https://github.com/just-a-paw/language/blob/main/en-GB/commands.json#L144)
+* `commands.howl.title[1]` [Source](https://github.com/just-a-paw/language/blob/main/en-GB/commands.json#L195)
+* `commands.invite.bot` [Source](https://github.com/just-a-paw/language/blob/main/en-GB/commands.json#L208)
+* `commands.leaderboard.world` [Source](https://github.com/just-a-paw/language/blob/main/en-GB/commands.json#L244)
+* `commands.levelups.success.default` [Source](https://github.com/just-a-paw/language/blob/main/en-GB/commands.json#L261)
+* `commands.levelups.success.off` [Source](https://github.com/just-a-paw/language/blob/main/en-GB/commands.json#L262)
+* `commands.levelups.success.on` [Source](https://github.com/just-a-paw/language/blob/main/en-GB/commands.json#L263)
 
 <!-- BLOCK AGGREGATE END -->

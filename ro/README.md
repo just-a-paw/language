@@ -254,3 +254,5 @@ Missing the following entries:
 * `core.error.generic` [Source](https://github.com/just-a-paw/language/blob/main/en-GB/core.json#L31)
 * `features.lottery.maximum.normal` [Source](https://github.com/just-a-paw/language/blob/main/en-GB/features.json#L11)
 * `features.lottery.won.normal` [Source](https://github.com/just-a-paw/language/blob/main/en-GB/features.json#L15)
+* `meta.locale.en-lolcat.display_name.long` [Source](https://github.com/just-a-paw/language/blob/main/en-GB/meta.json#L5)
+* `meta.locale.en-lolcat.display_name.short` [Source](https://github.com/just-a-paw/language/blob/main/en-GB/meta.json#L6)

@@ -200,5 +200,7 @@ Missing the following entries:
 * `features.lottery.maximum.premium` [Source](https://github.com/just-a-paw/language/blob/main/en-GB/features.json#L12)
 * `features.lottery.won.normal` [Source](https://github.com/just-a-paw/language/blob/main/en-GB/features.json#L15)
 * `features.lottery.won.voted` [Source](https://github.com/just-a-paw/language/blob/main/en-GB/features.json#L16)
+* `meta.locale.en-lolcat.display_name.long` [Source](https://github.com/just-a-paw/language/blob/main/en-GB/meta.json#L5)
+* `meta.locale.en-lolcat.display_name.short` [Source](https://github.com/just-a-paw/language/blob/main/en-GB/meta.json#L6)
 * `words.default` [Source](https://github.com/just-a-paw/language/blob/main/en-GB/words.json#L2)
 * `words.leaderboard` [Source](https://github.com/just-a-paw/language/blob/main/en-GB/words.json#L3)
