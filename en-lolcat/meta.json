@@ -5,6 +5,46 @@
         "long": "LULCAT (catsl ov Catz)",
         "short": "LULCAT"
       }
+    },
+    "en-GB": {
+      "display_name": {
+        "long": "Brish Engrish"
+      }
+    },
+    "es-ES": {
+      "display_name": {
+        "long": "European Spanch"
+      }
+    },
+    "fr": {
+      "display_name": {
+        "long": "Frinch"
+      }
+    },
+    "pl": {
+      "display_name": {
+        "long": "Pawlish"
+      }
+    },
+    "ro": {
+      "display_name": {
+        "long": "Rowmaineyan"
+      }
+    },
+    "sv-SE": {
+      "display_name": {
+        "long": "Swhedis (Sweden)"
+      }
+    },
+    "zh-CN": {
+      "display_name": {
+        "long": "Chaiknees (china)"
+      }
+    },
+    "en-ud": {
+      "display_name": {
+        "long": "Englrish (Upside Down)"
+      }
     }
   }
 }
