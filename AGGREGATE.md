@@ -737,15 +737,4 @@ Missing the following entries:
 * `commands.levelups.success.off` [Source](https://github.com/just-a-paw/language/blob/main/en-GB/commands.json#L262)
 * `commands.levelups.success.on` [Source](https://github.com/just-a-paw/language/blob/main/en-GB/commands.json#L263)
 
-Contains deprecated entries:
-
-* [`meta.locale.en-GB.display_name.long`](https://github.com/just-a-paw/language/blob/main/en-lolcat/meta.json#L11)
-* [`meta.locale.es-ES.display_name.long`](https://github.com/just-a-paw/language/blob/main/en-lolcat/meta.json#L16)
-* [`meta.locale.fr.display_name.long`](https://github.com/just-a-paw/language/blob/main/en-lolcat/meta.json#L21)
-* [`meta.locale.pl.display_name.long`](https://github.com/just-a-paw/language/blob/main/en-lolcat/meta.json#L26)
-* [`meta.locale.ro.display_name.long`](https://github.com/just-a-paw/language/blob/main/en-lolcat/meta.json#L31)
-* [`meta.locale.sv-SE.display_name.long`](https://github.com/just-a-paw/language/blob/main/en-lolcat/meta.json#L36)
-* [`meta.locale.zh-CN.display_name.long`](https://github.com/just-a-paw/language/blob/main/en-lolcat/meta.json#L41)
-* [`meta.locale.en-ud.display_name.long`](https://github.com/just-a-paw/language/blob/main/en-lolcat/meta.json#L46)
-
 <!-- BLOCK AGGREGATE END -->
