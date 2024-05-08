@@ -60,6 +60,7 @@ exports.aggregate = locale => {
       summary.missing.push(key);
 
   for (const key in dot.dot(data[locale])) {
+    if (key.startsWith('meta.')) continue;
     const origin = dot.pick(key, data[sourceLocale]);
     if (!origin) summary.noent.push(key);
   }
