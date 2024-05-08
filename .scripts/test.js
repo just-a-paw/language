@@ -38,6 +38,7 @@ for (const code of locales) {
 
 const validateJsonSchema = ajv.compile(require('../schema.json'));
 const validateLocaleJsonSchema = ajv.compile(require('../locale.schema.json'));
+const validateMetaJsonSchema = ajv.compile(require('../meta.schema.json'));
 
 const filterRelevantErrors = (error, _, errors) => {
   // filter less relevant keywords if there's a relvant keyword
@@ -77,14 +78,27 @@ for (const file of getLocaleFiles(locales)) {
 
   const data = require(`../${filename}`);
   const raw = fs.readFileSync(absolute, 'utf8');
-  const isLocaleFile = parts[0] === 'locale' && parts.length === 1;
-  const validator = isLocaleFile ? validateLocaleJsonSchema : validateJsonSchema;
+  let validator = validateJsonSchema;
+  let isConfigFile = false;
+
+  if (parts.length === 1)
+    switch (parts[0]) {
+      case 'locale':
+        validator = validateLocaleJsonSchema;
+        isConfigFile = true;
+        break;
+      case 'meta':
+        validator = validateMetaJsonSchema;
+        isConfigFile = true;
+        break;
+    }
+
   const ast = astCache[filename] ??= parseExpression(raw, {
     ranges: true,
     sourceFilename: filename,
   });
 
-  if (!isLocaleFile)
+  if (!isConfigFile)
     for (const [key, value] of Object.entries(dot.dot(data))) {
       const origin = dot.pick(`${parts.join('/')}/${key}`, source);
       if (!origin) {
