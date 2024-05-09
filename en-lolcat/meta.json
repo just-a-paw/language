@@ -1,14 +1,19 @@
 {
   "locale": {
+    "en-GB": {
+      "display_name": {
+        "long": "Brish Engrish"
+      }
+    },
     "en-lolcat": {
       "display_name": {
         "long": "LULCAT (catsl ov Catz)",
         "short": "LULCAT"
       }
     },
-    "en-GB": {
+    "en-ud": {
       "display_name": {
-        "long": "Brish Engrish"
+        "long": "Englrish (Upside Down)"
       }
     },
     "es-ES": {
@@ -39,11 +44,6 @@
     "zh-CN": {
       "display_name": {
         "long": "Chaiknees (china)"
-      }
-    },
-    "en-ud": {
-      "display_name": {
-        "long": "Englrish (Upside Down)"
       }
     }
   }
