@@ -30,5 +30,16 @@
     "friendly": "An error occurred while running the command:\n{0}\nYou shouldn't ever receive an error like this {:furry.nick_confused:}\nWe have been informed and this issue should be fixed shortly.\n[Consider joining the support server for news and updates]({2} \"owo\") {:furry.fingergun:}",
     "generic": "Uh oh! It appears an error has occurred! Try again in a few minutes.",
     "known": "Oh noes, it appears an error occurred whilst fetching this image.\n```javascript\n{0}: {1}\n```\nDon't worry about this! These errors occur very rarely and are aware by the dev team.\nThe best thing you can is come back in a few minutes and these errors won't occur."
-  }
+  },
+  "fuzzy": [
+    "Did you mean to use `{0}`?",
+    "You might have meant `{0}`",
+    "Erm, I think you meant `{0}`...",
+    "Maybe you meant `{0}`",
+    "`{0}`!!!",
+    "That's not `{0}`",
+    "Try `{0}`",
+    "I think you mistyped `{0}`",
+    "`{0}`~"
+  ]
 }
