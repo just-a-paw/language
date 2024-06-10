@@ -5,7 +5,7 @@
 [ro_crowdin]: https://crowdin.com/project/paw-bot/ro
 [ro_here]: https://github.com/just-a-paw/language/tree/main/ro
 
-[![Crowdin](https://img.shields.io/static/v1?label=Rom%C3%A2n%C4%83&message=31%&color=orange)][ro_crowdin]
+[![Crowdin](https://img.shields.io/static/v1?label=Rom%C3%A2n%C4%83&message=30%&color=red)][ro_crowdin]
 
 > Translate [Română][ro_here] on [Crowdin][ro_crowdin].
 

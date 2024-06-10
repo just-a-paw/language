@@ -5,7 +5,7 @@
 [zh-CN_crowdin]: https://crowdin.com/project/paw-bot/zh-CN
 [zh-CN_here]: https://github.com/just-a-paw/language/tree/main/zh-CN
 
-[![Crowdin](https://img.shields.io/static/v1?label=%E4%B8%AD%E6%96%87%EF%BC%88%E4%B8%AD%E5%9B%BD%EF%BC%89&message=78%&color=yellow)][zh-CN_crowdin]
+[![Crowdin](https://img.shields.io/static/v1?label=%E4%B8%AD%E6%96%87%EF%BC%88%E4%B8%AD%E5%9B%BD%EF%BC%89&message=76%&color=yellow)][zh-CN_crowdin]
 
 > Translate [中文（中国）][zh-CN_here] on [Crowdin][zh-CN_crowdin].
 
