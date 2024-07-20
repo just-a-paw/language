@@ -37,8 +37,10 @@
     "@types/prettier": "^2.4.3",
     "ajv": "^8.11.0",
     "cldr-data": "^36.0.1",
-    "dot-object": "^2.1.4",
     "mri": "^1.2.0",
     "prettier": "^2.5.1"
+  },
+  "dependencies": {
+    "dot-object": "^2.1.5"
   }
 }
