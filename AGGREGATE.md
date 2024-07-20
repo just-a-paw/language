@@ -11,7 +11,7 @@ This is an aggregation of all current locales.
 [sv-SE_crowdin]: https://crowdin.com/project/paw-bot/sv-SE
 [sv-SE_here]: https://github.com/just-a-paw/language/tree/main/sv-SE
 
-[![Crowdin](https://img.shields.io/static/v1?label=Svenska%20(Sverige)&message=97%&color=green)][sv-SE_crowdin]
+[![Crowdin](https://img.shields.io/static/v1?label=Svenska%20(Sverige)&message=95%&color=green)][sv-SE_crowdin]
 
 > Translate [Svenska (Sverige)][sv-SE_here] on [Crowdin][sv-SE_crowdin].
 
@@ -43,7 +43,7 @@ Missing the following entries:
 [es-ES_crowdin]: https://crowdin.com/project/paw-bot/es-ES
 [es-ES_here]: https://github.com/just-a-paw/language/tree/main/es-ES
 
-[![Crowdin](https://img.shields.io/static/v1?label=Espa%C3%B1ol%20de%20Espa%C3%B1a&message=95%&color=green)][es-ES_crowdin]
+[![Crowdin](https://img.shields.io/static/v1?label=Espa%C3%B1ol%20de%20Espa%C3%B1a&message=93%&color=green)][es-ES_crowdin]
 
 > Translate [Español de España][es-ES_here] on [Crowdin][es-ES_crowdin].
 
@@ -83,7 +83,7 @@ Missing the following entries:
 [fr_crowdin]: https://crowdin.com/project/paw-bot/fr
 [fr_here]: https://github.com/just-a-paw/language/tree/main/fr
 
-[![Crowdin](https://img.shields.io/static/v1?label=Fran%C3%A7ais&message=92%&color=green)][fr_crowdin]
+[![Crowdin](https://img.shields.io/static/v1?label=Fran%C3%A7ais&message=90%&color=green)][fr_crowdin]
 
 > Translate [Français][fr_here] on [Crowdin][fr_crowdin].
 
@@ -132,7 +132,7 @@ Missing the following entries:
 [zh-CN_crowdin]: https://crowdin.com/project/paw-bot/zh-CN
 [zh-CN_here]: https://github.com/just-a-paw/language/tree/main/zh-CN
 
-[![Crowdin](https://img.shields.io/static/v1?label=%E4%B8%AD%E6%96%87%EF%BC%88%E4%B8%AD%E5%9B%BD%EF%BC%89&message=78%&color=yellow)][zh-CN_crowdin]
+[![Crowdin](https://img.shields.io/static/v1?label=%E4%B8%AD%E6%96%87%EF%BC%88%E4%B8%AD%E5%9B%BD%EF%BC%89&message=76%&color=yellow)][zh-CN_crowdin]
 
 > Translate [中文（中国）][zh-CN_here] on [Crowdin][zh-CN_crowdin].
 
@@ -288,7 +288,7 @@ Missing the following entries:
 [pl_crowdin]: https://crowdin.com/project/paw-bot/pl
 [pl_here]: https://github.com/just-a-paw/language/tree/main/pl
 
-[![Crowdin](https://img.shields.io/static/v1?label=Polski&message=38%&color=orange)][pl_crowdin]
+[![Crowdin](https://img.shields.io/static/v1?label=Polski&message=37%&color=orange)][pl_crowdin]
 
 > Translate [Polski][pl_here] on [Crowdin][pl_crowdin].
 
@@ -502,7 +502,7 @@ Missing the following entries:
 [ro_crowdin]: https://crowdin.com/project/paw-bot/ro
 [ro_here]: https://github.com/just-a-paw/language/tree/main/ro
 
-[![Crowdin](https://img.shields.io/static/v1?label=Rom%C3%A2n%C4%83&message=31%&color=orange)][ro_crowdin]
+[![Crowdin](https://img.shields.io/static/v1?label=Rom%C3%A2n%C4%83&message=30%&color=red)][ro_crowdin]
 
 > Translate [Română][ro_here] on [Crowdin][ro_crowdin].
 
